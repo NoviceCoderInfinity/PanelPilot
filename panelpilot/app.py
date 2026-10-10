@@ -22,7 +22,7 @@ from pydantic import BaseModel
 from panelpilot import explain, ops, rules as R
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-PANEL = ROOT / "data" / "panel.duckdb"
+PANEL = pathlib.Path(os.environ.get("PANELPILOT_PANEL", ROOT / "data" / "panel.duckdb"))
 STATIC = pathlib.Path(__file__).resolve().parent / "static"
 RULE_DIRS = ["rules/calibration", "rules/compiled", "rules/rejected"]
 app = FastAPI(title="PanelPilot API", version="1.0",

@@ -15,13 +15,14 @@ State lives in SQLite (data/ops.sqlite), separate from the panel DB that is rebu
 """
 import datetime as dt
 import json
+import os
 import pathlib
 import sqlite3
 
 import duckdb
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-OPS_DB = ROOT / "data" / "ops.sqlite"
+OPS_DB = pathlib.Path(os.environ.get("PANELPILOT_OPS", ROOT / "data" / "ops.sqlite"))
 OUTCOMES = {"scheduled": ("pending", None), "left_message": ("retry", 3), "declined": ("declined", 90),
             "pcp_review": ("pcp_review", 30), "bad_contact": ("bad_contact", None)}
 DEFAULT_VERIFY_DAYS = 30
@@ -88,6 +89,11 @@ def verify(panel_db, my, today):
           past verify_by with open rules -> 'reopened' for the open rules only (or held if a feed is dead).
     """
     pan = duckdb.connect(str(panel_db))
+    from panelpilot.worklist import needs  # short plain names ("colorectal screening") for the reasons
+    has_meta = pan.execute("SELECT count(*) FROM information_schema.tables WHERE table_name = 'rules_meta'").fetchone()[0]
+    label = {rid: lab for rid, _, lab in needs({r: (json.loads(j), t) for r, j, t in
+                                               pan.execute("SELECT rule_id, rule_json, title FROM rules_meta").fetchall()})} if has_meta else {}
+    names = lambda rids: ", ".join(dict.fromkeys(label.get(r, r) for r in rids))
     counts = {"verified": 0, "reopened": 0, "still_pending": 0, "closed": 0}
     with connect() as con:
         for row in con.execute("SELECT * FROM outreach WHERE status = 'pending' AND my = ?", (my,)).fetchall():
@@ -113,7 +119,7 @@ def verify(panel_db, my, today):
             ver = [r for r, g in gaps.items() if g["state"] == "verified"]
             opn = [r for r, g in gaps.items() if g["state"] == "open"]
             evidence = [{"rule_id": r, **x} for r in ver for x in gaps[r]["evidence"]]
-            done = f"verified: {', '.join(ver)}" if ver else ""
+            done = f"verified: {names(ver)}" if ver else ""
             if not opn:
                 status = "verified" if ver else "closed"
                 reason = done or ("no credit: " + "; ".join(
@@ -131,7 +137,7 @@ def verify(panel_db, my, today):
                     counts["still_pending"] += 1
                     continue
                 # Distinguish "nothing happened" (call again) from "care happened, goal still not met" (PCP).
-                happened = [f"{r} record {d}" for r in opn for d in gaps[r]["care_since_contact"]]
+                happened = [f"{label.get(r, r)} record {d}" for r in opn for d in gaps[r]["care_since_contact"]]
                 missing = [r for r in opn if not gaps[r]["care_since_contact"]]
                 parts = [done] if done else []
                 if happened:
@@ -139,7 +145,7 @@ def verify(panel_db, my, today):
                                  f"clinical follow-up with PCP, not another reminder call")
                 if missing:
                     parts.append(f"marked '{row['outcome']}' on {row['logged_on']}, but no qualifying record by "
-                                 f"{row['verify_by']} for {', '.join(missing)}")
+                                 f"{row['verify_by']} for {names(missing)}")
                 con.execute("UPDATE outreach SET status='reopened', resolved_on=?, evidence=?, reason=?, gaps=? WHERE id=?",
                             (today, json.dumps(evidence), " | ".join(parts), json.dumps(gaps), row["id"]))
                 counts["reopened"] += 1

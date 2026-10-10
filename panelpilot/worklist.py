@@ -117,7 +117,10 @@ def build(panel_db, my, today):
     con.execute(f"""CREATE OR REPLACE TABLE cant_tell AS
         SELECT v.rule_id, coalesce(v.why, 'unknown') AS reason, count(*) AS patients
         FROM verdicts v JOIN patients p USING (patient)
-        WHERE v.my = {my} AND v.status = 'indeterminate' AND p.deathdate IS NULL GROUP BY ALL ORDER BY patients DESC""")
+        WHERE v.my = {my} AND v.status = 'indeterminate' AND p.deathdate IS NULL
+          AND v.rule_id IN (SELECT rule_id FROM rule_runs WHERE my = {my} AND status = 'ran'
+                            AND coalesce(caveats, '') NOT LIKE '%LOW DATA COVERAGE%')
+        GROUP BY ALL ORDER BY patients DESC""")
     n = len(rows)
     con.close()
     return n

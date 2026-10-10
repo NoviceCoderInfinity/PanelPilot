@@ -8,7 +8,7 @@ SYNTHEA := synthea/output/csv
 ASOF    ?= $(shell date +%Y-%m-%d)
 N       ?= 10000
 
-.PHONY: setup data run nightly app test dq extract-dry extract eval demo-reset scale fhir-import fhir-parity
+.PHONY: setup data run nightly app test dq extract-dry extract eval demo-reset scale fhir-import fhir-parity demo-prepare demo-run
 
 setup:  ## Python env + Java + Synthea jar
 	command -v uv >/dev/null || brew install uv
@@ -65,3 +65,21 @@ fhir-import:  ## data arriving as FHIR R4 bundles: FHIR=<dir> -> same six tables
 
 fhir-parity:  ## same patients via FHIR and via CSV must give identical verdicts (seeded sample)
 	$(PY) -m panelpilot.fhir_parity --sample $(or $(SAMPLE),2000)
+
+demo-prepare: ## two app states for a click-only demo: "before" (Aug 1) and "after" (Oct 10, one follow-up resolved)
+	$(PY) -m panelpilot.messify $(SYNTHEA) data/messy_csv
+	rm -f data/ops.sqlite data/arrivals.csv && mkdir -p data/after
+	$(PY) -m panelpilot.nightly --as-of 2026-08-01 --replay
+	$(PY) -c "import json, duckdb; from panelpilot import ops; c = duckdb.connect('data/panel.duckdb', read_only=True); \
+	  p, r = c.execute('SELECT patient, rule_ids FROM worklist WHERE rank = 1').fetchone(); \
+	  ops.log_outcome(p, list(r), 2026, 'scheduled', '2026-08-01', verify_days=60); open('data/after/patient', 'w').write(p)"
+	for k in "bp --value 128/82" "hba1c --value 7.4" drug_use_screening hepatitis_c_test; do \
+	  $(PY) -m panelpilot.simulate care $$(cat data/after/patient) $$k --on 2026-08-03; done
+	$(PY) -m panelpilot.nightly --as-of 2026-10-10 --replay
+	cp data/panel.duckdb data/after/panel.duckdb && mv data/ops.sqlite data/after/ops.sqlite
+	$(PY) -m panelpilot.messify $(SYNTHEA) data/messy_csv && rm -f data/arrivals.csv
+	$(PY) -m panelpilot.nightly --as-of 2026-08-01 --replay
+
+demo-run:     ## serve both demo states: before on :8000, after on :8001
+	PANELPILOT_PANEL=data/after/panel.duckdb PANELPILOT_OPS=data/after/ops.sqlite PORT=8001 $(PY) -m panelpilot.app & \
+	$(PY) -m panelpilot.app
