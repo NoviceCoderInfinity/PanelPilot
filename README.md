@@ -2,6 +2,8 @@
 
 The rulebooks go in; a trustworthy, prioritized, **verified** worklist comes out.
 
+**Demo video:** https://youtu.be/J-_7kwVzyCA
+
 For one care manager at a ~10,000-patient family practice (Corpus Christi, TX) with two hours a day for
 outreach. Preventive-care rules (USPSTF A/B, CDC child & adolescent immunization schedule, AAP Bright Futures)
 are compiled by an LLM into rules that **cannot exist without a verbatim source quote**, then executed
