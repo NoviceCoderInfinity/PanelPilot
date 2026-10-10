@@ -1,0 +1,523 @@
+{
+ "_doc": "Concept -> codes, verified against the Synthea panel (see README 'Code mapping'). Human-owned: the LLM never writes this file.",
+ "hypertension": {
+  "table": "conditions",
+  "codes": [
+   "59621000"
+  ],
+  "note": "Essential hypertension (SNOMED)."
+ },
+ "diabetes": {
+  "table": "conditions",
+  "codes": [
+   "44054006",
+   "427089005",
+   "127013003",
+   "90781000119102",
+   "157141000119108",
+   "368581000119106",
+   "1551000119108",
+   "97331000119101",
+   "1501000119109",
+   "60951000119105"
+  ],
+  "note": "Type 2 DM, CF-related DM, and complications coded 'due to (type 2) diabetes' (each asserts diabetes). Prediabetes 714628002 deliberately EXCLUDED."
+ },
+ "hba1c": {
+  "table": "observations",
+  "codes": [
+   "4548-4"
+  ],
+  "unit": "%",
+  "note": "LOINC HbA1c. mmol/mol (IFCC) converted: % = mmol/mol / 10.929 + 2.15."
+ },
+ "bp_systolic": {
+  "table": "observations",
+  "codes": [
+   "8480-6"
+  ],
+  "unit": "mm[Hg]"
+ },
+ "bp_diastolic": {
+  "table": "observations",
+  "codes": [
+   "8462-4"
+  ],
+  "unit": "mm[Hg]"
+ },
+ "colonoscopy": {
+  "table": "procedures",
+  "codes": [
+   "73761001"
+  ]
+ },
+ "fobt": {
+  "table": "procedures",
+  "codes": [
+   "104435004"
+  ],
+  "note": "Synthea records stool testing as procedure 'Screening for occult blood in feces'. No separate FIT code exists in this panel."
+ },
+ "well_visit": {
+  "table": "encounters",
+  "codes": [
+   "410620009",
+   "162673000",
+   "185349003"
+  ],
+  "class": "wellness",
+  "note": "Well child visit, general exam, check-up. Synthea's 'Death Certification' (308646001) is ALSO class=wellness and is deliberately EXCLUDED."
+ },
+ "dtap_vaccine": {
+  "table": "immunizations",
+  "codes": [
+   "20"
+  ]
+ },
+ "ipv_vaccine": {
+  "table": "immunizations",
+  "codes": [
+   "10"
+  ]
+ },
+ "pcv_vaccine": {
+  "table": "immunizations",
+  "codes": [
+   "133"
+  ]
+ },
+ "td_vaccine": {
+  "table": "immunizations",
+  "codes": [
+   "113"
+  ]
+ },
+ "tdap_vaccine": {
+  "table": "immunizations",
+  "codes": [
+   "115"
+  ]
+ },
+ "hpv_vaccine": {
+  "table": "immunizations",
+  "codes": [
+   "62"
+  ]
+ },
+ "menacwy_vaccine": {
+  "table": "immunizations",
+  "codes": [
+   "114"
+  ]
+ },
+ "hib_vaccine": {
+  "table": "immunizations",
+  "codes": [
+   "49"
+  ]
+ },
+ "hib_pedvax_vaccine": {
+  "table": "immunizations",
+  "codes": [
+   "49"
+  ],
+  "note": "CVX 49 = Hib (PRP-OMP), i.e. PedvaxHIB. Synthea's only Hib product, so the PedvaxHIB 3-dose footnote is computable."
+ },
+ "hepb_vaccine": {
+  "table": "immunizations",
+  "codes": [
+   "08",
+   "43"
+  ]
+ },
+ "covid19_vaccine": {
+  "table": "immunizations",
+  "codes": [
+   "208",
+   "207",
+   "212"
+  ]
+ },
+ "mmr_vaccine": {
+  "table": "immunizations",
+  "codes": [
+   "03"
+  ]
+ },
+ "varicella_vaccine": {
+  "table": "immunizations",
+  "codes": [
+   "21"
+  ]
+ },
+ "hepa_vaccine": {
+  "table": "immunizations",
+  "codes": [
+   "83",
+   "52"
+  ]
+ },
+ "rotavirus_vaccine": {
+  "table": "immunizations",
+  "codes": [
+   "119"
+  ]
+ },
+ "influenza_vaccine": {
+  "table": "immunizations",
+  "codes": [
+   "140"
+  ]
+ },
+ "ppsv23_vaccine": {
+  "table": "immunizations",
+  "codes": [
+   "33"
+  ]
+ },
+ "menb_vaccine": {
+  "unmapped": "no MenB doses exist in this panel (Synthea does not simulate MenB)"
+ },
+ "mmrv_vaccine": {
+  "unmapped": "no MMRV doses in panel; MMR + varicella given separately"
+ },
+ "dengue_vaccine": {
+  "unmapped": "not simulated by Synthea"
+ },
+ "mpox_vaccine": {
+  "unmapped": "not simulated by Synthea"
+ },
+ "rsv_mab": {
+  "unmapped": "nirsevimab not simulated by Synthea"
+ },
+ "alcohol_screening": {
+  "table": "procedures",
+  "codes": [
+   "763302001"
+  ],
+  "note": "AUDIT-C assessment procedure"
+ },
+ "anxiety_screening": {
+  "table": "procedures",
+  "codes": [
+   "710841007"
+  ]
+ },
+ "depression_screening": {
+  "table": "procedures",
+  "codes": [
+   "171207006",
+   "715252007"
+  ]
+ },
+ "drug_use_screening": {
+  "table": "procedures",
+  "codes": [
+   "713106006"
+  ]
+ },
+ "ipv_screening": {
+  "table": "procedures",
+  "codes": [
+   "866148006"
+  ],
+  "note": "HARK domestic-abuse screening"
+ },
+ "cervical_cytology": {
+  "table": "procedures",
+  "codes": [
+   "90226004"
+  ]
+ },
+ "chlamydia_test": {
+  "table": "procedures",
+  "codes": [
+   "310861008"
+  ]
+ },
+ "gonorrhea_test": {
+  "table": "procedures",
+  "codes": [
+   "165829005"
+  ]
+ },
+ "hepatitis_b_test": {
+  "table": "procedures",
+  "codes": [
+   "47758006"
+  ]
+ },
+ "hepatitis_c_test": {
+  "table": "procedures",
+  "codes": [
+   "104375008",
+   "413107006"
+  ]
+ },
+ "syphilis_test": {
+  "table": "procedures",
+  "codes": [
+   "269828009"
+  ]
+ },
+ "latent_tb_test": {
+  "table": "procedures",
+  "codes": [
+   "28163009",
+   "171126009"
+  ]
+ },
+ "dxa_scan": {
+  "table": "procedures",
+  "codes": [
+   "312681000"
+  ]
+ },
+ "mammogram": {
+  "table": "procedures",
+  "codes": [
+   "71651007",
+   "24623002"
+  ],
+  "note": "LOW COVERAGE: only ~144 patients ever have one in Synthea; gaps here mostly reflect the simulator",
+  "coverage": "low"
+ },
+ "vision_screening": {
+  "table": "procedures",
+  "codes": [
+   "16830007"
+  ],
+  "coverage": "low",
+  "note": "LOW COVERAGE: Synthea records visual acuity testing for only ~512 patients ever"
+ },
+ "hearing_screening": {
+  "table": "procedures",
+  "codes": [
+   "398171003"
+  ],
+  "note": "LOW COVERAGE (57 patients)",
+  "coverage": "low"
+ },
+ "fluoride_varnish": {
+  "table": "procedures",
+  "codes": [
+   "68071007"
+  ]
+ },
+ "blood_pressure": {
+  "table": "observations",
+  "codes": [
+   "8480-6"
+  ]
+ },
+ "lipid_panel": {
+  "table": "observations",
+  "codes": [
+   "2093-3"
+  ]
+ },
+ "glucose_test": {
+  "table": "observations",
+  "codes": [
+   "2339-0",
+   "2345-7",
+   "4548-4"
+  ]
+ },
+ "hemoglobin_test": {
+  "table": "observations",
+  "codes": [
+   "718-7"
+  ]
+ },
+ "bmi": {
+  "table": "observations",
+  "codes": [
+   "39156-5"
+  ]
+ },
+ "hiv_test": {
+  "table": "observations",
+  "codes": [
+   "7917-8"
+  ],
+  "note": "LOW COVERAGE (28 patients): Synthea rarely records HIV screening",
+  "coverage": "low"
+ },
+ "prematurity": {
+  "table": "procedures",
+  "codes": [
+   "367494004"
+  ]
+ },
+ "prediabetes": {
+  "table": "conditions",
+  "codes": [
+   "714628002"
+  ]
+ },
+ "dyslipidemia": {
+  "table": "conditions",
+  "codes": [
+   "55822004",
+   "302870006"
+  ]
+ },
+ "obesity": {
+  "table": "conditions",
+  "codes": [
+   "162864005",
+   "408512008"
+  ]
+ },
+ "chronic_kidney_disease": {
+  "table": "conditions",
+  "codes": [
+   "431855005",
+   "431856006",
+   "433144002",
+   "431857002",
+   "46177005"
+  ]
+ },
+ "chronic_lung_disease": {
+  "table": "conditions",
+  "codes": [
+   "195967001",
+   "233678006",
+   "185086009",
+   "87433001"
+  ]
+ },
+ "cardiovascular_disease": {
+  "table": "conditions",
+  "codes": [
+   "399211009",
+   "22298006",
+   "401314000",
+   "401303003",
+   "230690007",
+   "399261000",
+   "88805009",
+   "84114007"
+  ]
+ },
+ "chronic_heart_disease": {
+  "table": "conditions",
+  "codes": [
+   "88805009",
+   "84114007",
+   "399211009"
+  ]
+ },
+ "ever_smoker": {
+  "table": "observations",
+  "codes": [
+   "72166-2"
+  ],
+  "value_in": [
+   "Ex-smoker (finding)",
+   "Smokes tobacco daily (finding)"
+  ]
+ },
+ "current_smoker": {
+  "table": "observations",
+  "codes": [
+   "72166-2"
+  ],
+  "value_in": [
+   "Smokes tobacco daily (finding)"
+  ],
+  "note": "'current' = any such status record in window; use a recent window"
+ },
+ "tobacco_use": {
+  "table": "observations",
+  "codes": [
+   "72166-2"
+  ],
+  "value_in": [
+   "Smokes tobacco daily (finding)"
+  ]
+ },
+ "aaa_ultrasound": {
+  "unmapped": "no AAA ultrasound in panel"
+ },
+ "ct_colonography": {
+  "unmapped": "not in panel"
+ },
+ "flexible_sigmoidoscopy": {
+  "unmapped": "not in panel"
+ },
+ "fit_dna": {
+  "unmapped": "not in panel; FOBT is the only stool test"
+ },
+ "ldct_lung": {
+  "unmapped": "no low-dose lung CT in panel"
+ },
+ "lead_screening": {
+  "unmapped": "no blood-lead test in panel"
+ },
+ "autism_screening": {
+  "unmapped": "not in panel"
+ },
+ "developmental_screening": {
+  "unmapped": "no developmental screening instrument in panel"
+ },
+ "newborn_screening": {
+  "unmapped": "not in panel"
+ },
+ "oral_health_risk": {
+  "unmapped": "risk assessment not recorded"
+ },
+ "hiv_infection": {
+  "unmapped": "no HIV diagnosis codes in panel"
+ },
+ "pregnancy": {
+  "unmapped": "'currently pregnant' needs condition end-dates; engine has no active-on-date semantics yet"
+ },
+ "postpartum": {
+  "unmapped": "needs delivery date + interval logic not yet supported"
+ },
+ "sexually_active": {
+  "unmapped": "sexual history not recorded"
+ },
+ "family_history_cancer": {
+  "unmapped": "family history not recorded"
+ },
+ "pack_years": {
+  "unmapped": "pack-years not recorded"
+ },
+ "statin_use": {
+  "unmapped": "medications table not ingested"
+ },
+ "folic_acid": {
+  "unmapped": "medications table not ingested"
+ },
+ "cvd_risk_10yr": {
+  "unmapped": "risk score requires calculation not implemented"
+ },
+ "immunocompromised": {
+  "unmapped": "needs clinician-curated condition list"
+ },
+ "asplenia": {
+  "unmapped": "no asplenia/sickle cell codes in panel"
+ },
+ "complement_deficiency": {
+  "unmapped": "not in panel"
+ },
+ "cochlear_implant": {
+  "unmapped": "not in panel"
+ },
+ "csf_leak": {
+  "unmapped": "not in panel"
+ },
+ "chronic_liver_disease": {
+  "unmapped": "only hepatitis tests in panel, not liver disease diagnoses"
+ },
+ "fall_risk": {
+  "unmapped": "'increased risk' is clinician judgment; Morse scale exists but threshold not in source"
+ },
+ "hpv_test": {
+  "unmapped": "no HPV test in panel"
+ }
+}

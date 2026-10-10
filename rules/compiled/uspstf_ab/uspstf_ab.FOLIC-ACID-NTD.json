@@ -1,0 +1,36 @@
+{
+ "id": "uspstf_ab.FOLIC-ACID-NTD",
+ "version": "August 2023",
+ "title": "Folic acid supplementation to prevent neural tube defects in persons who plan to or could become pregnant",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:017",
+  "quote": "The USPSTF recommends that all persons planning to or who could become pregnant take a daily supplement containing 0.4 to 0.8 mg (400 to 800 mcg) of folic acid."
+ },
+ "grade": "A",
+ "effective_date": "August 2023",
+ "action": "Recommend a daily supplement containing 0.4 to 0.8 mg (400 to 800 mcg) of folic acid",
+ "compiled_by": "llm",
+ "denominator": {
+  "uncomputable": {
+   "needs": "whether the person is planning pregnancy or could become pregnant (pregnancy intention / reproductive capacity)"
+  },
+  "quote": "all persons planning to or who could become pregnant"
+ },
+ "numerator": {
+  "observation": {
+   "concept": "folic_acid",
+   "window": [
+    "{MY}-01-01",
+    "{MY}-12-31"
+   ],
+   "pick": "any"
+  },
+  "quote": "take a daily supplement containing 0.4 to 0.8 mg (400 to 800 mcg) of folic acid",
+  "note": "Dose range (0.4-0.8 mg) and daily adherence are not checked; only documented folic acid supplementation in the measurement year.",
+  "derived": {
+   "window": "text says 'daily' with no lookback period; measurement-year window chosen to check current supplementation"
+  }
+ },
+ "exclusions": []
+}

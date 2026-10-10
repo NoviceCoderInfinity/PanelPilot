@@ -1,0 +1,47 @@
+{
+ "id": "uspstf_ab.OSTEO-SCREEN-F-65PLUS",
+ "version": "January 2025",
+ "title": "Osteoporosis screening to prevent fractures: women 65 years or older",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:034",
+  "quote": "The USPSTF recommends screening for osteoporosis to prevent osteoporotic fractures in women 65 years or older."
+ },
+ "grade": "B",
+ "effective_date": "January 2025",
+ "action": "Screen for osteoporosis to prevent osteoporotic fractures in women aged 65 years or older.",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "sex": {
+     "is": "F"
+    },
+    "quote": "women"
+   },
+   {
+    "age": {
+     "min": 65,
+     "at": "end"
+    },
+    "quote": "65 years or older"
+   }
+  ],
+  "quote": "women 65 years or older"
+ },
+ "numerator": {
+  "procedure": {
+   "concept": "osteoporosis_screening",
+   "window": [
+    "{MY-99}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "screening for osteoporosis",
+  "note": "Section text does not name the screening test (defers to Practice Considerations) or state a screening interval.",
+  "derived": {
+   "window": "text states no screening interval, so any recorded osteoporosis screening is counted; 99-year lookback used as an effectively unbounded window"
+  }
+ },
+ "exclusions": []
+}

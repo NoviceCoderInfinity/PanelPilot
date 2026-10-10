@@ -1,0 +1,29 @@
+{
+ "id": "uspstf_ab.CRC-SCREEN-45-49",
+ "version": "May 2021",
+ "title": "Colorectal Cancer: Screening: adults aged 45 to 49 years",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:012",
+  "quote": "The USPSTF recommends screening for colorectal cancer in adults aged 45 to 49 years."
+ },
+ "grade": "B",
+ "effective_date": "May 2021",
+ "action": "Screen for colorectal cancer",
+ "compiled_by": "llm",
+ "denominator": {
+  "age": {
+   "min": 45,
+   "max": 49,
+   "at": "end"
+  },
+  "quote": "adults aged 45 to 49 years"
+ },
+ "numerator": {
+  "uncomputable": {
+   "needs": "accepted screening modalities and their intervals, which are given in the Practice Considerations section and Table 1, not in this section text"
+  },
+  "quote": "screening for colorectal cancer"
+ },
+ "exclusions": []
+}

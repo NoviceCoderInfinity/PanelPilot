@@ -1,0 +1,49 @@
+{
+ "id": "cdc_child.MPOX-RISK-18",
+ "version": "2025",
+ "title": "Mpox 2-dose series for 18-year-olds at risk for mpox infection",
+ "source": {
+  "doc_id": "cdc_child",
+  "section_id": "cdc_child:011",
+  "quote": "Age 18 years and at risk for mpox infection: complete 2-dose series, 28 days apart."
+ },
+ "grade": "ACIP special situation (CDC schedule; not graded)",
+ "effective_date": "2025",
+ "action": "Complete 2-dose Jynneos mpox vaccine series, 28 days apart, for persons aged 18 at risk for mpox infection",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "age": {
+     "min": 18,
+     "max": 18,
+     "at": "end"
+    },
+    "quote": "Age 18 years"
+   },
+   {
+    "uncomputable": {
+     "needs": "mpox risk assessment (sexual behavior/partners, STI diagnosis in past 6 months, commercial sex venue or large public event exposure, anticipated risk)"
+    },
+    "quote": "at risk for mpox infection"
+   }
+  ],
+  "quote": "Age 18 years and at risk for mpox infection"
+ },
+ "numerator": {
+  "immunization": {
+   "concept": "mpox_vaccine",
+   "min_count": 2,
+   "window": [
+    "{MY-1}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "2-dose series, 28 days apart.",
+  "derived": {
+   "window": "minimum age for Jynneos is 18 years, and a person aged 18 at year end turned 18 in the measurement year or late in {MY-1} at earliest within this schedule, so eligible doses fall in {MY-1}-01-01 to {MY}-12-31"
+  },
+  "note": "28-day minimum interval between doses is not checked."
+ },
+ "exclusions": []
+}

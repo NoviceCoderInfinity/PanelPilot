@@ -1,0 +1,11 @@
+[
+ "Section is Table 2, 'Recommended Catch-up Immunization Schedule for Children and Adolescents Who Start Late or Who Are More than 1 Month Behind, United States, 2025'. It gives minimum ages and minimum intervals between doses, not routine due-by-age recommendations, so no rules were produced.",
+ "Not represented: catch-up logic and minimum intervals for children age 4 months through 6 years for Hepatitis B, Rotavirus, DTaP, Hib, Pneumococcal conjugate, IPV, MMR, Varicella, Hepatitis A and MenACWY.",
+ "Not represented: catch-up logic and minimum intervals for ages 7 through 18 years for MenACWY, Td/Tdap, HPV, Hepatitis A, Hepatitis B, IPV, MMR, Varicella and Dengue.",
+ "Not represented: intervals that depend on prior doses. Examples: Hib and PCV next-dose intervals depend on the age at the first or previous dose and on current age; Hib also depends on product (PRP-T, ActHib, Pentacel, Hiberix, Vaxelis, PedvaxHIB); Td/Tdap intervals depend on whether the first DTaP/DT dose was before the 1st birthday.",
+ "Not represented: conditions under which a dose is not necessary. Examples: 'A fifth dose is not necessary if the fourth dose was administered at age 4 years or older and at least 6 months after dose 3' (DTaP); the IPV fourth-dose conditions; Hib and PCV 'No further doses needed' conditions; the PCV final dose 'only necessary for children age 12 through 59 months regardless of risk, or age 60 through 71 months with any risk'.",
+ "Not represented: maximum-age limits. Rotavirus 'Maximum age for first dose is 14 weeks, 6 days.' and 'maximum age for final dose is 8 months, 0 days'; Hepatitis B 'minimum age for the final dose is 24 weeks'; IPV 'minimum age 4 years for final dose'.",
+ "Not represented: product-specific minimum ages for MenACWY ('2 months MenACWY-CRM', '2 years MenACWY-TT') and the 'See Notes' references, which are in the Notes, not this section.",
+ "Not represented: varicella catch-up interval that depends on age ('3 months if younger than age 13 years. 4 weeks if age 13 years or older').",
+ "General statement not encodable: 'A vaccine series does not need to be restarted, regardless of the time that has elapsed between doses.' Minimum-interval validity checks and the risk-based PCV logic (healthy vs. any risk) need dose-level date arithmetic and risk status, which the criterion grammar does not support."
+]

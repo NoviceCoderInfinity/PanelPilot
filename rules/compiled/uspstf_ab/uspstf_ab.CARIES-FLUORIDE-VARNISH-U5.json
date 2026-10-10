@@ -1,0 +1,49 @@
+{
+ "id": "uspstf_ab.CARIES-FLUORIDE-VARNISH-U5",
+ "version": "December 2021",
+ "title": "Fluoride varnish application to primary teeth for children younger than 5 years",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:038",
+  "quote": "The USPSTF recommends that primary care clinicians apply fluoride varnish to the primary teeth of all infants and children starting at the age of primary tooth eruption."
+ },
+ "grade": "B",
+ "effective_date": "December 2021",
+ "action": "Apply fluoride varnish to the primary teeth of infants and children from primary tooth eruption until age 5",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "age": {
+     "max": 4,
+     "at": "end"
+    },
+    "quote": "children younger than 5 years",
+    "derived": {
+     "max": "'younger than 5 years' in whole years means age 4 or less; evaluated at end of measurement year"
+    }
+   },
+   {
+    "uncomputable": {
+     "needs": "whether primary teeth have erupted (dental exam finding not reliably in structured EHR data)"
+    },
+    "quote": "starting at the age of primary tooth eruption"
+   }
+  ],
+  "quote": "all infants and children"
+ },
+ "numerator": {
+  "procedure": {
+   "concept": "fluoride_varnish",
+   "window": [
+    "{MY}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "apply fluoride varnish to the primary teeth",
+  "derived": {
+   "window": "the text states no application frequency; a measurement-year window is an assumption requiring human review"
+  }
+ },
+ "exclusions": []
+}

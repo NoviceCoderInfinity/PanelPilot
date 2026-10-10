@@ -1,0 +1,33 @@
+{
+ "id": "bright_futures.HEARING-AUDIOMETRY-18-21",
+ "version": "2025",
+ "title": "Audiometry once between 18 and 21",
+ "grade": "footnote 10",
+ "effective_date": "2025",
+ "source": {
+  "doc_id": "bright_futures",
+  "section_id": "bright_futures:000",
+  "quote": "Screen with audiometry including 6,000 and 8,000 Hz high frequencies once between 11 and 14 years, once between 15 and 17 years, and once between 18 and 21 years."
+ },
+ "denominator": {
+  "age": {
+   "min": 21,
+   "max": 21,
+   "at": "end"
+  },
+  "quote": "once between 18 and 21 years"
+ },
+ "numerator": {
+  "procedure": {
+   "concept": "hearing_screening",
+   "window": [
+    "{MY-3}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "Screen with audiometry"
+ },
+ "exclusions": [],
+ "gold_notes": "Only the 18-21 band encoded; 11-14 and 15-17 bands are analogous. Age-anchored window approximated.",
+ "compiled_by": "gold"
+}

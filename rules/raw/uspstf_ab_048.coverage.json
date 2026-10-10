@@ -1,0 +1,7 @@
+[
+ "New concepts introduced (not in vocabulary): tobacco_use_screening (documented assessment of tobacco use status) and tobacco_cessation_behavioral_intervention (behavioral counseling/intervention for tobacco cessation).",
+ "'advise them to stop using tobacco' is not encoded as a separate numerator criterion: no vocabulary concept for documented cessation advice, and it is ambiguous whether 'them' means all pregnant persons or only those who use tobacco.",
+ "The text gives no timing/interval; the measurement-year window and 'pregnant during measurement year' scoping are assumptions flagged via derived for human review. Ideally the assessment and intervention should fall within the pregnancy episode, which the grammar cannot express.",
+ "The DATE field carries an asterisk ('January 2021 *') whose footnote is not included in this section; its meaning is not represented.",
+ "Content of behavioral interventions (type, intensity, number of sessions) is not specified and not represented. Pharmacotherapy in pregnancy is not addressed in this section."
+]

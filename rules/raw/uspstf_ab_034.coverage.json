@@ -1,0 +1,7 @@
+[
+ "New concept 'osteoporosis_screening' introduced (not in vocabulary): the section says 'screening for osteoporosis' without naming the test; the specific tests are deferred to the 'Practice Considerations' section, which is not included here. dxa_scan is a likely member but was not assumed.",
+ "No screening interval or rescreening logic is stated in this section; the numerator window is derived (any recorded screening) and requires human review.",
+ "The '*' after the date 'January 2025 *' refers to a footnote not present in the section text; its meaning is not represented.",
+ "No exclusions (e.g., existing osteoporosis diagnosis, current osteoporosis treatment, prior fracture) are stated in this section, so none were encoded.",
+ "Practice Considerations content (screening test choice, risk assessment details) is referenced but not included and is not represented."
+]

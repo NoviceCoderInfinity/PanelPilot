@@ -1,0 +1,7 @@
+[
+ "Timing requirement 'at their first prenatal visit' cannot be expressed in the grammar (no anchor to a pregnancy's first prenatal encounter); it is encoded as an uncomputable criterion, so the numerator will report 'not computable' until a human or extended engine resolves it.",
+ "The measurement-year window for the HBV test is derived, not stated; pregnancies spanning two calendar years may be misattributed. Rule flagged for human review.",
+ "The DATE field 'July 2019 *' carries an asterisk referring to a footnote not included in the section text; its content is not represented.",
+ "No exclusions (e.g., known chronic HBV infection, prior screening in the same pregnancy) are stated in the text, so none are encoded.",
+ "Rescreening at delivery or for women with unknown status presenting in labor is not addressed in the text and is not represented."
+]

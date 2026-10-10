@@ -1,0 +1,42 @@
+{
+ "id": "cdc_child.PCV-ROUTINE-BY-2",
+ "version": "2025",
+ "title": "Routine 4-dose PCV series completed by age 2 years",
+ "source": {
+  "doc_id": "cdc_child",
+  "section_id": "cdc_child:011",
+  "quote": "4-dose series at 2, 4, 6, 12–15 months"
+ },
+ "grade": "ACIP routine recommendation (CDC schedule; not graded)",
+ "effective_date": "2025",
+ "action": "Ensure child has received the 4-dose pneumococcal conjugate vaccine series (2, 4, 6, 12-15 months)",
+ "compiled_by": "llm",
+ "denominator": {
+  "age": {
+   "min": 2,
+   "max": 2,
+   "at": "end"
+  },
+  "quote": "4-dose series at 2, 4, 6, 12–15 months",
+  "derived": {
+   "min": "final dose is due at 12-15 months, so all 4 doses are expected by the 2nd birthday; children turning 2 in the measurement year are checked",
+   "max": "same reasoning: check the cohort turning 2 in the measurement year"
+  }
+ },
+ "numerator": {
+  "immunization": {
+   "concept": "pcv_vaccine",
+   "min_count": 4,
+   "window": [
+    "{MY-2}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "4-dose series at 2, 4, 6, 12–15 months",
+  "derived": {
+   "window": "a child turning 2 in the measurement year was born in {MY-2}, so doses since birth fall within {MY-2}-01-01 to {MY}-12-31"
+  },
+  "note": "Does not verify doses fell at 2, 4, 6 and 12-15 months, nor that the 4th dose was given before the 2nd birthday."
+ },
+ "exclusions": []
+}

@@ -1,0 +1,7 @@
+[
+ "New concepts not in vocabulary: rh_d_blood_typing (Rh(D) blood type determination) and rh_antibody_screen (red cell antibody screen); these need value sets.",
+ "Timing requirement 'during their first visit for pregnancy-related care' is event-relative, not measurement-year-relative; encoded as uncomputable. The measurement-year windows on the lab observations are placeholders declared as derived and require human review.",
+ "Pregnancy episode boundaries (start date, multiple pregnancies within or across measurement years) are not representable; the denominator assumes a pregnancy recorded by the end of the measurement year (declared derived).",
+ "DATE field 'February 2004 *' carries an asterisk whose footnote meaning is not given in this section and is not represented.",
+ "No follow-up actions (e.g., repeat antibody testing later in pregnancy, Rh immune globulin) are stated in this section; none encoded."
+]

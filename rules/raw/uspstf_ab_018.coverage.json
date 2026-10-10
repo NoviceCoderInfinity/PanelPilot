@@ -1,0 +1,8 @@
+[
+ "Gestational age (24 weeks or after) has no vocabulary concept and is encoded as uncomputable; a clinic with structured gestational-age data could add a new concept (e.g. gestational_age_weeks).",
+ "'Asymptomatic' requires clinical assessment and is encoded as uncomputable.",
+ "Numerator uses glucose_test (plasma glucose or HbA1c screening) as the closest concept; GDM screening is typically a glucose challenge test or OGTT, which may warrant a dedicated concept (e.g. gdm_screening_test). The text does not specify the test method.",
+ "Numerator window (measurement year) is a derived proxy for 'during the current pregnancy at or after 24 weeks'; flagged for human review.",
+ "Text does not state exclusion of pre-existing diabetes; no exclusions were added.",
+ "DATE field contains an asterisk footnote marker ('August 2021 *') whose meaning is not provided in the section text."
+]

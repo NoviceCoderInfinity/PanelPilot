@@ -1,0 +1,7 @@
+[
+ "Former-smoker eligibility ('have quit within the past 15 years') depends on a smoking quit date, which structured EHR data does not reliably hold; encoded as uncomputable, so former smokers cannot be computed into the denominator.",
+ "Discontinuation 'once a person has not smoked for 15 years' is handled only implicitly via the denominator (current smoker or quit within 15 years); it is not separately computable because quit date is unavailable.",
+ "Discontinuation for a health problem limiting life expectancy or ability/willingness to have curative lung surgery requires clinician judgment and patient preference; encoded as an uncomputable exclusion.",
+ "Pack-year threshold interpreted as >= 20 pack-years; the pack_years observation has no lookback window because the text gives none (latest recorded value used).",
+ "The DATE field carries an asterisk ('March 2021 *') whose meaning is not explained in this section."
+]

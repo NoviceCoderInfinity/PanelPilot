@@ -1,0 +1,13 @@
+[
+ "Minimum age 6 weeks and the specific dose timing (2, 4, 6 months; booster 12-15 months) are not represented; only series completion by age 2 is checked (age and window derived, needs human review).",
+ "Product-dependent series length (4 doses for ActHIB/Hiberix/Pentacel/Vaxelis vs 3 for PedvaxHIB) cannot be determined from the generic hib_vaccine concept; the 3-dose branch is gated on an uncomputable product-history criterion. Mixed-product series are not represented.",
+ "Vaxelis is not recommended as a booster dose (a different Hib-containing vaccine should be used) - product-choice rule, not represented.",
+ "American Indian and Alaska Native infants: Vaxelis and PedvaxHIB preferred for the primary series - product preference, not represented.",
+ "Catch-up schedule (dose 1 at 7-11 months, dose 1 at 12-14 months, dose 1 before 12 months and dose 2 before 15 months, 2 PedvaxHIB doses before 12 months, 1 dose at >=15 months sufficient, unvaccinated at 15-59 months needs 1 dose) depends on age at each dose and minimum intervals; represented only as an uncomputable branch in HIB-ROUTINE-AGE2. Previously unvaccinated children >=60 months not high risk: catch-up not required - not represented. Table 2 catch-up guidance and Vaxelis use for catch-up under age 5 not represented.",
+ "Special situations for ages 12-59 months (chemotherapy/radiation, asplenia, HIV, immunoglobulin deficiency, early component complement deficiency or inhibitor use): dose counts depend on number of prior doses before 12 months and 8-week intervals - not represented.",
+ "Doses given within 14 days of starting or during chemotherapy/radiation should be repeated at least 3 months after therapy completion - not represented.",
+ "HSCT: 3-dose series 4 weeks apart starting 6-12 months after successful transplant regardless of history - not represented (no transplant concept; timing relative to transplant).",
+ "Elective splenectomy: 1 dose for unvaccinated persons >=15 months, preferably >=14 days before procedure - not represented (timing relative to procedure).",
+ "Definition of 'Unvaccinated' (less than routine series through 14 months, or no doses at >=15 months) only used implicitly in the asplenia and HIV age>=5 rules.",
+ "Contraindications and precautions are not addressed in this section and are not represented; no exclusions (e.g., hospice, deceased) were added since the text states none."
+]

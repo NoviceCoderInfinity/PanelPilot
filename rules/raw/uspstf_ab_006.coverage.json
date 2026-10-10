@@ -1,0 +1,7 @@
+[
+ "The age criterion (35 years or older) is quoted from the TOPIC field; the DESCRIPTION sentence itself does not state an age.",
+ "Increased breast cancer risk and low risk of adverse medication effects require risk assessment and clinician judgment; they are encoded as uncomputable rather than approximated.",
+ "The numerator ('offer to prescribe') is a shared-decision-making action and is uncomputable. No vocabulary concept exists for tamoxifen, raloxifene, or aromatase inhibitor prescriptions. A prescription alone would not capture an offer that was declined, so no medication concept was invented.",
+ "Medication choice, dosing, duration, and specific adverse-effect contraindications (e.g., thromboembolic history) are not specified in the section and are not represented.",
+ "The DATE field carries an asterisk ('September 2019 *') whose meaning is not given in the section text; it is not represented."
+]

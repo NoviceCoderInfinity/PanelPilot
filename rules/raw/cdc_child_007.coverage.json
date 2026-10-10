@@ -1,0 +1,13 @@
+[
+ "Hib routine series NOT encoded: required dose count depends on product (ActHIB/Hiberix/Pentacel/Vaxelis 4-dose vs PedvaxHIB 3-dose) and extensive catch-up logic (e.g., 1 dose at age 15 months or older suffices; unvaccinated at 15-59 months needs 1 dose; none required at 60 months or older if not high risk). Product is not in the concept vocabulary; a single dose-count rule would misclassify many children.",
+ "Hib special situations not encoded: chemotherapy/radiation (incl. repeating doses given within 14 days of or during therapy at least 3 months after completion), HSCT 3-dose series 6-12 months post-transplant, asplenia/sickle cell, elective splenectomy (preferably 14 days before), HIV infection, immunoglobulin deficiency/early complement deficiency or inhibitor use; definition of 'Unvaccinated'.",
+ "Hib product notes not encoded: Vaxelis not recommended as booster dose; Vaxelis/PedvaxHIB preferred for American Indian and Alaska Native infants for primary series; Vaxelis may be used for catch-up under age 5.",
+ "DTaP: minimum age 6 weeks (4 years for Kinrix or Quadracel) and dose validity (doses given before minimum age/intervals) not checked; rule counts any recorded DTaP dose.",
+ "DTaP dose 4 timing rules not encoded: prospective administration at 12 months if 6 months since dose 3; retrospective counting if at least 4 months since dose 3.",
+ "DTaP catch-up exception (dose 5 unnecessary if dose 4 given at age 4+ and 6+ months after dose 3) and Td substitution for pertussis-component contraindication (encephalopathy within 7 days) are represented only as uncomputable alternatives; Td doses are not counted toward the numerator. Other catch-up guidance refers to Table 2 (not in this section).",
+ "DTaP intermediate milestones (3-dose primary series by 6 months, dose 4 at 15-18 months) not encoded as separate rules; only the age-7 completion milestone is encoded, with age 7 derived.",
+ "DTaP wound management (non-clean/minor wounds, >5 years since last tetanus-toxoid dose, children <7 with 3+ doses) not encoded: depends on acute wound events.",
+ "Dengue: list of endemic areas (Puerto Rico, American Samoa, USVI, FSM, Marshall Islands, Palau) and pre-vaccination lab testing guidance (external links) not encoded; residence is treated as uncomputable. Statement that dengue vaccine should not be given to children traveling to or visiting endemic areas is a 'should not' statement and is not a rule.",
+ "Dengue: 0/6/12-month dose spacing not checked; children mid-series (series takes 12 months) will appear incomplete.",
+ "No exclusions (e.g., deceased, contraindications) are specified in this section; exclusions left empty."
+]

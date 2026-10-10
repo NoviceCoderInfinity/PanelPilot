@@ -1,0 +1,29 @@
+{
+ "id": "uspstf_ab.HIV-SCREEN-INCREASED-RISK-OTHER-AGES",
+ "version": "June 2019",
+ "title": "HIV infection screening in younger adolescents and older adults at increased risk",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:025",
+  "quote": "Younger adolescents and older adults who are at increased risk of infection should also be screened."
+ },
+ "grade": "A",
+ "effective_date": "2019-06",
+ "action": "Screen for HIV infection",
+ "compiled_by": "llm",
+ "denominator": {
+  "uncomputable": {
+   "needs": "assessment of increased HIV infection risk (e.g., sexual/drug-use behavior) in adolescents younger than the 15-65 range or adults older than it"
+  },
+  "quote": "Younger adolescents and older adults who are at increased risk of infection should also be screened."
+ },
+ "numerator": {
+  "observation": {
+   "concept": "hiv_test",
+   "pick": "any"
+  },
+  "quote": "should also be screened",
+  "note": "No screening interval stated; any HIV test on record."
+ },
+ "exclusions": []
+}

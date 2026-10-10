@@ -1,0 +1,75 @@
+{
+ "id": "cdc_child.MENB-HIGHRISK-10-18",
+ "version": "2025",
+ "title": "MenB 3-dose primary series for children/adolescents with asplenia, complement deficiency or complement inhibitor use",
+ "source": {
+  "doc_id": "cdc_child",
+  "section_id": "cdc_child:028",
+  "quote": "3-dose series at 0, 1–2, 6 months "
+ },
+ "grade": "ACIP routine (special situations); not graded",
+ "effective_date": "2025",
+ "action": "Administer MenB (Bexsero or Trumenba, same brand) 3-dose series at 0, 1–2, 6 months to patients age 10+ with anatomic/functional asplenia, persistent complement component deficiency, or complement inhibitor use",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "age": {
+     "min": 10,
+     "max": 18,
+     "at": "end"
+    },
+    "quote": "minimum age: 10 years",
+    "note": "max 18 from the schedule scope; quote for max is 'Ages 18 Years or Younger'"
+   },
+   {
+    "any": [
+     {
+      "condition": {
+       "concept": "asplenia",
+       "onset_by": "{MY}-12-31"
+      },
+      "quote": "Anatomic or functional asplenia"
+     },
+     {
+      "condition": {
+       "concept": "complement_deficiency",
+       "onset_by": "{MY}-12-31"
+      },
+      "quote": "persistent complement component deficiency"
+     },
+     {
+      "condition": {
+       "concept": "complement_deficiency",
+       "onset_by": "{MY}-12-31"
+      },
+      "quote": "complement inhibitor (e.g., eculizumab, ravulizumab) use"
+     }
+    ],
+    "quote": "Special situations"
+   }
+  ],
+  "quote": "Special situations"
+ },
+ "numerator": {
+  "any": [
+   {
+    "immunization": {
+     "concept": "menb_vaccine",
+     "min_count": 3
+    },
+    "quote": "3-dose series at 0, 1–2, 6 months ",
+    "note": "lifetime count; no window"
+   },
+   {
+    "uncomputable": {
+     "needs": "dose-interval check: series complete with 2 doses if dose 2 was given at least 6 months after dose 1"
+    },
+    "quote": "if dose 2 was administered at least 6 months after dose 1, "
+   }
+  ],
+  "quote": "3-dose series at 0, 1–2, 6 months "
+ },
+ "exclusions": [],
+ "_rejected_because": "cdc_child.MENB-HIGHRISK-10-18: denominator.all[0] (age): number 18 (max) is not stated in its quote and not declared derived"
+}

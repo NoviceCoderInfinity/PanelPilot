@@ -1,0 +1,9 @@
+[
+ "The TOPIC names 'Chlamydia and Gonorrhea', but the DESCRIPTION sentence only recommends screening for gonorrhea; no chlamydia screening rule was created because the recommendation text does not state it.",
+ "No screening interval/frequency is stated; the measurement-year window in both numerators is an assumption declared as derived and needs human review.",
+ "'Sexually active' is encoded as uncomputable per the sexual-behavior requirement, even though a 'sexually_active' concept exists in the vocabulary.",
+ "'Increased risk for infection' is not defined in the section; risk factors are not represented and are encoded as uncomputable.",
+ "The TOPIC mentions 'including pregnant persons'; no pregnancy-specific logic (e.g., timing of screening in pregnancy) is stated or represented. Pregnant women fall under the same age-based rules.",
+ "No lower age bound is stated for the 24-years-or-younger rule; none was imposed.",
+ "The '*' after the DATE is unexplained in the section and was not represented."
+]

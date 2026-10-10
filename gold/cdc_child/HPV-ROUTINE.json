@@ -1,0 +1,37 @@
+{
+ "id": "cdc_child.HPV-ROUTINE",
+ "version": "2025",
+ "title": "HPV series by age 13 (routine 11-12)",
+ "grade": "routine",
+ "effective_date": "2025",
+ "source": {
+  "doc_id": "cdc_child",
+  "section_id": "cdc_child:024",
+  "quote": "HPV vaccination routinely recommended at age 11–12 years"
+ },
+ "denominator": {
+  "age": {
+   "min": 13,
+   "max": 18,
+   "at": "end"
+  },
+  "quote": "catch-up HPV vaccination recommended for all persons through age 18 years",
+  "derived": {
+   "min": "routine series is at 11–12 years; a patient is only overdue once past that window, i.e. from 13"
+  }
+ },
+ "numerator": {
+  "immunization": {
+   "concept": "hpv_vaccine",
+   "min_count": 2,
+   "window": [
+    "{MY-100}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "Age 9–14 years at initial vaccination: 2-dose series"
+ },
+ "exclusions": [],
+ "gold_notes": "Footnote limitation: 3 doses are needed if dose 1 was at age >=15 -- dose count depends on age at first dose, not expressible in the grammar. min_count 2 is a lower bound.",
+ "compiled_by": "gold"
+}

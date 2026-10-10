@@ -1,0 +1,9 @@
+[
+ "Numerator encoded as uncomputable: 'offer or refer' to intensive, multicomponent behavioral interventions has no concept in the vocabulary, and offers are not reliably recorded in structured data. If the clinic can capture referrals, a new concept (e.g. weight_loss_behavioral_intervention_referral) could replace it, but only for referrals, not offers.",
+ "Adult age floor (18) is derived; the text only says 'adults'. Requires human review.",
+ "BMI lookback window (latest BMI in the measurement year) is derived; the text specifies no timing. Requires human review.",
+ "Used observation concept 'bmi' with threshold 30 kg/m2 instead of the 'obesity' condition concept, because 'obesity' in the vocabulary also covers overweight and would over-include patients.",
+ "The intervention's intensity, number of sessions, duration and components are not specified in the section and are not represented.",
+ "The DATE field carries an asterisk ('September 2018 *') whose footnote is not included in the section; its meaning is not represented.",
+ "No exclusions (e.g. pregnancy) are stated in the text, so none were added."
+]

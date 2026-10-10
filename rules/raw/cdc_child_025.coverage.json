@@ -1,0 +1,11 @@
+[
+ "The 2-dose requirement is not encoded. It applies to children aged 6 months-8 years who received fewer than 2 influenza doses before July 1, 2024, or whose history is unknown; the doses must be separated by at least 4 weeks, and dose 2 is given even if the child turns 9 between doses. FLU-ANNUAL-1-8 checks only for at least 1 dose.",
+ "Infants aged 6-11 months are eligible but are not captured by the whole-year age floor (min 1 at year end) in FLU-ANNUAL-1-8.",
+ "Influenza vaccination is season-based (roughly July-June), but the rules use a calendar measurement-year window. This approximates the season and may misattribute doses given late in one season or early in the next.",
+ "Product choice and minimum ages per product are not encoded: IIV3 from 6 months, LAIV3 from 2 years, RIV3 from 18 years.",
+ "Not encoded: HD-IIV3 and aIIV3 are acceptable options for 18-year-old solid organ transplant recipients on immunosuppressive medications.",
+ "Season-specific guidance by external reference (2024-25 MMWR, 2025-26 ACIP recommendations) is not encoded.",
+ "The LAIV3 contraindication is not encoded. Close contacts of severely immunosuppressed persons needing a protected environment should not receive LAIV3, and if they do, should avoid contact with such persons for 7 days. This depends on household contact information, which is not computable.",
+ "Not encoded: persons with egg allergy may receive any age-appropriate influenza vaccine. This is informational and has no exclusion effect.",
+ "General contraindications and precautions to influenza vaccination are not stated in this section; no exclusions are encoded."
+]

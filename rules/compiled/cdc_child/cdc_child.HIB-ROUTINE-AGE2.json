@@ -1,0 +1,66 @@
+{
+ "id": "cdc_child.HIB-ROUTINE-AGE2",
+ "version": "2025",
+ "title": "Haemophilus influenzae type b routine series complete by age 2",
+ "source": {
+  "doc_id": "cdc_child",
+  "section_id": "cdc_child:021",
+  "quote": "ActHIB, Hiberix, Pentacel, or Vaxelis: 4-dose series"
+ },
+ "grade": "routine (CDC/ACIP schedule; no USPSTF grade)",
+ "effective_date": "2025",
+ "action": "Administer Hib vaccine series: 4 doses (ActHIB, Hiberix, Pentacel, Vaxelis) or 3 doses (PedvaxHIB), with booster at 12-15 months",
+ "compiled_by": "llm",
+ "denominator": {
+  "age": {
+   "min": 2,
+   "max": 2,
+   "at": "end"
+  },
+  "quote": "booster dose* at age 12–15 months",
+  "derived": {
+   "min": "final booster is due by 15 months, so the series is expected complete by the 2nd birthday; evaluate children turning 2 in the measurement year",
+   "max": "single-year cohort, same as min"
+  }
+ },
+ "numerator": {
+  "any": [
+   {
+    "immunization": {
+     "concept": "hib_vaccine",
+     "min_count": 4,
+     "window": [
+      "{MY-2}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "ActHIB, Hiberix, Pentacel, or Vaxelis: 4-dose series",
+    "derived": {
+     "window": "a child turning 2 in MY was born no earlier than {MY-2}-01-01; count doses from birth through end of MY"
+    }
+   },
+   {
+    "immunization": {
+     "concept": "hib_pedvax_vaccine",
+     "min_count": 3,
+     "window": [
+      "{MY-2}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "PedvaxHIB: 3-dose series",
+    "derived": {
+     "window": "a child turning 2 in MY was born no earlier than {MY-2}-01-01; count doses from birth through end of MY"
+    },
+    "note": "Human edit (2026-10-10): the LLM marked the PedvaxHIB product as uncomputable; CVX 49 is PRP-OMP (PedvaxHIB), mapped as hib_pedvax_vaccine."
+   },
+   {
+    "uncomputable": {
+     "needs": "completion of age-appropriate Hib catch-up schedule (depends on age at each dose and intervals)"
+    },
+    "quote": "Catch-up vaccination"
+   }
+  ]
+ },
+ "exclusions": []
+}

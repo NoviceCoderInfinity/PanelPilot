@@ -1,0 +1,41 @@
+{
+ "id": "cdc_child.HPV-CHILD-2DOSE-BY-14",
+ "version": "unspecified (CDC child/adolescent schedule notes; edition year not stated in section)",
+ "title": "HPV vaccination: routine series (initiated at age 11-12) completed by the year the child turns 14",
+ "source": {
+  "doc_id": "cdc_child",
+  "section_id": "cdc_child:024",
+  "quote": "HPV vaccination routinely recommended at age 11–12 years"
+ },
+ "grade": "n/a (CDC/ACIP routine recommendation; no USPSTF-style grade)",
+ "effective_date": "unspecified",
+ "action": "Ensure adolescents complete the routine HPV vaccine series started at age 11–12 years",
+ "compiled_by": "llm",
+ "denominator": {
+  "age": {
+   "min": 14,
+   "max": 14,
+   "at": "end"
+  },
+  "quote": "routinely recommended at age 11–12 years",
+  "derived": {
+   "min": "routine start at 11–12 with dose 2 at 6–12 months means a child who starts on time (latest just before age 13) completes before age 14; evaluate in the year the child turns 14",
+   "max": "single-year cohort, same reasoning as min"
+  }
+ },
+ "numerator": {
+  "immunization": {
+   "concept": "hpv_vaccine",
+   "min_count": 2,
+   "window": [
+    "{MY-14}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "2-dose series",
+  "derived": {
+   "window": "lookback from the birth year of a child turning 14 through end of MY, i.e. all doses ever given"
+  }
+ },
+ "exclusions": []
+}

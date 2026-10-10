@@ -1,0 +1,8 @@
+[
+ "The screening interval is not stated in the section text. The measurement-year window in ALCOHOL-SCREEN-ADULT-18 is assumed and declared as derived, so the rule requires human review.",
+ "Not represented: the second component, 'providing persons engaged in risky or hazardous drinking with brief behavioral counseling interventions to reduce unhealthy alcohol use'. It depends on screening results and on the clinician's judgment of risky or hazardous drinking, which structured EHR data would not reliably hold. It is also unclear whether it should be a separate rule.",
+ "'including pregnant women' is covered by the age-only denominator. No sex or pregnancy restriction was applied.",
+ "'in primary care settings' describes the care setting. It was not encoded as a criterion.",
+ "The DATE field carries an asterisk ('November 2018 *') that refers to a footnote not included in the section text. Its meaning, possibly a status or update note, is not represented.",
+ "Screening instruments are not specified in the text. Any alcohol_screening record is accepted."
+]

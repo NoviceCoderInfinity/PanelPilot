@@ -1,0 +1,54 @@
+{
+ "id": "uspstf_ab.LTBI-SCREEN-ADULT",
+ "version": "May 2023",
+ "title": "Latent tuberculosis infection screening in asymptomatic adults at increased risk",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:030",
+  "quote": "The USPSTF recommends screening for LTBI in populations at increased risk."
+ },
+ "grade": "B",
+ "effective_date": "May 2023",
+ "action": "Screen for latent tuberculosis infection (LTBI) in asymptomatic adults at increased risk",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "age": {
+     "min": 18,
+     "at": "end"
+    },
+    "quote": "asymptomatic adults",
+    "derived": {
+     "min": "text says 'adults' without an age; adulthood taken as 18 years"
+    }
+   },
+   {
+    "uncomputable": {
+     "needs": "assessment of increased risk of LTBI (e.g., birthplace/residence in high-prevalence country, congregate living, exposure); defined in the separate 'Assessment of Risk' section"
+    },
+    "quote": "populations at increased risk"
+   },
+   {
+    "uncomputable": {
+     "needs": "confirmation patient is asymptomatic for tuberculosis (clinician assessment)"
+    },
+    "quote": "asymptomatic adults at increased risk of latent tuberculosis infection (ltbi)"
+   }
+  ]
+ },
+ "numerator": {
+  "procedure": {
+   "concept": "latent_tb_test",
+   "window": [
+    "{MY-100}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "screening for LTBI",
+  "derived": {
+   "window": "the text states no screening interval; window approximates 'ever screened' and needs human review"
+  }
+ },
+ "exclusions": []
+}

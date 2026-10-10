@@ -1,0 +1,38 @@
+{
+ "id": "uspstf_ab.BRCA-RISK-ASSESS",
+ "version": "August 2019",
+ "title": "BRCA-related cancer: familial risk assessment for women with personal/family history or associated ancestry",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:005",
+  "quote": "The USPSTF recommends that primary care clinicians assess women with a personal or family history of breast, ovarian, tubal, or peritoneal cancer or who have an ancestry associated with breast cancer susceptibility 1 and 2 (BRCA1/2) gene mutations with an appropriate brief familial risk assessment tool."
+ },
+ "grade": "B",
+ "effective_date": "August 2019",
+ "action": "Assess eligible women with an appropriate brief familial risk assessment tool",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "sex": {
+     "is": "F"
+    },
+    "quote": "women"
+   },
+   {
+    "uncomputable": {
+     "needs": "personal or family history of breast, ovarian, tubal, or peritoneal cancer, or ancestry associated with BRCA1/2 gene mutations"
+    },
+    "quote": "a personal or family history of breast, ovarian, tubal, or peritoneal cancer or who have an ancestry associated with breast cancer susceptibility 1 and 2 (BRCA1/2) gene mutations"
+   }
+  ],
+  "quote": "assess women with a personal or family history of breast, ovarian, tubal, or peritoneal cancer"
+ },
+ "numerator": {
+  "uncomputable": {
+   "needs": "documentation of a completed brief familial risk assessment tool (no structured concept in vocabulary; no repeat interval stated)"
+  },
+  "quote": "with an appropriate brief familial risk assessment tool"
+ },
+ "exclusions": []
+}

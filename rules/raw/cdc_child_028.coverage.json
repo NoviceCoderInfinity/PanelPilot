@@ -1,0 +1,12 @@
+[
+ "Minimum interval logic not represented: SCDM series requires doses at least 6 months apart; if dose 2 given earlier than 6 months, a dose 3 at least 4 months after dose 2 is needed. The SCDM rule counts 2 doses without checking interval.",
+ "High-risk series: if dose 3 given earlier than 4 months after dose 2, a 4th dose is needed at least 4 months after dose 3 -- not represented. The 2-dose completion path (dose 2 >= 6 months after dose 1) is encoded as uncomputable.",
+ "Optional 3-dose series (0, 1–2, 6 months) for rapid protection (e.g., students starting college in <6 months) not represented.",
+ "Brand consistency requirement (same brand Bexsero/Trumenba for all doses, including boosters) not represented.",
+ "MenB booster dose recommendations for special-situation groups and outbreak settings are referenced externally (MMWR rr6909a1) and not represented.",
+ "Penbraya (MenACWY-TT/MenB-FHbp) product-choice rules not represented: alternative for age 10+ when both MenACWY and MenB due same day; if Penbraya used for dose 1 in not-increased-risk children, Trumenba for dose 2; for increased-risk children, Penbraya for additional doses if >=6 months since last Penbraya dose.",
+ "Simultaneous administration with MenACWY at different anatomic site is an administration note, not a rule.",
+ "SCDM rule: preferred age 16–18 years not encoded; the age range 16–23 extends beyond this child schedule's scope (18 years or younger). The SCDM rule's denominator is uncomputable by design (shared clinical decision-making, risk status).",
+ "High-risk rule: max age 18 taken from the schedule title 'Ages 18 Years or Younger'; complement inhibitor use mapped to concept complement_deficiency (vocabulary defines it to include inhibitor use). 'Persistent' qualifier of complement deficiency not separately checked.",
+ "Immunization counts have no window (lifetime) because the text gives no date window."
+]

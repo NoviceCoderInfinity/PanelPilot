@@ -1,0 +1,47 @@
+{
+ "id": "cdc_child.VAR-CATCHUP-7-18",
+ "version": "2025",
+ "title": "Varicella 2-dose series complete for persons age 7-18 years without evidence of immunity",
+ "source": {
+  "doc_id": "cdc_child",
+  "section_id": "cdc_child:035",
+  "quote": "Ensure persons age 7–18 years without evidence of immunity"
+ },
+ "grade": "not graded (CDC/ACIP routine and catch-up schedule recommendation)",
+ "effective_date": "2025",
+ "action": "Ensure a 2-dose varicella-containing vaccine series (VAR or MMRV) has been received",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "age": {
+     "min": 7,
+     "max": 18,
+     "at": "end"
+    },
+    "quote": "persons age 7–18 years"
+   },
+   {
+    "uncomputable": {
+     "needs": "evidence of varicella immunity (documented disease history, laboratory evidence, or other ACIP immunity criteria)"
+    },
+    "quote": "without evidence of immunity"
+   }
+  ]
+ },
+ "numerator": {
+  "immunization": {
+   "concept": "varicella_containing_vaccine",
+   "min_count": 2,
+   "window": [
+    "{MY-18}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "2-dose series",
+  "derived": {
+   "window": "doses may be given any time from birth; the oldest patient in the denominator is 18, so a window starting 18 years before the measurement year covers any patient's whole lifetime"
+  }
+ },
+ "exclusions": []
+}

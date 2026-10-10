@@ -1,0 +1,53 @@
+{
+ "id": "cdc_child.DENGUE-VAX-9-16",
+ "version": "cdc_child (edition year not stated in section)",
+ "title": "Dengue vaccination, ages 9-16, living in endemic areas with lab-confirmed prior dengue infection",
+ "source": {
+  "doc_id": "cdc_child",
+  "section_id": "cdc_child:019",
+  "quote": "Age 9–16 years living in areas with endemic dengue AND"
+ },
+ "grade": "ACIP routine (no USPSTF letter grade)",
+ "effective_date": "",
+ "action": "Administer 3-dose dengue vaccine series at 0, 6, and 12 months",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "age": {
+     "min": 9,
+     "max": 16,
+     "at": "end"
+    },
+    "quote": "Age 9–16 years"
+   },
+   {
+    "uncomputable": {
+     "needs": "residence in a dengue-endemic area"
+    },
+    "quote": "living in areas with endemic dengue"
+   },
+   {
+    "uncomputable": {
+     "needs": "laboratory confirmation of previous dengue infection"
+    },
+    "quote": "have laboratory confirmation of previous dengue infection"
+   }
+  ]
+ },
+ "numerator": {
+  "immunization": {
+   "concept": "dengue_vaccine",
+   "min_count": 3,
+   "window": [
+    "{MY-7}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "3-dose series administered at 0, 6, and 12 months",
+  "derived": {
+   "window": "minimum age is 9 years; the oldest patient in the denominator (16 at end of MY) turned 9 in MY-7, so no valid dose can predate {MY-7}-01-01"
+  }
+ },
+ "exclusions": []
+}

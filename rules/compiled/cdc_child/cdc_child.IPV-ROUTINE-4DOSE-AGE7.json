@@ -1,0 +1,41 @@
+{
+ "id": "cdc_child.IPV-ROUTINE-4DOSE-AGE7",
+ "version": "2025",
+ "title": "Routine 4-dose inactivated poliovirus (IPV) series completed by age 7",
+ "source": {
+  "doc_id": "cdc_child",
+  "section_id": "cdc_child:012",
+  "quote": "4-dose series at ages 2, 4, 6–18 months, 4–6 years"
+ },
+ "grade": "ACIP routine recommendation (no USPSTF grade)",
+ "effective_date": "2025",
+ "action": "Administer IPV doses to complete 4-dose series",
+ "compiled_by": "llm",
+ "denominator": {
+  "age": {
+   "min": 7,
+   "max": 7,
+   "at": "end"
+  },
+  "quote": "4–6 years",
+  "derived": {
+   "min": "final (4th) dose is due at 4–6 years, so all 4 doses are expected by the 7th birthday",
+   "max": "single-year cohort (age 7) used to assess series completion"
+  }
+ },
+ "numerator": {
+  "immunization": {
+   "concept": "ipv_vaccine",
+   "min_count": 4,
+   "window": [
+    "{MY-7}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "4-dose series",
+  "derived": {
+   "window": "a child aged 7 on Dec 31 of MY was born in MY-7, so the window from {MY-7}-01-01 covers all doses since birth"
+  }
+ },
+ "exclusions": []
+}

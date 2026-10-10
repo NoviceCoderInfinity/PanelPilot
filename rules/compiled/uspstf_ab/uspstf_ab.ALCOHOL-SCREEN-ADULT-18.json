@@ -1,0 +1,36 @@
+{
+ "id": "uspstf_ab.ALCOHOL-SCREEN-ADULT-18",
+ "version": "2018",
+ "title": "Screening for unhealthy alcohol use in adults 18 years or older, including pregnant women",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:050",
+  "quote": "The USPSTF recommends screening for unhealthy alcohol use in primary care settings in adults 18 years or older, including pregnant women, and providing persons engaged in risky or hazardous drinking with brief behavioral counseling interventions to reduce unhealthy alcohol use."
+ },
+ "grade": "B",
+ "effective_date": "November 2018",
+ "action": "Screen for unhealthy alcohol use",
+ "compiled_by": "llm",
+ "denominator": {
+  "age": {
+   "min": 18,
+   "at": "end"
+  },
+  "quote": "adults 18 years or older"
+ },
+ "numerator": {
+  "observation": {
+   "concept": "alcohol_screening",
+   "window": [
+    "{MY}-01-01",
+    "{MY}-12-31"
+   ],
+   "pick": "any"
+  },
+  "quote": "screening for unhealthy alcohol use",
+  "derived": {
+   "window": "the recommendation states no screening interval; a measurement-year (annual) window is an assumption made for checking and needs human confirmation"
+  }
+ },
+ "exclusions": []
+}

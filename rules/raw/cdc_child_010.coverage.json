@@ -1,0 +1,13 @@
+[
+ "MenACWY dose 2 at age 16 not encoded as a rule: catch-up allows a single dose at age 16-18 to suffice and doses given at 13-15 need a booster at 16-18, which requires birth-date-relative dose timing the grammar cannot express.",
+ "MenACWY catch-up (age 13-15: 1 dose now and booster at 16-18, minimum interval 8 weeks; age 16-18: 1 dose) not encoded.",
+ "MenACWY high-risk rule encodes only a minimum of 2 doses; age-at-dose-1-dependent Menveo schedules (4-dose from 2 months; 3- or 4-dose from 3-6 months; 2-dose from 7-23 months with dose 2 after 12 months), 8/12-week minimum intervals, and booster doses for persons at increased risk are not represented.",
+ "Travel to hyperendemic/epidemic countries (African meningitis belt, Hajj) MenACWY recommendations not encoded: requires travel history (uncomputable).",
+ "First-year college students in residential housing and military recruits (1 dose MenACWY) not encoded: requires housing/occupation status (uncomputable).",
+ "Rule that MenACWY doses received before age 10 do not count toward the adolescent schedule is only approximated via the dose window in MENACWY-ADOL-DOSE1-13 (declared as derived).",
+ "Product choice not represented: Menveo vs MenQuadfi minimum ages, Menveo liquid formulation not before age 10, Penbraya as combined MenACWY/MenB alternative at age 10+ and its follow-on brand rules.",
+ "Outbreak-setting MenACWY and MenB boosters referenced to external MMWR not represented.",
+ "MenB for adolescents 16-23 not at increased risk is based on shared clinical decision-making: not a rule (would be uncomputable). Its 2-dose series at least 6 months apart, 3rd-dose logic if dose 2 given early, and optional 0/1-2/6 month accelerated series not encoded.",
+ "MenB special situations (asplenia, complement deficiency, complement inhibitor use, minimum age 10): 3-dose series at 0, 1-2, 6 months with interval-dependent dose count (dose 3 not needed if dose 2 at least 6 months after dose 1; 4th dose if dose 3 too early) and same-brand requirement not encoded because dose count depends on intervals; menb_vaccine concept would apply.",
+ "Co-administration notes (MenACWY with MenB at different anatomic site) not represented."
+]

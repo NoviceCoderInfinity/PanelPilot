@@ -1,0 +1,45 @@
+{
+ "id": "uspstf_ab.SYPH-SCREEN-PREG",
+ "version": "May 2025",
+ "title": "Syphilis screening during pregnancy (asymptomatic pregnant women)",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:045",
+  "quote": "The USPSTF recommends early, universal screening for syphilis infection during pregnancy; if an individual is not screened early in pregnancy, the USPSTF recommends screening at the first available opportunity."
+ },
+ "grade": "A",
+ "effective_date": "May 2025",
+ "action": "Screen for syphilis infection during pregnancy, early in pregnancy or at the first available opportunity if not screened early",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "condition": {
+     "concept": "pregnancy",
+     "onset_by": "{MY}-12-31"
+    },
+    "quote": "during pregnancy",
+    "note": "Pregnancy active during the measurement year; the engine cannot confirm the pregnancy episode overlaps the year"
+   },
+   {
+    "uncomputable": {
+     "needs": "absence of signs or symptoms of syphilis (clinical assessment)"
+    },
+    "quote": "asymptomatic"
+   }
+  ],
+  "quote": "asymptomatic pregnant women"
+ },
+ "numerator": {
+  "procedure": {
+   "concept": "syphilis_test",
+   "window": [
+    "{MY}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "screening for syphilis infection during pregnancy",
+  "note": "Guideline requires the test within the pregnancy episode; the measurement-year window only approximates the pregnancy period and cannot check that it was early in pregnancy"
+ },
+ "exclusions": []
+}

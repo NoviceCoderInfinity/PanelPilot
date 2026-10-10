@@ -1,0 +1,8 @@
+[
+ "The section does not state a frequency or interval for fluoride varnish application; the measurement-year numerator window is an assumption, declared as derived, and needs human review.",
+ "The start of eligibility ('starting at the age of primary tooth eruption') depends on a dental finding that structured EHR data does not reliably hold. It is encoded as uncomputable, so the engine will report the denominator as not computable.",
+ "Age is evaluated at the end of the measurement year (max 4). Children who turn 5 during the year are excluded even though they were eligible for part of it.",
+ "The asterisk on the date 'December 2021 *' refers to a footnote that is not included in the section text, so it could not be represented.",
+ "The section does not address other parts of the full USPSTF topic, such as oral fluoride supplementation or caries screening. Nothing beyond the fluoride varnish statement was encoded.",
+ "The concept fluoride_varnish is used as a procedure."
+]

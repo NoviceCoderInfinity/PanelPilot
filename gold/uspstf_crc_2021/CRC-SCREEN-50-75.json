@@ -1,0 +1,67 @@
+{
+ "id": "uspstf_crc_2021.CRC-SCREEN-50-75",
+ "version": "May 2021",
+ "title": "Colorectal cancer screening, adults 50-75",
+ "grade": "A",
+ "effective_date": "May 2021",
+ "source": {
+  "doc_id": "uspstf_crc_2021",
+  "section_id": "uspstf_crc_2021:000",
+  "quote": "The USPSTF recommends screening for colorectal cancer in all adults aged 50 to 75 years."
+ },
+ "denominator": {
+  "age": {
+   "min": 50,
+   "max": 75,
+   "at": "end"
+  },
+  "quote": "Adults aged 50 to 75 years"
+ },
+ "numerator": {
+  "any": [
+   {
+    "procedure": {
+     "concept": "colonoscopy",
+     "window": [
+      "{MY-9}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "Every 10 y"
+   },
+   {
+    "procedure": {
+     "concept": "fobt",
+     "window": [
+      "{MY}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "Every year"
+   },
+   {
+    "procedure": {
+     "concept": "ct_colonography",
+     "window": [
+      "{MY-4}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "Every 5 y"
+   },
+   {
+    "procedure": {
+     "concept": "flexible_sigmoidoscopy",
+     "window": [
+      "{MY-4}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "Every 5 y"
+   }
+  ]
+ },
+ "exclusions": [],
+ "gold_notes": "",
+ "compiled_by": "gold"
+}

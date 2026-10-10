@@ -1,0 +1,120 @@
+{
+ "id": "uspstf_crc_2021.CRC-SCREEN-50-75",
+ "version": "2021",
+ "title": "Colorectal cancer screening, adults aged 50 to 75 years",
+ "source": {
+  "doc_id": "uspstf_crc_2021",
+  "section_id": "uspstf_crc_2021:000",
+  "quote": "The USPSTF recommends screening for colorectal cancer in all adults aged 50 to 75 years."
+ },
+ "grade": "A",
+ "effective_date": "2021",
+ "action": "Screen for colorectal cancer using one of the listed methods at its stated interval.",
+ "compiled_by": "llm",
+ "denominator": {
+  "age": {
+   "min": 50,
+   "max": 75,
+   "at": "end"
+  },
+  "quote": "Adults aged 50 to 75 years",
+  "note": "Age is evaluated at the end of the measurement year. This is an implementation choice; the text does not specify it."
+ },
+ "numerator": {
+  "any": [
+   {
+    "procedure": {
+     "concept": "fobt",
+     "window": [
+      "{MY}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "Every year",
+    "note": "High-sensitivity gFOBT or FIT rows, frequency every year"
+   },
+   {
+    "procedure": {
+     "concept": "fit_dna",
+     "window": [
+      "{MY-2}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "Every 1 to 3 c y",
+    "derived": {
+     "window": "The longest stated sDNA-FIT interval is 3 y, so the window is the measurement year plus the 2 prior years ({MY-2})."
+    }
+   },
+   {
+    "procedure": {
+     "concept": "colonoscopy",
+     "window": [
+      "{MY-9}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "Every 10 y",
+    "derived": {
+     "window": "Every 10 y means the measurement year plus the 9 prior years ({MY-9})."
+    }
+   },
+   {
+    "procedure": {
+     "concept": "ct_colonography",
+     "window": [
+      "{MY-4}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "Every 5 y",
+    "derived": {
+     "window": "Every 5 y means the measurement year plus the 4 prior years ({MY-4})."
+    }
+   },
+   {
+    "procedure": {
+     "concept": "flexible_sigmoidoscopy",
+     "window": [
+      "{MY-4}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "Every 5 y",
+    "derived": {
+     "window": "Every 5 y means the measurement year plus the 4 prior years ({MY-4})."
+    }
+   },
+   {
+    "all": [
+     {
+      "procedure": {
+       "concept": "flexible_sigmoidoscopy",
+       "window": [
+        "{MY-9}-01-01",
+        "{MY}-12-31"
+       ]
+      },
+      "quote": "Flexible sigmoidoscopy every 10 y",
+      "derived": {
+       "window": "Every 10 y means the measurement year plus the 9 prior years ({MY-9})."
+      }
+     },
+     {
+      "procedure": {
+       "concept": "fobt",
+       "window": [
+        "{MY}-01-01",
+        "{MY}-12-31"
+       ]
+      },
+      "quote": "FIT every year"
+     }
+    ],
+    "quote": "Flexible sigmoidoscopy with FIT"
+   }
+  ],
+  "quote": "screening for colorectal cancer"
+ },
+ "exclusions": []
+}

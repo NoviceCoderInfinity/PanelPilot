@@ -1,0 +1,51 @@
+{
+ "id": "cdc_child.HIB-ASPLENIA-5PLUS",
+ "version": "2025",
+ "title": "Hib vaccine for persons 5 years or older with anatomic or functional asplenia",
+ "source": {
+  "doc_id": "cdc_child",
+  "section_id": "cdc_child:021",
+  "quote": "Unvaccinated* persons age 5 years or older"
+ },
+ "grade": "special situation (CDC/ACIP schedule; no USPSTF grade)",
+ "effective_date": "2025",
+ "action": "Administer 1 dose of Hib vaccine to unvaccinated persons age 5 years or older with asplenia (including sickle cell disease)",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "age": {
+     "min": 5,
+     "max": 18,
+     "at": "end"
+    },
+    "quote": "Unvaccinated* persons age 5 years or older",
+    "derived": {
+     "max": "document scope is the child and adolescent schedule for ages 18 years or younger; text states no upper age"
+    }
+   },
+   {
+    "condition": {
+     "concept": "asplenia",
+     "onset_by": "{MY}-12-31"
+    },
+    "quote": "Anatomic or functional asplenia (including sickle "
+   }
+  ]
+ },
+ "numerator": {
+  "immunization": {
+   "concept": "hib_vaccine",
+   "min_count": 1,
+   "window": [
+    "{MY-18}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "1 dose",
+  "derived": {
+   "window": "any lifetime dose counts: at age >=5 'unvaccinated' means no doses, so >=1 dose ever satisfies; oldest patient (18) born no earlier than {MY-18}-01-01"
+  }
+ },
+ "exclusions": []
+}

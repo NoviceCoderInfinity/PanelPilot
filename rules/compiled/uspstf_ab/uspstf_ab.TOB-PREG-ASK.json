@@ -1,0 +1,37 @@
+{
+ "id": "uspstf_ab.TOB-PREG-ASK",
+ "version": "January 2021",
+ "title": "Ask all pregnant persons about tobacco use",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:048",
+  "quote": "The USPSTF recommends that clinicians ask all pregnant persons about tobacco use, advise them to stop using tobacco, and provide behavioral interventions for cessation to pregnant persons who use tobacco."
+ },
+ "grade": "A",
+ "effective_date": "2021-01",
+ "action": "Ask all pregnant persons about tobacco use",
+ "compiled_by": "llm",
+ "denominator": {
+  "condition": {
+   "concept": "pregnancy",
+   "onset_by": "{MY}-12-31"
+  },
+  "quote": "all pregnant persons",
+  "note": "intended: pregnant at some point during the measurement year"
+ },
+ "numerator": {
+  "observation": {
+   "concept": "tobacco_use_screening",
+   "window": [
+    "{MY}-01-01",
+    "{MY}-12-31"
+   ],
+   "pick": "any"
+  },
+  "quote": "ask all pregnant persons about tobacco use",
+  "derived": {
+   "window": "text states no interval; measurement year used as a proxy for 'during pregnancy'"
+  }
+ },
+ "exclusions": []
+}

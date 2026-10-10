@@ -1,0 +1,8 @@
+[
+ "New concept 'cvd_behavioral_counseling' (offer of, or referral to, behavioral counseling for healthy diet and physical activity) is not in the concept vocabulary.",
+ "The text does not define which cardiovascular disease risk factors qualify (e.g., hypertension, dyslipidemia, elevated risk score). This criterion is encoded as uncomputable rather than approximated with specific diagnoses.",
+ "'Adults' has no stated age; a minimum age of 18 is derived and declared for human review.",
+ "No counseling interval or frequency is stated; the measurement-year window is derived for review.",
+ "Counseling intensity, format, duration and content are not represented.",
+ "The asterisk after the date ('November 2020 *') refers to an unexplained footnote that is not included in the section."
+]

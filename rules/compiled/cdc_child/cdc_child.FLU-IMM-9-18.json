@@ -1,0 +1,45 @@
+{
+ "id": "cdc_child.FLU-IMM-9-18",
+ "version": "2025",
+ "title": "Annual influenza vaccination, ages 9-18",
+ "source": {
+  "doc_id": "cdc_child",
+  "section_id": "cdc_child:009",
+  "quote": "Age 9 years or older: 1 dose"
+ },
+ "grade": "not graded (CDC/ACIP routine recommendation)",
+ "effective_date": "2025",
+ "action": "Administer one dose of age-appropriate influenza vaccine annually",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "age": {
+     "min": 9,
+     "at": "end"
+    },
+    "quote": "Age 9 years or older: 1 dose"
+   },
+   {
+    "age": {
+     "max": 18,
+     "at": "end"
+    },
+    "quote": "for Ages 18 Years or Younger"
+   }
+  ]
+ },
+ "numerator": {
+  "immunization": {
+   "concept": "influenza_vaccine",
+   "min_count": 1,
+   "window": [
+    "{MY}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "Age 9 years or older: 1 dose",
+  "note": "calendar-year window approximates the influenza season ('annually')"
+ },
+ "exclusions": []
+}

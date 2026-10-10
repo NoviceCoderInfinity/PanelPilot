@@ -1,0 +1,42 @@
+{
+ "id": "cdc_child.MENACWY-ADOL-DOSE1-13",
+ "version": "2025",
+ "title": "MenACWY adolescent dose 1 by age 13 (routine dose at 11-12 years)",
+ "source": {
+  "doc_id": "cdc_child",
+  "section_id": "cdc_child:010",
+  "quote": "2-dose series at age 11–12 years; 16 years"
+ },
+ "grade": "ACIP routine recommendation (no USPSTF grade)",
+ "effective_date": "2025",
+ "action": "Administer MenACWY dose 1 at age 11-12 years; patients aged 13 at year end without an adolescent dose are overdue.",
+ "compiled_by": "llm",
+ "denominator": {
+  "age": {
+   "min": 13,
+   "max": 13,
+   "at": "end"
+  },
+  "quote": "2-dose series at age 11–12 years; 16 years",
+  "derived": {
+   "min": "dose 1 is routinely given at age 11-12, so by age 13 one adolescent dose is expected",
+   "max": "restrict to the single age cohort just past the 11-12 window; older ages are governed by catch-up and dose-2 logic not encoded"
+  }
+ },
+ "numerator": {
+  "immunization": {
+   "concept": "menacwy_vaccine",
+   "min_count": 1,
+   "window": [
+    "{MY-2}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "2-dose series at age 11–12 years",
+  "derived": {
+   "min_count": "dose 1 of the 2-dose series is due at 11-12 years, so at least 1 dose by 13",
+   "window": "a patient aged 13 at end of MY was born in MY-13, so on {MY-2}-01-01 they are at least 10 (MenACWY doses before age 10 do not count toward the adolescent schedule); conservatively misses doses given at age 10 during MY-3"
+  }
+ },
+ "exclusions": []
+}

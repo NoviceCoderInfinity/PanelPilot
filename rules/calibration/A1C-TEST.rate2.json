@@ -1,0 +1,54 @@
+{
+ "id": "A1C-TEST.rate2",
+ "title": "Diabetes: most recent HbA1c < 8.0%",
+ "source": {
+  "doc_id": "assignment",
+  "quote": "second rate: most recent < 8.0%"
+ },
+ "denominator": {
+  "all": [
+   {
+    "age": {
+     "min": 18,
+     "max": 75,
+     "at": "end"
+    },
+    "quote": "Adults 18–75"
+   },
+   {
+    "condition": {
+     "concept": "diabetes",
+     "onset_by": "{MY}-12-31"
+    },
+    "quote": "with a diabetes diagnosis"
+   }
+  ]
+ },
+ "numerator": {
+  "observation": {
+   "concept": "hba1c",
+   "window": [
+    "{MY}-01-01",
+    "{MY}-12-31"
+   ],
+   "pick": "latest",
+   "value": {
+    "op": "<",
+    "threshold": 8.0,
+    "unit": "%"
+   }
+  },
+  "quote": "most recent < 8.0%",
+  "note": "Same denominator as A1C-TEST: untested diabetics do not pass (standard convention)."
+ },
+ "exclusions": [
+  {
+   "deceased": {
+    "before": "{MY}-01-01"
+   },
+   "quote": "deceased-before-2025 excluded everywhere"
+  }
+ ],
+ "action": "Review diabetes control with PCP",
+ "version": "calib-1"
+}

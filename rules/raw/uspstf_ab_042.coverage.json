@@ -1,0 +1,9 @@
+[
+ "New concept 'sti_behavioral_counseling' used for the numerator; no vocabulary concept fits behavioral counseling for STI prevention.",
+ "Denominator is entirely uncomputable: sexual activity status and STI risk are sexual-behavior/exposure-risk information not reliably held in structured EHR data. The existing 'sexually_active' concept was not used per the requirement to treat sexual behavior as uncomputable.",
+ "The text does not define the age range for 'adolescents' vs 'adults'; no age criterion was encoded.",
+ "No counseling interval or frequency is stated; the measurement-year window in the numerator is an assumption flagged as derived.",
+ "Definition of populations at increased risk is deferred to the Practice Considerations section, which is not included in this section text.",
+ "Counseling content, intensity, and duration (behavioral intervention details) are not represented.",
+ "DATE field carries an asterisk ('August 2020 *') whose footnote meaning is not provided in the section text."
+]

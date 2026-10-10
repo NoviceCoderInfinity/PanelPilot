@@ -1,0 +1,37 @@
+{
+ "id": "cdc_child.TDAP-ADOL-13-18",
+ "version": "2025",
+ "title": "Adolescent Tdap booster: 1 dose of Tdap for adolescents aged 13-18 (routine at 11-12, catch-up at 13-18)",
+ "source": {
+  "doc_id": "cdc_child",
+  "section_id": "cdc_child:034",
+  "quote": "Age 11–12 years: 1 dose Tdap (adolescent booster)"
+ },
+ "grade": "ACIP routine recommendation (no USPSTF grade)",
+ "effective_date": "2025",
+ "action": "Administer 1 dose of Tdap (adolescent booster) to adolescents aged 13-18 who have not received Tdap",
+ "compiled_by": "llm",
+ "denominator": {
+  "age": {
+   "min": 13,
+   "max": 18,
+   "at": "end"
+  },
+  "quote": "Age 13–18 years who have not received Tdap"
+ },
+ "numerator": {
+  "immunization": {
+   "concept": "tdap_vaccine",
+   "min_count": 1,
+   "window": [
+    "{MY-18}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "1 dose Tdap (adolescent booster)",
+  "derived": {
+   "window": "The text gives no look-back period. Any prior Tdap counts, so the window covers the lifetime of an 18-year-old (MY-18 through end of MY). This is an approximation: Tdap given at age 7-9 should not count (see coverage_notes), and age at dose is not checked."
+  }
+ },
+ "exclusions": []
+}

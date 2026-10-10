@@ -1,0 +1,40 @@
+{
+ "id": "cdc_child.FLU-ANNUAL-1-8",
+ "version": "2025",
+ "title": "Annual influenza vaccination, children 6 months-8 years (at least 1 dose per year)",
+ "source": {
+  "doc_id": "cdc_child",
+  "section_id": "cdc_child:025",
+  "quote": "Use any influenza vaccine appropriate for age and health \nstatus annually:"
+ },
+ "grade": "ACIP routine recommendation",
+ "effective_date": "2025",
+ "action": "Administer at least one age-appropriate influenza vaccine dose each year. Children with fewer than 2 prior doses need 2 doses, but that part is not encoded.",
+ "compiled_by": "llm",
+ "denominator": {
+  "age": {
+   "min": 1,
+   "max": 8,
+   "at": "end"
+  },
+  "quote": "Age 6 months–8 years",
+  "derived": {
+   "min": "minimum age is 6 months, which cannot be expressed in whole years; age >=1 at year end is used so every included child was eligible during the year (infants 6-11 months are omitted)"
+  }
+ },
+ "numerator": {
+  "immunization": {
+   "concept": "influenza_vaccine",
+   "min_count": 1,
+   "window": [
+    "{MY}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "annually",
+  "derived": {
+   "min_count": "every child in this age band needs at least 1 dose per year (1 or 2 depending on prior history), so 1 is the minimum expected count"
+  }
+ },
+ "exclusions": []
+}

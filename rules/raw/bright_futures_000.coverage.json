@@ -1,0 +1,15 @@
+[
+ "New concept 'visual_acuity_screening' used because the vocabulary's 'vision_screening' does not distinguish a visual acuity screen from instrument-based screening, which this footnote treats separately.",
+ "Vision footnote 7: 'as well as in cooperative 3-year-olds' needs a clinician judgment of cooperation and was not encoded; a separate rule would need {uncomputable: child cooperation}.",
+ "Vision footnote 7: instrument-based screening at 12 and 24 months and at 3 through 5 years is permissive ('may be used'), so no rule was made.",
+ "Periodicity grid: the extracted text loses column alignment. The 'l' and risk-assessment marks for each row (history, measurements, BMI, blood pressure, vision, hearing, maternal depression, developmental, autism, behavioral, tobacco/alcohol/drug, depression/suicide, physical exam, newborn blood/bilirubin/CCHD, immunization, anemia, lead, TB, dyslipidemia, STI, HIV, HBV, HCV, sudden cardiac arrest, cervical dysplasia, oral health, fluoride varnish/supplementation, anticipatory guidance) cannot be mapped reliably to ages, and no verbatim quote would contain the ages. No rules were made from the grid.",
+ "Risk-assessment items (the 'ê' marks: assess risk, act if positive) depend on clinician risk assessment and are uncomputable.",
+ "Hearing footnote 10 (audiometry including 6,000 and 8,000 Hz once between 11 and 14, 15 and 17, and 18 and 21 years) was not encoded. It needs birthdate-relative windows that measurement-year windows cannot express, and the vocabulary has no concept for high-frequency audiometry.",
+ "Hearing footnotes 8 and 9 (confirm newborn screen, verify results, follow up) depend on prior results and follow-up and were not encoded.",
+ "Footnote 1 catch-up logic (bring the schedule up to date at the earliest possible time) was not represented.",
+ "Footnote 2: a prenatal visit for high-risk or first-time parents, or on request, depends on uncomputable parent status and a request. Not encoded.",
+ "Footnotes 3 and 4: newborn evaluation after birth, within 3 to 5 days of birth, within 48 to 72 hours after discharge, and within 48 hours of discharge if discharged under 48 hours. These use birth- and discharge-relative timing that measurement-year windows cannot express, and breastfeeding support is not encodable.",
+ "Footnote 6: blood pressure measurement before age 3 only for infants and children with specific risk conditions. Risk conditions are unspecified, and screening otherwise follows an external guideline. Not encoded.",
+ "Footnotes 5, 11, 12 and 13 (BMI/obesity, maternal depression, developmental and autism screening) only refer to external guidelines and state no ages or intervals in this section. Not encoded.",
+ "Footnotes 14-38 are not in this section and were not represented."
+]

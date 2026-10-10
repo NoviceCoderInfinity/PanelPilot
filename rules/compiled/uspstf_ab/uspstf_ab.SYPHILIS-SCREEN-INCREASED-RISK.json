@@ -1,0 +1,61 @@
+{
+ "id": "uspstf_ab.SYPHILIS-SCREEN-INCREASED-RISK",
+ "version": "September 2022",
+ "title": "Syphilis screening in asymptomatic, nonpregnant adolescents and adults at increased risk",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:046",
+  "quote": "The USPSTF recommends screening for syphilis infection in persons who are at increased risk for infection."
+ },
+ "grade": "A",
+ "effective_date": "September 2022",
+ "action": "Screen for syphilis infection in asymptomatic, nonpregnant adolescents and adults who are at increased risk for syphilis infection.",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "uncomputable": {
+     "needs": "clinician assessment of increased risk for syphilis infection (sexual behavior, HIV status, incarceration history, sex work, other risk factors)"
+    },
+    "quote": "persons who are at increased risk for infection"
+   },
+   {
+    "not": {
+     "condition": {
+      "concept": "pregnancy"
+     },
+     "quote": "nonpregnant"
+    },
+    "quote": "nonpregnant"
+   },
+   {
+    "uncomputable": {
+     "needs": "absence of symptoms of syphilis (symptom status not reliably held in structured data)"
+    },
+    "quote": "asymptomatic"
+   },
+   {
+    "uncomputable": {
+     "needs": "adolescent or adult status; text gives no numeric lower age bound"
+    },
+    "quote": "adolescents and adults"
+   }
+  ],
+  "quote": "asymptomatic, nonpregnant adolescents and adults who are at increased risk for syphilis infection"
+ },
+ "numerator": {
+  "observation": {
+   "concept": "syphilis_test",
+   "window": [
+    "{MY}-01-01",
+    "{MY}-12-31"
+   ],
+   "pick": "any"
+  },
+  "quote": "screening for syphilis infection",
+  "derived": {
+   "window": "section states no screening interval; measurement-year window chosen as a default check period and requires human review"
+  }
+ },
+ "exclusions": []
+}

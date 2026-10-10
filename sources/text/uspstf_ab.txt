@@ -1,0 +1,297 @@
+TOPIC: Abdominal Aortic Aneurysm: Screening: men aged 65 to 75 years who have ever smoked
+DESCRIPTION: The USPSTF recommends 1-time screening for abdominal aortic aneurysm (AAA) with ultrasonography in men aged 65 to 75 years who have ever smoked.
+GRADE: B
+DATE: December 2019 *
+
+TOPIC: Anxiety Disorders in Adults: Screening: adults 64 years or younger, including pregnant and postpartum persons
+DESCRIPTION: The USPSTF recommends screening for anxiety disorders in adults, including pregnant and postpartum persons.
+GRADE: B
+DATE: June 2023
+
+TOPIC: Anxiety in Children and Adolescents: Screening: children and adolescents aged 8 to 18 years
+DESCRIPTION: The USPSTF recommends screening for anxiety in children and adolescents aged 8 to 18 years.
+GRADE: B
+DATE: October 2022
+
+TOPIC: Aspirin Use to Prevent Preeclampsia and Related Morbidity and Mortality: Preventive Medication: pregnant persons at high risk for preeclampsia
+DESCRIPTION: The USPSTF recommends the use of low-dose aspirin (81 mg/day) as preventive medication after 12 weeks of gestation in persons who are at high risk for preeclampsia.
+
+See the Practice Considerations section for information on high risk and aspirin dose.
+GRADE: B
+DATE: September 2021 *
+
+TOPIC: Asymptomatic Bacteriuria in Adults: Screening: pregnant persons
+DESCRIPTION: The USPSTF recommends screening for asymptomatic bacteriuria using urine culture in pregnant persons.
+GRADE: B
+DATE: September 2019 *
+
+TOPIC: BRCA-Related Cancer: Risk Assessment, Genetic Counseling, and Genetic Testing: women with a personal or family history of breast, ovarian, tubal, or peritoneal cancer or an ancestry associated with brca1/2 gene mutation
+DESCRIPTION: The USPSTF recommends that primary care clinicians assess women with a personal or family history of breast, ovarian, tubal, or peritoneal cancer or who have an ancestry associated with breast cancer susceptibility 1 and 2 (BRCA1/2) gene mutations with an appropriate brief familial risk assessment tool. Women with a positive result on the risk assessment tool should receive genetic counseling and, if indicated after counseling, genetic testing.
+GRADE: B
+DATE: August 2019 *
+
+TOPIC: Breast Cancer: Medication Use to Reduce Risk: women at increased risk for breast cancer aged 35 years or older
+DESCRIPTION: The USPSTF recommends that clinicians offer to prescribe risk-reducing medications, such as tamoxifen, raloxifene, or aromatase inhibitors, to women who are at increased risk for breast cancer and at low risk for adverse medication effects.
+GRADE: B
+DATE: September 2019 *
+
+TOPIC: Breast Cancer: Screening: women aged 40 to 74 years
+DESCRIPTION: The USPSTF recommends biennial screening mammography for women aged 40 to 74 years. †
+GRADE: B
+DATE: April 2024 *
+
+TOPIC: Breastfeeding: Primary Care Behavioral Counseling Interventions: pregnant and postpartum women
+DESCRIPTION: The USPSTF recommends providing interventions or referrals, during pregnancy and after birth, to support breastfeeding.
+GRADE: B
+DATE: April 2025 *
+
+TOPIC: Cervical Cancer: Screening: women aged 21 to 65 years
+DESCRIPTION: The USPSTF recommends screening for cervical cancer every 3 years with cervical cytology alone in women aged 21 to 29 years. For women aged 30 to 65 years, the USPSTF recommends screening every 3 years with cervical cytology alone, every 5 years with high-risk human papillomavirus (hrHPV) testing alone, or every 5 years with hrHPV testing in combination with cytology (cotesting).
+
+ 
+
+See the Clinical Considerations section for the relative benefits and harms of alternative screening strategies for women 21 years or older.
+GRADE: A
+DATE: August 2018 *
+
+TOPIC: Chlamydia and Gonorrhea: Screening: sexually active women, including pregnant persons
+DESCRIPTION: The USPSTF recommends screening for gonorrhea in all sexually active women 24 years or younger and in women 25 years or older who are at increased risk for infection.
+GRADE: B
+DATE: September 2021 *
+
+TOPIC: Chlamydia and Gonorrhea: Screening: sexually active women, including pregnant persons
+DESCRIPTION: The USPSTF recommends screening for chlamydia in all sexually active women 24 years or younger and in women 25 years or older who are at increased risk for infection.
+GRADE: B
+DATE: September 2021 *
+
+TOPIC: Colorectal Cancer: Screening: adults aged 45 to 49 years
+DESCRIPTION: The USPSTF recommends screening for colorectal cancer in adults aged 45 to 49 years. 
+
+See the "Practice Considerations" section and Table 1 for details about screening strategies.
+GRADE: B
+DATE: May 2021 *
+
+TOPIC: Colorectal Cancer: Screening: adults aged 50 to 75 years
+DESCRIPTION: The USPSTF recommends screening for colorectal cancer in all adults aged 50 to 75 years. 
+
+See the "Practice Considerations" section and Table 1 for details about screening strategies.
+GRADE: A
+DATE: May 2021 *
+
+TOPIC: Depression and Suicide Risk in Adults: Screening: adults, including pregnant and postpartum persons, and older adults (65 years or older)
+DESCRIPTION: The USPSTF recommends screening for depression in the adult population, including pregnant and postpartum persons, as well as older adults.
+GRADE: B
+DATE: June 2023 *
+
+TOPIC: Depression and Suicide Risk in Children and Adolescents: Screening: adolescents aged 12 to 18 years
+DESCRIPTION: The USPSTF recommends screening for major depressive disorder (MDD) in adolescents aged 12 to 18 years.
+GRADE: B
+DATE: October 2022 *
+
+TOPIC: Falls Prevention in Community-Dwelling Older Adults: Interventions: community-dwelling adults 65 years or older
+DESCRIPTION: The USPSTF recommends exercise interventions to prevent falls in community-dwelling adults 65 years or older who are at increased risk for falls.
+GRADE: B
+DATE: June 2024
+
+TOPIC: Folic Acid Supplementation to Prevent Neural Tube Defects: Preventive Medication: persons who plan to or could become pregnant
+DESCRIPTION: The USPSTF recommends that all persons planning to or who could become pregnant take a daily supplement containing 0.4 to 0.8 mg (400 to 800 mcg) of folic acid.
+GRADE: A
+DATE: August 2023 *
+
+TOPIC: Gestational Diabetes: Screening: asymptomatic pregnant persons at 24 weeks of gestation or after
+DESCRIPTION: The USPSTF recommends screening for gestational diabetes in asymptomatic pregnant persons at 24 weeks of gestation or after.
+GRADE: B
+DATE: August 2021 *
+
+TOPIC: Healthy Diet and Physical Activity for Cardiovascular Disease Prevention in Adults With Cardiovascular Risk Factors: Behavioral Counseling Interventions: adults with cardiovascular disease risk factors
+DESCRIPTION: The USPSTF recommends offering or referring adults with cardiovascular disease risk factors to behavioral counseling interventions to promote a healthy diet and physical activity.
+GRADE: B
+DATE: November 2020 *
+
+TOPIC: Healthy Weight and Weight Gain In Pregnancy: Behavioral Counseling Interventions: pregnant persons
+DESCRIPTION: The USPSTF recommends that clinicians offer pregnant persons effective behavioral counseling interventions aimed at promoting healthy weight gain and preventing excess gestational weight gain in pregnancy.
+GRADE: B
+DATE: May 2021
+
+TOPIC: Hepatitis B Virus Infection in Adolescents and Adults: Screening: adolescents and adults at increased risk for infection
+DESCRIPTION: The USPSTF recommends screening for hepatitis B virus (HBV) infection in adolescents and adults at increased risk for infection.
+
+See the Practice Considerations section for a description of adolescents and adults at increased risk for infection.
+GRADE: B
+DATE: December 2020 *
+
+TOPIC: Hepatitis B Virus Infection in Pregnant Women: Screening: pregnant women
+DESCRIPTION: The USPSTF recommends screening for hepatitis B virus (HBV) infection in pregnant women at their first prenatal visit
+GRADE: A
+DATE: July 2019 *
+
+TOPIC: Hepatitis C Virus Infection in Adolescents and Adults: Screening: adults aged 18 to 79 years
+DESCRIPTION: The USPSTF recommends screening for hepatitis C virus (HCV) infection in adults aged 18 to 79 years.
+GRADE: B
+DATE: March 2020 *
+
+TOPIC: High Body Mass Index in Children and Adolescents: Interventions: children and adolescents 6 years or older
+DESCRIPTION: The USPSTF recommends that clinicians provide or refer children and adolescents 6 years or older with a high body mass index (BMI) (≥95th percentile for age and sex) to comprehensive, intensive behavioral interventions. 
+
+See the Practice Considerations section for more information about behavioral interventions.
+GRADE: B
+DATE: June 2024 *
+
+TOPIC: Human Immunodeficiency Virus (HIV) Infection: Screening: adolescents and adults aged 15 to 65 years
+DESCRIPTION: The USPSTF recommends that clinicians screen for HIV infection in adolescents and adults aged 15 to 65 years. Younger adolescents and older adults who are at increased risk of infection should also be screened.
+See the Clinical Considerations section for more information about assessment of risk, screening intervals, and rescreening in pregnancy.
+GRADE: A
+DATE: June 2019 *
+
+TOPIC: Human Immunodeficiency Virus (HIV) Infection: Screening: pregnant persons
+DESCRIPTION: The USPSTF recommends that clinicians screen for HIV infection in all pregnant persons, including those who present in labor or at delivery whose HIV status is unknown.
+GRADE: A
+DATE: June 2019 *
+
+TOPIC: Hypertension in Adults: Screening: adults 18 years or older without known hypertension
+DESCRIPTION: The USPSTF recommends screening for hypertension in adults 18 years or older with office blood pressure measurement (OBPM). The USPSTF recommends obtaining blood pressure measurements outside of the clinical setting for diagnostic confirmation before starting treatment.
+GRADE: A
+DATE: April 2021 *
+
+TOPIC: Hypertensive Disorders of Pregnancy: Screening: asymptomatic pregnant persons
+DESCRIPTION: The USPSTF recommends screening for hypertensive disorders in pregnant persons with blood pressure measurements throughout pregnancy.
+GRADE: B
+DATE: September 2023 *
+
+TOPIC: Intimate Partner Violence and Caregiver Abuse of Older or Vulnerable Adults: Screening: women of reproductive age, including pregnant and postpartum women
+DESCRIPTION: The USPSTF recommends that clinicians screen for intimate partner violence (IPV) in women of reproductive age, including those who are pregnant and postpartum. 
+
+See the "Practice Considerations" section for information on evidence-based multicomponent interventions and for information on IPV in men.
+GRADE: B
+DATE: June 2025 *
+
+TOPIC: Latent Tuberculosis Infection in Adults: Screening: asymptomatic adults at increased risk of latent tuberculosis infection (ltbi)
+DESCRIPTION: The USPSTF recommends screening for LTBI in populations at increased risk.
+
+See the "Assessment of Risk" section for additional information on adults at increased risk.
+GRADE: B
+DATE: May 2023 *
+
+TOPIC: Lung Cancer: Screening: adults aged 50 to 80 years who have a 20 pack-year smoking history and currently smoke or have quit within the past 15 years
+DESCRIPTION: The USPSTF recommends annual screening for lung cancer with low-dose computed tomography (LDCT) in adults aged 50 to 80 years who have a 20 pack-year smoking history and currently smoke or have quit within the past 15 years. Screening should be discontinued once a person has not smoked for 15 years or develops a health problem that substantially limits life expectancy or the ability or willingness to have curative lung surgery.
+GRADE: B
+DATE: March 2021 *
+
+TOPIC: Ocular Prophylaxis for Gonococcal Ophthalmia Neonatorum: Preventive Medication: newborns
+DESCRIPTION: The USPSTF recommends prophylactic ocular topical medication for all newborns to prevent gonococcal ophthalmia neonatorum.
+GRADE: A
+DATE: January 2019 *
+
+TOPIC: Osteoporosis to Prevent Fractures: Screening: postmenopausal women younger than 65 years with 1 or more risk factors for osteoporosis
+DESCRIPTION: The USPSTF recommends screening for osteoporosis to prevent osteoporotic fractures in postmenopausal women younger than 65 years who are at increased risk for an osteoporotic fracture as estimated by clinical risk assessment.
+
+See the "Practice Considerations" section for more information on risk assessment and screening tests.
+GRADE: B
+DATE: January 2025 *
+
+TOPIC: Osteoporosis to Prevent Fractures: Screening: women 65 years or older
+DESCRIPTION: The USPSTF recommends screening for osteoporosis to prevent osteoporotic fractures in women 65 years or older.
+
+See the "Practice Considerations" section for more information on screening tests.
+GRADE: B
+DATE: January 2025 *
+
+TOPIC: Perinatal Depression: Preventive Interventions: pregnant and postpartum persons
+DESCRIPTION: The USPSTF recommends that clinicians provide or refer pregnant and postpartum persons who are at increased risk of perinatal depression to counseling interventions.
+GRADE: B
+DATE: February 2019
+
+TOPIC: Prediabetes and Type 2 Diabetes: Screening: asymptomatic adults aged 35 to 70 years who have overweight or obesity
+DESCRIPTION: The USPSTF recommends screening for prediabetes and type 2 diabetes in adults aged 35 to 70 years who have overweight or obesity. Clinicians should offer or refer patients with prediabetes to effective preventive interventions.
+GRADE: B
+DATE: August 2021 *
+
+TOPIC: Prevention of Acquisition of HIV: Preexposure Prophylaxis: adolescents and adults at increased risk of hiv
+DESCRIPTION: The USPSTF recommends that clinicians prescribe preexposure prophylaxis using effective antiretroviral therapy to persons who are at increased risk of HIV acquisition to decrease the risk of acquiring HIV. 
+
+See the Practice Considerations section for more information about identification of persons at increased risk and about effective antiretroviral therapy.
+GRADE: A
+DATE: August 2023 *
+
+TOPIC: Prevention of Dental Caries in Children Younger Than 5 Years: Screening and Interventions: children younger than 5 years
+DESCRIPTION: The USPSTF recommends that primary care clinicians apply fluoride varnish to the primary teeth of all infants and children starting at the age of primary tooth eruption.
+GRADE: B
+DATE: December 2021 *
+
+TOPIC: Prevention of Dental Caries in Children Younger Than 5 Years: Screening and Interventions: children younger than 5 years
+DESCRIPTION: The USPSTF recommends that primary care clinicians prescribe oral fluoride supplementation starting at age 6 months for children whose water supply is deficient in fluoride.
+GRADE: B
+DATE: December 2021 *
+
+TOPIC: Rh(D) Incompatibility: Screening: pregnant women, during the first pregnancy-related care visit
+DESCRIPTION: The USPSTF strongly recommends Rh(D) blood typing and antibody testing for all pregnant women during their first visit for pregnancy-related care.
+GRADE: A
+DATE: February 2004 *
+
+TOPIC: Rh(D) Incompatibility: Screening: unsensitized rh(d)-negative pregnant women
+DESCRIPTION: The USPSTF recommends repeated Rh(D) antibody testing for all unsensitized Rh(D)-negative women at 24 to 28 weeks' gestation, unless the biological father is known to be Rh(D)-negative.
+GRADE: B
+DATE: February 2004 *
+
+TOPIC: Sexually Transmitted Infections: Behavioral Counseling: sexually active adolescents and adults at increased risk
+DESCRIPTION: The USPSTF recommends behavioral counseling for all sexually active adolescents and for adults who are at increased risk for sexually transmitted infections (STIs).
+
+See the Practice Considerations section for more information on populations at increased risk for acquiring STIs.
+GRADE: B
+DATE: August 2020 *
+
+TOPIC: Skin Cancer Prevention: Behavioral Counseling: young adults, adolescents, children, and parents of young children
+DESCRIPTION: The USPSTF recommends counseling young adults, adolescents, children, and parents of young children about minimizing exposure to ultraviolet (UV) radiation for persons aged 6 months to 24 years with fair skin types to reduce their risk of skin cancer.
+GRADE: B
+DATE: March 2018 *
+
+TOPIC: Statin Use for the Primary Prevention of Cardiovascular Disease in Adults: Preventive Medication: adults aged 40 to 75 years who have 1 or more cardiovascular risk factors and an estimated 10-year cardiovascular disease (cvd) risk of 10% or greater
+DESCRIPTION: The USPSTF recommends that clinicians prescribe a statin for the primary prevention of CVD for adults aged 40 to 75 years who have 1 or more CVD risk factors (i.e. dyslipidemia, diabetes, hypertension, or smoking) and an estimated 10-year risk of a cardiovascular event of 10% or greater.
+GRADE: B
+DATE: August 2022 *
+
+TOPIC: Syphilis Infection During Pregnancy: Screening: asymptomatic pregnant women
+DESCRIPTION: The USPSTF recommends early, universal screening for syphilis infection during pregnancy; if an individual is not screened early in pregnancy, the USPSTF recommends screening at the first available opportunity.
+GRADE: A
+DATE: May 2025 *
+
+TOPIC: Syphilis Infection in Nonpregnant Adolescents and Adults: Screening: asymptomatic, nonpregnant adolescents and adults who are at increased risk for syphilis infection
+DESCRIPTION: The USPSTF recommends screening for syphilis infection in persons who are at increased risk for infection.
+GRADE: A
+DATE: September 2022 *
+
+TOPIC: Tobacco Smoking Cessation in Adults, Including Pregnant Persons: Interventions: nonpregnant adults
+DESCRIPTION: The USPSTF recommends that clinicians ask all adults about tobacco use, advise them to stop using tobacco, and provide behavioral interventions and US Food and Drug Administration (FDA)--approved pharmacotherapy for cessation to nonpregnant adults who use tobacco.
+GRADE: A
+DATE: January 2021 *
+
+TOPIC: Tobacco Smoking Cessation in Adults, Including Pregnant Persons: Interventions: pregnant persons
+DESCRIPTION: The USPSTF recommends that clinicians ask all pregnant persons about tobacco use, advise them to stop using tobacco, and provide behavioral interventions for cessation to pregnant persons who use tobacco.
+GRADE: A
+DATE: January 2021 *
+
+TOPIC: Tobacco Use in Children and Adolescents: Primary Care Interventions: school-aged children and adolescents who have not started to use tobacco
+DESCRIPTION: The USPSTF recommends that primary care clinicians provide interventions, including education or brief counseling, to prevent initiation of tobacco use among school-aged children and adolescents.
+GRADE: B
+DATE: April 2020 *
+
+TOPIC: Unhealthy Alcohol Use in Adolescents and Adults: Screening and Behavioral Counseling Interventions: adults 18 years or older, including pregnant women
+DESCRIPTION: The USPSTF recommends screening for unhealthy alcohol use in primary care settings in adults 18 years or older, including pregnant women, and providing persons engaged in risky or hazardous drinking with brief behavioral counseling interventions to reduce unhealthy alcohol use.
+GRADE: B
+DATE: November 2018 *
+
+TOPIC: Unhealthy Drug Use: Screening: adults age 18 years or older
+DESCRIPTION: The USPSTF recommends screening by asking questions about unhealthy drug use in adults age 18 years or older. Screening should be implemented when services for accurate diagnosis, effective treatment, and appropriate care can be offered or referred. 
+(Screening refers to asking questions about unhealthy drug use, not testing biological specimens.)
+GRADE: B
+DATE: June 2020
+
+TOPIC: Vision in Children Ages 6 Months to 5 Years: Screening: children aged 3 to 5 years
+DESCRIPTION: The USPSTF recommends vision screening at least once in all children aged 3 to 5 years to detect amblyopia or its risk factors.
+GRADE: B
+DATE: September 2017 *
+
+TOPIC: Weight Loss to Prevent Obesity-Related Morbidity and Mortality in Adults: Behavioral Interventions: adults
+DESCRIPTION: The USPSTF recommends that clinicians offer or refer adults with a body mass index (BMI) of 30 or higher (calculated as weight in kilograms divided by height in meters squared) to intensive, multicomponent behavioral interventions.
+GRADE: B
+DATE: September 2018 *

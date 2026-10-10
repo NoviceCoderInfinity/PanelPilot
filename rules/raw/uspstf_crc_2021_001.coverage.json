@@ -1,0 +1,12 @@
+[
+ "The section text gives no effective date. Version and effective_date were set to '2021' from the document id (uspstf_crc_2021); a human should confirm the exact publication date.",
+ "The section states no exclusions, so exclusions is empty. Common measure exclusions (history of colorectal cancer, total colectomy, hospice, deceased) are not in the text and were not added.",
+ "Footnotes a, b and c (on 'Screening method', 'Frequency' and the sDNA-FIT interval) are referenced but their text is not provided, so any conditions in them are not represented.",
+ "The sDNA-FIT interval is stated as 'Every 1 to 3 c y'. The 3-year upper bound was used (window MY-2..MY) and marked as derived. The table also says modeling suggests 3-year screening is not a favorable balance compared with sDNA-FIT every 1 or 2 y. This is a judgment a human reviewer should resolve.",
+ "The table says high-sensitivity gFOBT (eg, Hemoccult SENSA) is required and outperforms older tests (eg, Hemoccult II). The fobt concept cannot tell high-sensitivity gFOBT from older guaiac tests, so older-test results may be counted incorrectly.",
+ "The FIT threshold detail (20 μg hemoglobin per gram of feces, used in CISNET modeling) is not represented.",
+ "Not represented: follow-up colonoscopy after abnormal stool, CT colonography or sigmoidoscopy results; adherence over multiple rounds of testing; dietary restrictions and three stool samples for gFOBT; bowel preparation and anesthesia requirements; and evaluation of extracolonic findings on CT colonography.",
+ "Not represented: product and test choice considerations, including declining availability of flexible sigmoidoscopy and age-related colonoscopy harms. The 'Practice Considerations' section is referenced but not included.",
+ "The flexible sigmoidoscopy every 10 y plus annual FIT strategy is encoded as its own branch. Its annual FIT component already satisfies the standalone annual stool-test branch, so the branch is logically redundant but kept for fidelity to the table.",
+ "Stool-based tests (fobt, fit_dna) are encoded as observations with pick 'any' and no value threshold. Only completion of the test is checked, not the result."
+]

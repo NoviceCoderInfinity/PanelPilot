@@ -1,0 +1,265 @@
+{
+ "gold_rules": 19,
+ "compiled_rules": 100,
+ "rejected_candidates": 2,
+ "docs": {
+  "bright_futures": {
+   "gold": 3,
+   "compiled": 1,
+   "matches": [],
+   "unmatched_gold": [
+    "bright_futures.HCV-SCREEN-18-79",
+    "bright_futures.HEARING-AUDIOMETRY-18-21",
+    "bright_futures.HIV-SCREEN-15-21"
+   ],
+   "recall": 0.0,
+   "precision_in_gold_sections": 0.0
+  },
+  "cdc_child": {
+   "gold": 6,
+   "compiled": 36,
+   "matches": [
+    {
+     "gold": "cdc_child.TDAP-ADOLESCENT",
+     "compiled": "cdc_child.TDAP-ADOL-13-18",
+     "pair_score": 1.0,
+     "exact_signature_recall": 0.5,
+     "fields": {
+      "type": 1.0,
+      "concept": 1.0,
+      "ages": 1.0,
+      "window": 0.0,
+      "count_threshold": 1.0
+     }
+    },
+    {
+     "gold": "cdc_child.MMR-2DOSE",
+     "compiled": "cdc_child.MMR-CHILD-2DOSE",
+     "pair_score": 0.67,
+     "exact_signature_recall": 0.5,
+     "fields": {
+      "type": 1.0,
+      "concept": 1.0,
+      "ages": 1.0,
+      "window": 0.0,
+      "count_threshold": 1.0
+     }
+    },
+    {
+     "gold": "cdc_child.MENACWY-HIGH-RISK",
+     "compiled": "cdc_child.MENACWY-HIGHRISK-2DOSE",
+     "pair_score": 0.67,
+     "exact_signature_recall": 0.6,
+     "fields": {
+      "type": 1.0,
+      "concept": 1.0,
+      "ages": 0.0,
+      "window": 0.0,
+      "count_threshold": 1.0
+     }
+    },
+    {
+     "gold": "cdc_child.MENACWY-ROUTINE",
+     "compiled": "cdc_child.MENACWY-ROUTINE-DOSE1-BY-13",
+     "pair_score": 0.33,
+     "exact_signature_recall": 0.0,
+     "fields": {
+      "type": 1.0,
+      "concept": 1.0,
+      "ages": 0.0,
+      "window": 0.0,
+      "count_threshold": 0.5
+     }
+    },
+    {
+     "gold": "cdc_child.HPV-ROUTINE",
+     "compiled": "cdc_child.HPV-CHILD-2DOSE-BY-14",
+     "pair_score": 0.33,
+     "exact_signature_recall": 0.0,
+     "fields": {
+      "type": 1.0,
+      "concept": 1.0,
+      "ages": 0.0,
+      "window": 0.0,
+      "count_threshold": 1.0
+     }
+    }
+   ],
+   "unmatched_gold": [
+    "cdc_child.HPV-IMMUNOCOMPROMISED"
+   ],
+   "recall": 0.833,
+   "precision_in_gold_sections": 0.8
+  },
+  "uspstf_ab": {
+   "gold": 7,
+   "compiled": 60,
+   "matches": [
+    {
+     "gold": "uspstf_ab.CERVICAL-SCREEN-21-29",
+     "compiled": "uspstf_ab.CERV-SCREEN-21-29",
+     "pair_score": 1.0,
+     "exact_signature_recall": 1.0,
+     "fields": {
+      "type": 1.0,
+      "concept": 1.0,
+      "ages": 1.0,
+      "sex": 1.0,
+      "window": 1.0,
+      "count_threshold": 1.0
+     }
+    },
+    {
+     "gold": "uspstf_ab.BREAST-SCREEN-40-74",
+     "compiled": "uspstf_ab.BCS-SCREEN-40-74",
+     "pair_score": 1.0,
+     "exact_signature_recall": 1.0,
+     "fields": {
+      "type": 1.0,
+      "concept": 1.0,
+      "ages": 1.0,
+      "sex": 1.0,
+      "window": 1.0,
+      "count_threshold": 1.0
+     }
+    },
+    {
+     "gold": "uspstf_ab.CHLAMYDIA-SCREEN-F-LE24",
+     "compiled": "uspstf_ab.CHLAMYDIA-SCREEN-F-LE24",
+     "pair_score": 0.6,
+     "exact_signature_recall": 0.75,
+     "fields": {
+      "type": 0.75,
+      "ages": 1.0,
+      "sex": 1.0,
+      "count_threshold": 1.0
+     }
+    },
+    {
+     "gold": "uspstf_ab.AAA-SCREEN-MEN-SMOKERS",
+     "compiled": "uspstf_ab.AAA-SCREEN-M-65-75-SMOKER",
+     "pair_score": 0.6,
+     "exact_signature_recall": 0.5,
+     "fields": {
+      "type": 0.75,
+      "concept": 1.0,
+      "ages": 1.0,
+      "sex": 1.0,
+      "window": 0.0,
+      "count_threshold": 1.0
+     }
+    },
+    {
+     "gold": "uspstf_ab.HCV-SCREEN-18-79",
+     "compiled": "uspstf_ab.HCV-SCREEN-18-79",
+     "pair_score": 0.33,
+     "exact_signature_recall": 0.5,
+     "fields": {
+      "type": 0.5,
+      "concept": 1.0,
+      "ages": 1.0,
+      "window": 0.0,
+      "count_threshold": 1.0
+     }
+    },
+    {
+     "gold": "uspstf_ab.SYPHILIS-SCREEN-RISK",
+     "compiled": "uspstf_ab.SYPHILIS-SCREEN-INCREASED-RISK",
+     "pair_score": 0.3,
+     "exact_signature_recall": 0.5,
+     "fields": {
+      "type": 1.0,
+      "count_threshold": 1.0
+     }
+    },
+    {
+     "gold": "uspstf_ab.LUNG-LDCT-50-80",
+     "compiled": "uspstf_ab.LUNG-SCREEN-LDCT-50-80",
+     "pair_score": 0.3,
+     "exact_signature_recall": 1.0,
+     "fields": {
+      "type": 0.75,
+      "concept": 1.0,
+      "ages": 1.0,
+      "window": 1.0,
+      "count_threshold": 1.0
+     }
+    }
+   ],
+   "unmatched_gold": [],
+   "recall": 1.0,
+   "precision_in_gold_sections": 0.778
+  },
+  "uspstf_crc_2016": {
+   "gold": 1,
+   "compiled": 1,
+   "matches": [
+    {
+     "gold": "uspstf_crc_2016.CRC-SCREEN-50-75",
+     "compiled": "uspstf_crc_2016.CRC-SCREEN-50-75",
+     "pair_score": 0.83,
+     "exact_signature_recall": 1.0,
+     "fields": {
+      "type": 1.0,
+      "concept": 1.0,
+      "ages": 1.0,
+      "window": 1.0,
+      "count_threshold": 1.0
+     }
+    }
+   ],
+   "unmatched_gold": [],
+   "recall": 1.0,
+   "precision_in_gold_sections": 1.0
+  },
+  "uspstf_crc_2021": {
+   "gold": 2,
+   "compiled": 2,
+   "matches": [
+    {
+     "gold": "uspstf_crc_2021.CRC-SCREEN-50-75",
+     "compiled": "uspstf_crc_2021.CRC-SCREEN-50-75",
+     "pair_score": 0.83,
+     "exact_signature_recall": 1.0,
+     "fields": {
+      "type": 1.0,
+      "concept": 1.0,
+      "ages": 1.0,
+      "window": 1.0,
+      "count_threshold": 1.0
+     }
+    },
+    {
+     "gold": "uspstf_crc_2021.CRC-SCREEN-45-49",
+     "compiled": "uspstf_crc_2021.CRC-SCREEN-45-49",
+     "pair_score": 0.57,
+     "exact_signature_recall": 0.8,
+     "fields": {
+      "type": 1.0,
+      "concept": 1.0,
+      "ages": 1.0,
+      "window": 1.0,
+      "count_threshold": 1.0
+     }
+    }
+   ],
+   "unmatched_gold": [],
+   "recall": 1.0,
+   "precision_in_gold_sections": 1.0
+  }
+ },
+ "overall_recall_extracted_docs": 0.789,
+ "criterion_agreement": {
+  "type": 0.917,
+  "concept": 1.0,
+  "ages": 0.786,
+  "window": 0.462,
+  "count_threshold": 0.967,
+  "exact_signature": 0.643,
+  "sex": 1.0
+ },
+ "rejections_by_reason": {
+  "other: bright_futures.HIV-SCREEN-ADOL-15-21: numerator: unknown cri": 1,
+  "number not in its quote": 1
+ }
+}

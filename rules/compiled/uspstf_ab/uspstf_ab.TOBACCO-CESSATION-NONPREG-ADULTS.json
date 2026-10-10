@@ -1,0 +1,92 @@
+{
+ "id": "uspstf_ab.TOBACCO-CESSATION-NONPREG-ADULTS",
+ "version": "January 2021",
+ "title": "Tobacco cessation advice, behavioral intervention and pharmacotherapy for nonpregnant adults who use tobacco",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:047",
+  "quote": "The USPSTF recommends that clinicians ask all adults about tobacco use, advise them to stop using tobacco, and provide behavioral interventions and US Food and Drug Administration (FDA)--approved pharmacotherapy for cessation to nonpregnant adults who use tobacco."
+ },
+ "grade": "A",
+ "effective_date": "2021-01",
+ "action": "Advise nonpregnant adults who use tobacco to stop, and provide behavioral interventions and FDA-approved cessation pharmacotherapy.",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "age": {
+     "min": 18,
+     "at": "end"
+    },
+    "quote": "nonpregnant adults",
+    "derived": {
+     "min": "text says 'adults' without an age; adult assumed to mean age 18 or older"
+    }
+   },
+   {
+    "not": {
+     "condition": {
+      "concept": "pregnancy",
+      "onset_by": "{MY}-12-31"
+     },
+     "quote": "nonpregnant"
+    },
+    "quote": "nonpregnant"
+   },
+   {
+    "condition": {
+     "concept": "tobacco_use",
+     "onset_by": "{MY}-12-31"
+    },
+    "quote": "adults who use tobacco"
+   }
+  ],
+  "quote": "nonpregnant adults who use tobacco"
+ },
+ "numerator": {
+  "all": [
+   {
+    "procedure": {
+     "concept": "tobacco_cessation_advice",
+     "window": [
+      "{MY}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "advise them to stop using tobacco",
+    "derived": {
+     "window": "text gives no interval; delivery within the measurement year is assumed"
+    }
+   },
+   {
+    "procedure": {
+     "concept": "tobacco_cessation_behavioral_intervention",
+     "window": [
+      "{MY}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "provide behavioral interventions",
+    "derived": {
+     "window": "text gives no interval; delivery within the measurement year is assumed"
+    }
+   },
+   {
+    "procedure": {
+     "concept": "tobacco_cessation_pharmacotherapy",
+     "window": [
+      "{MY}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "US Food and Drug Administration (FDA)--approved pharmacotherapy for cessation",
+    "note": "medication offer/prescription; grammar has no medication type so encoded as procedure",
+    "derived": {
+     "window": "text gives no interval; provision within the measurement year is assumed"
+    }
+   }
+  ],
+  "quote": "advise them to stop using tobacco, and provide behavioral interventions"
+ },
+ "exclusions": []
+}

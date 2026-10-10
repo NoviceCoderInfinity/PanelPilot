@@ -1,0 +1,8 @@
+[
+ "New concept 'bmi_percentile' (BMI percentile for age and sex) was used. The vocabulary concept 'bmi' is raw BMI, and 'obesity' includes overweight (the 85th percentile), so neither matches the ≥95th percentile threshold.",
+ "New concept 'intensive_behavioral_weight_intervention' (provision of or referral to a comprehensive, intensive behavioral intervention) was used. EHR data may not reliably show whether an intervention meets 'comprehensive, intensive' criteria such as contact hours; that requires human mapping.",
+ "No upper age limit is stated ('children and adolescents'), so none was encoded. A reviewer may want to cap the age at the end of adolescence.",
+ "The text gives no lookback window for the BMI measurement and no timeframe for the intervention or referral. Measurement-year windows were assumed and declared as derived.",
+ "The Practice Considerations section on behavioral interventions (content, intensity, contact hours) is referenced but not included, and was not represented.",
+ "The asterisk on the date ('June 2024 *') refers to a note not included in the section text."
+]

@@ -1,0 +1,55 @@
+{
+ "id": "uspstf_ab.AAA-SCREEN-M-65-75-SMOKER",
+ "version": "December 2019",
+ "title": "Abdominal Aortic Aneurysm: Screening: men aged 65 to 75 years who have ever smoked",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:000",
+  "quote": "The USPSTF recommends 1-time screening for abdominal aortic aneurysm (AAA) with ultrasonography in men aged 65 to 75 years who have ever smoked."
+ },
+ "grade": "B",
+ "effective_date": "December 2019",
+ "action": "One-time abdominal aortic aneurysm screening with ultrasonography",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "age": {
+     "min": 65,
+     "max": 75,
+     "at": "end"
+    },
+    "quote": "men aged 65 to 75 years"
+   },
+   {
+    "sex": {
+     "is": "M"
+    },
+    "quote": "men"
+   },
+   {
+    "condition": {
+     "concept": "ever_smoker",
+     "onset_by": "{MY}-12-31"
+    },
+    "quote": "who have ever smoked",
+    "note": "Relies on structured smoking-history (ever smoker) data being recorded"
+   }
+  ],
+  "quote": "men aged 65 to 75 years who have ever smoked"
+ },
+ "numerator": {
+  "procedure": {
+   "concept": "aaa_ultrasound",
+   "window": [
+    "{MY-10}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "1-time screening for abdominal aortic aneurysm (AAA) with ultrasonography",
+  "derived": {
+   "window": "1-time screening means any screening since the patient became eligible at 65; the oldest eligible patient (75 at end of MY) turned 65 during MY-10, so a window starting {MY-10}-01-01 captures any screening done since age 65"
+  }
+ },
+ "exclusions": []
+}

@@ -1,0 +1,41 @@
+{
+ "id": "cdc_child.PCV-ROUTINE-4DOSE-AGE2",
+ "version": "unstated",
+ "title": "Routine 4-dose PCV series completed by age 2 years",
+ "source": {
+  "doc_id": "cdc_child",
+  "section_id": "cdc_child:030",
+  "quote": "4-dose series at 2, 4, 6, 12–15 months"
+ },
+ "grade": "ACIP routine recommendation (no letter grade)",
+ "effective_date": "unstated",
+ "action": "Administer the routine 4-dose PCV series at 2, 4, 6 and 12-15 months of age",
+ "compiled_by": "llm",
+ "denominator": {
+  "age": {
+   "min": 2,
+   "max": 2,
+   "at": "end"
+  },
+  "quote": "4-dose series at 2, 4, 6, 12–15 months",
+  "derived": {
+   "min": "last dose due by 15 months, so children who are 2 years old at the end of the measurement year should have completed the series",
+   "max": "restrict to the single birth cohort turning 2 so each child is assessed once, after the series is due"
+  }
+ },
+ "numerator": {
+  "immunization": {
+   "concept": "pcv_vaccine",
+   "min_count": 4,
+   "window": [
+    "{MY-2}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "4-dose series at 2, 4, 6, 12–15 months",
+  "derived": {
+   "window": "a child aged 2 at end of MY was born no earlier than {MY-2}-01-01, so this window covers all doses from birth; it may also count doses given after the 2nd birthday but before Dec 31"
+  }
+ },
+ "exclusions": []
+}

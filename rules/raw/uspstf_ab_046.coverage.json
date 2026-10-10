@@ -1,0 +1,9 @@
+[
+ "The section states no screening interval; the measurement-year numerator window is an assumption, declared as derived and requiring human review.",
+ "'Increased risk for syphilis infection' is not defined in this section; risk factors (e.g., sexual behavior, HIV status, incarceration, sex work) are encoded as uncomputable.",
+ "'Asymptomatic' is encoded as uncomputable because symptom status is not reliably held in structured EHR data.",
+ "'Adolescents and adults' has no numeric age bound in the text, so no computable age criterion was added; it is encoded as uncomputable.",
+ "The DATE field carries an asterisk ('September 2022 *') whose footnote is not included in this section and could not be represented.",
+ "Pregnant persons are excluded from this population via the 'nonpregnant' qualifier; syphilis screening in pregnancy is a separate recommendation not covered here.",
+ "Screening test choice (treponemal/nontreponemal sequence) and confirmatory testing are not specified in the section and are not represented."
+]

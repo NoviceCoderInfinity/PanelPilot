@@ -1,0 +1,27 @@
+{
+ "id": "uspstf_ab.HIV-PREP-INCREASED-RISK",
+ "version": "August 2023",
+ "title": "Prevention of Acquisition of HIV: Preexposure Prophylaxis for adolescents and adults at increased risk of HIV",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:037",
+  "quote": "The USPSTF recommends that clinicians prescribe preexposure prophylaxis using effective antiretroviral therapy to persons who are at increased risk of HIV acquisition to decrease the risk of acquiring HIV."
+ },
+ "grade": "A",
+ "effective_date": "August 2023",
+ "action": "Prescribe preexposure prophylaxis (PrEP) using effective antiretroviral therapy",
+ "compiled_by": "llm",
+ "denominator": {
+  "uncomputable": {
+   "needs": "HIV acquisition risk assessment (sexual behavior, injection drug use, partner HIV status, clinician judgment)"
+  },
+  "quote": "persons who are at increased risk of HIV acquisition"
+ },
+ "numerator": {
+  "uncomputable": {
+   "needs": "record of PrEP prescription with effective antiretroviral therapy (grammar has no medication/prescription criterion type)"
+  },
+  "quote": "prescribe preexposure prophylaxis using effective antiretroviral therapy"
+ },
+ "exclusions": []
+}

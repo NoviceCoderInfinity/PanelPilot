@@ -1,0 +1,84 @@
+{
+ "id": "cdc_child.HPV-IMM-BY-13",
+ "version": "2025",
+ "title": "HPV vaccine series complete by age 13 (routine at 11-12 years)",
+ "source": {
+  "doc_id": "cdc_child",
+  "section_id": "cdc_child:009",
+  "quote": "HPV vaccination routinely recommended at age 11–12 years"
+ },
+ "grade": "not graded (CDC/ACIP routine recommendation)",
+ "effective_date": "2025",
+ "action": "Administer HPV vaccine series (2 doses if initiated at age 9-14; 3 doses if immunocompromised or initiated at age 15 or older)",
+ "compiled_by": "llm",
+ "denominator": {
+  "age": {
+   "min": 13,
+   "max": 13,
+   "at": "end"
+  },
+  "quote": "HPV vaccination routinely recommended at age 11–12 years",
+  "derived": {
+   "min": "routine series is given at 11-12 years, so a completed series is expected by the year the child turns 13",
+   "max": "single-age check cohort at 13, the first year after the routine 11-12 window"
+  }
+ },
+ "numerator": {
+  "any": [
+   {
+    "all": [
+     {
+      "not": {
+       "any": [
+        {
+         "condition": {
+          "concept": "immunocompromised",
+          "onset_by": "{MY}-12-31"
+         },
+         "quote": "Immunocompromising conditions, including HIV"
+        },
+        {
+         "condition": {
+          "concept": "hiv_infection",
+          "onset_by": "{MY}-12-31"
+         },
+         "quote": "Immunocompromising conditions, including HIV"
+        }
+       ]
+      },
+      "quote": "Immunocompromising conditions, including HIV"
+     },
+     {
+      "immunization": {
+       "concept": "hpv_vaccine",
+       "min_count": 2,
+       "window": [
+        "{MY-13}-01-01",
+        "{MY}-12-31"
+       ]
+      },
+      "quote": "Age 9–14 years at initial vaccination: 2-dose series at 0,",
+      "derived": {
+       "window": "lifetime of a child aged 13 at end of measurement year (born in MY-13)"
+      }
+     }
+    ]
+   },
+   {
+    "immunization": {
+     "concept": "hpv_vaccine",
+     "min_count": 3,
+     "window": [
+      "{MY-13}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "infection: 3-dose series, even for those who initiate",
+    "derived": {
+     "window": "lifetime of a child aged 13 at end of measurement year (born in MY-13)"
+    }
+   }
+  ]
+ },
+ "exclusions": []
+}

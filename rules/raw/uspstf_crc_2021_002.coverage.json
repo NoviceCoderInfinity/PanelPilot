@@ -1,0 +1,7 @@
+[
+ "No rules: the only recommendation, 'The USPSTF recommends that clinicians selectively offer screening for colorectal cancer in adults aged 76 to 85 years.', is GRADE: C. Under the grade C/D/I policy it is not encoded as a rule.",
+ "Even as an informational item, the recommendation could not be computed. It depends on individual decision making: 'patients and clinicians should consider the patient's overall health, prior screening history, and preferences.' That is clinician judgment and shared decision making.",
+ "The screening methods table was not encoded as standalone rules. Its frequencies only apply within the grade C recommendation here. The table lists high-sensitivity gFOBT every year, FIT every year, sDNA-FIT every 1 to 3 years, colonoscopy every 10 years, CT colonography every 5 years, flexible sigmoidoscopy every 5 years, and flexible sigmoidoscopy every 10 years plus FIT every year.",
+ "The table's footnote markers (a, b, c) are present but the footnote text is not included in this section. The conditions they attach to, including the sDNA-FIT '1 to 3 c y' interval, could not be represented.",
+ "The table also contains narrative content that was not represented. This covers follow-up of abnormal results by colonoscopy, uncertainty about longitudinal follow-up after a negative follow-up colonoscopy, and test-specific considerations such as dietary restrictions, bowel preparation and availability."
+]

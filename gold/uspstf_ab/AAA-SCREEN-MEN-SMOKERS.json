@@ -1,0 +1,54 @@
+{
+ "id": "uspstf_ab.AAA-SCREEN-MEN-SMOKERS",
+ "version": "December 2019",
+ "title": "AAA one-time ultrasound, men 65-75 who ever smoked",
+ "grade": "B",
+ "effective_date": "December 2019",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:000",
+  "quote": "The USPSTF recommends 1-time screening for abdominal aortic aneurysm (AAA) with ultrasonography in men aged 65 to 75 years who have ever smoked."
+ },
+ "denominator": {
+  "all": [
+   {
+    "sex": {
+     "is": "M"
+    },
+    "quote": "men aged 65 to 75 years"
+   },
+   {
+    "age": {
+     "min": 65,
+     "max": 75,
+     "at": "end"
+    },
+    "quote": "men aged 65 to 75 years"
+   },
+   {
+    "observation": {
+     "concept": "ever_smoker",
+     "window": [
+      "{MY-100}-01-01",
+      "{MY}-12-31"
+     ],
+     "pick": "any"
+    },
+    "quote": "who have ever smoked"
+   }
+  ]
+ },
+ "numerator": {
+  "procedure": {
+   "concept": "aaa_ultrasound",
+   "window": [
+    "{MY-100}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "1-time screening for abdominal aortic aneurysm (AAA) with ultrasonography"
+ },
+ "exclusions": [],
+ "gold_notes": "1-time screening encoded as 'ever'. Smoking history is in Synthea as an observation (tobacco smoking status).",
+ "compiled_by": "gold"
+}

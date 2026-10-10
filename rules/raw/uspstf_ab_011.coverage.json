@@ -1,0 +1,9 @@
+[
+ "The TOPIC names gonorrhea, but the DESCRIPTION text provided only states the chlamydia recommendation; no gonorrhea screening rule was created because the gonorrhea statement is not present in this section.",
+ "Sexual activity was encoded as uncomputable per the sexual-behavior requirement rather than using the 'sexually_active' vocabulary concept; reviewers may decide whether a documented sexually_active concept is reliable enough to substitute.",
+ "'Increased risk for infection' for women 25 and older depends on risk factors (e.g., new or multiple partners) not reliably held in structured EHR data; encoded as uncomputable.",
+ "Screening interval/frequency is not stated; the annual measurement-year window is an assumption flagged as derived.",
+ "Pregnant persons are named in the topic as included; no separate pregnancy-specific timing (e.g., prenatal visit timing, retesting in third trimester) is stated in this text, so none was encoded.",
+ "No lower age bound is stated for the 24-and-younger group; none was encoded.",
+ "The asterisk after the DATE ('September 2021 *') refers to a footnote not included in the section text; its content could not be represented."
+]

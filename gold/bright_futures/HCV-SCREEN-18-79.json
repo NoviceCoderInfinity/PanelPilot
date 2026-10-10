@@ -1,0 +1,34 @@
+{
+ "id": "bright_futures.HCV-SCREEN-18-79",
+ "version": "2025",
+ "title": "Hepatitis C screening at least once 18-79",
+ "grade": "footnote 32",
+ "effective_date": "2025",
+ "source": {
+  "doc_id": "bright_futures",
+  "section_id": "bright_futures:001",
+  "quote": "All individuals should be screened for hepatitis C virus (HCV) infection"
+ },
+ "denominator": {
+  "age": {
+   "min": 18,
+   "max": 79,
+   "at": "end"
+  },
+  "quote": "at least once between the ages of 18 and 79"
+ },
+ "numerator": {
+  "observation": {
+   "concept": "hepatitis_c_test",
+   "window": [
+    "{MY-100}-01-01",
+    "{MY}-12-31"
+   ],
+   "pick": "any"
+  },
+  "quote": "at least once between the ages of 18 and 79"
+ },
+ "exclusions": [],
+ "gold_notes": "Overlaps USPSTF HCV rule: cross-source duplicate, useful for dedup testing.",
+ "compiled_by": "gold"
+}

@@ -1,0 +1,10 @@
+[
+ "Section yields zero rules: the recommendation for adults aged 76 to 85 years is GRADE: C. Under the compilation policy, grade C recommendations are not encoded as rules.",
+ "Recommendation text, listed but not encoded: 'The decision to screen for colorectal cancer in adults aged 76 to 85 years should be an individual one, taking into account the patient’s overall health and prior screening history.'",
+ "Even if this were a rule, it depends on information structured EHR data does not reliably hold. This includes individual decision making, overall health, ability to undergo treatment, and comorbidities that significantly limit life expectancy. Those criteria would have to be encoded as uncomputable.",
+ "The statement that adults never screened for colorectal cancer are more likely to benefit is not encoded. It is part of the grade C recommendation.",
+ "The SCREENING METHODS TABLE is not encoded as rules because the recommendation it accompanies here is grade C. It lists these modalities and intervals: gFOBT every year, FIT every year, FIT-DNA every 1 or 3 years, colonoscopy every 10 years, CT colonography every 5 years, flexible sigmoidoscopy every 5 years, and flexible sigmoidoscopy every 10 years plus FIT every year.",
+ "The FIT-DNA interval 'Every 1 or 3 y d' depends on footnote d, whose text is not included in this section. The interval is ambiguous and cannot be represented.",
+ "Footnotes b, c and e on the table are referenced but their text is not provided. Any conditions they carry are not represented.",
+ "The table's Evidence of Efficacy and Other Considerations columns are not represented. These cover test performance, bowel preparation, follow-up of abnormal findings, extracolonic findings and test availability."
+]

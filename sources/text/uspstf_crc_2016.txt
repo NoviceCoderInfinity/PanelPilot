@@ -1,0 +1,572 @@
+Final Recommendation Statement: Colorectal Cancer: Screening - US Preventive Services Task Force
+Skip to navigation bar
+Skip to breadcrumbs
+Skip to page content
+Search USPSTF Website
+E-mail Updates
+Text size:
+a
+A
+A
+Home
+Recommendations
+Published Final Recommendations
+Recommendations in Progress
+Copyright Notice
+Information for Health Professionals
+Information for Consumers
+Public Comments and Nominations
+Opportunity for Public Comment
+Nominate a New USPSTF Member
+Nominate a Recommendation Statement Topic
+Methods and Processes
+Procedure Manual
+Standards for Guideline Development
+Grade Definitions
+Identifying Evidence Gaps
+Specific Populations
+About the USPSTF
+Our Members
+Conflict of Interest Disclosures
+Task Force Resources
+Our Partners
+Reports to Congress
+Contact Us
+Newsroom
+Announcements
+Assembly version:
+1.0.0.308
+Last Build:
+5/9/2019 1:01:08 PM
+You are here:
+Home
+Recommendations for Primary Care Practice
+Published Recommendations
+Recommendation Summary
+Final Recommendation Statement : Final Recommendation Statement
+Final Recommendation Statement
+Colorectal Cancer: Screening
+Recommendations made by the USPSTF are independent of the U.S. government. 
+They should not be construed as an official position of the Agency for Healthcare 
+Research and Quality or the U.S. Department of Health and Human Services.
+Recommendation Summary
+Population
+Recommendation
+Grade
+(What's This?)
+Adults aged 50 to 75 years
+The USPSTF recommends screening for colorectal cancer starting at age 50 years and continuing until age 75 years.
+The risks and benefits of different screening methods vary. See the
+Clinical Considerations section
+and the
+Table
+for details about screening strategies.
+A
+Adults aged 76 to 85 years
+The decision to screen for colorectal cancer in adults aged 76 to 85 years should be an individual one, taking into account the patient’s overall health and prior screening history.
+Adults in this age group who have never been screened for colorectal cancer are more likely to benefit.
+Screening would be most appropriate among adults who 1) are healthy enough to undergo treatment if colorectal cancer is detected and 2) do not have comorbid conditions that would significantly limit their life expectancy.
+C
+To read the recommendation statement in
+JAMA
+, click
+here
+.
+To read the evidence summary in
+JAMA
+, click
+here
+.
+Return to Table of Contents
+Table of Contents
+Recommendation Summary
+Preface
+Rationale
+Clinical Considerations
+Other Considerations
+Discussion
+Update of Previous USPSTF Recommendation
+Recommendations of Others
+Members of the US Preventive Services Task Force
+Copyright and Source Information
+References
+Preface
+The US Preventive Services Task Force (USPSTF) makes recommendations about the effectiveness of specific preventive care services for patients without obvious related signs or symptoms.
+It bases its recommendations on the evidence of both the benefits and harms of the service and an assessment of the balance. The USPSTF does not consider the costs of providing a service in this assessment.
+The USPSTF recognizes that clinical decisions involve more considerations than evidence alone. Clinicians should understand the evidence but individualize decision making to the specific patient or situation. Similarly, the USPSTF notes that policy and coverage decisions involve considerations in addition to the evidence of clinical benefits and harms.
+Return to Table of Contents
+Rationale
+Importance
+Colorectal cancer is the second-leading cause of cancer death in the United States. In 2016, an estimated 134,000 persons will be diagnosed with the disease, and about 49,000 will die from it. Colorectal cancer is most frequently diagnosed among adults aged 65 to 74 years; the median age at death from colorectal cancer is 73 years.
+3
+Detection
+The USPSTF found convincing evidence that screening for colorectal cancer with several different methods can accurately detect early-stage colorectal cancer and adenomatous polyps.
+Although single test performance is an important issue in the detection of colorectal cancer, the sensitivity of the test over time is more important in an ongoing screening program. However, data that permit assessment and direct comparison of screening methods to detect colorectal neoplasia in screening programs over time are limited to those from analytic modeling.
+Benefits of Screening and Early Intervention
+The USPSTF found convincing evidence that screening for colorectal cancer in adults aged 50 to 75 years reduces colorectal cancer mortality. The USPSTF found no head-to-head studies demonstrating that any of the screening strategies it considered are more effective than others, although the tests have varying levels of evidence supporting their effectiveness, as well as different strengths and limitations (
+Table
+). About one-third of eligible adults in the United States have never been screened for colorectal cancer,
+4
+and offering choice in colorectal cancer screening strategies may increase screening uptake.
+5
+As such, the screening tests are not presented in any preferred or ranked order; rather, the goal is to maximize the total number of persons who are screened because that will have the largest effect on reducing colorectal cancer deaths.
+The benefit of early detection of and intervention for colorectal cancer declines after age 75 years. Among older adults who have been previously screened for colorectal cancer, there is at best a moderate benefit to continuing screening during the ages of 76 to 85 years. However, adults in this age group who have never been screened for colorectal cancer are more likely to benefit than those who have been previously screened.
+The time between detection and treatment of colorectal cancer and realization of a subsequent mortality benefit can be substantial. As such, the benefit of early detection of and intervention for colorectal cancer in adults 86 years and older is at most small.
+To date, no method of screening for colorectal cancer has been shown to reduce all-cause mortality in any age group.
+1
+,
+6
+Harms of Screening and Early Intervention
+The harms of screening for colorectal cancer in adults aged 50 to 75 years are small. The majority of harms result from the use of colonoscopy, either as the screening test or as follow-up for positive findings detected by other screening tests. The rate of serious adverse events from colorectal cancer screening increases with age.
+1
+Thus, the harms of screening for colorectal cancer in adults 76 years and older are small to moderate.
+USPSTF Assessment
+The USPSTF concludes with high certainty that the net benefit (ie, the benefit minus the harms) of screening for colorectal cancer in adults aged 50 to 75 years is substantial.
+The USPSTF concludes with moderate certainty that the net benefit of screening for colorectal cancer in adults aged 76 to 85 years who have been previously screened is small. Adults who have never been screened for colorectal cancer are more likely to benefit.
+Return to Table of Contents
+Clinical Considerations
+Patient Population Under Consideration
+This recommendation applies to asymptomatic adults 50 years and older who are at average risk of colorectal cancer and who do not have a family history of known genetic disorders that predispose them to a high lifetime risk of colorectal cancer (such as Lynch syndrome or familial adenomatous polyposis), a personal history of inflammatory bowel disease, a previous adenomatous polyp, or previous colorectal cancer.
+When screening results in the diagnosis of colorectal adenomas or cancer, patients are followed up with a surveillance regimen, and recommendations for screening no longer apply. The USPSTF did not review or consider the evidence on the effectiveness of any particular surveillance regimen after diagnosis and removal of adenomatous polyps or colorectal cancer.
+Assessment of Risk
+For the vast majority of adults, the most important risk factor for colorectal cancer is older age. Most cases of colorectal cancer occur among adults older than 50 years; the median age at diagnosis is 68 years.
+3
+A positive family history (excluding known inherited familial syndromes) is thought to be linked to about 20% of cases of colorectal cancer.
+1
+About 3% to 10% of the population has a first-degree relative with colorectal cancer.
+7
+The USPSTF did not specifically review the evidence on screening in populations at increased risk; however, other professional organizations recommend that patients with a family history of colorectal cancer (a first-degree relative with early-onset colorectal cancer or multiple first-degree relatives with the disease) be screened more frequently starting at a younger age, and with colonoscopy.
+8
+Male sex and black race are also associated with higher colorectal cancer incidence and mortality. Black adults have the highest incidence and mortality rates compared with other racial/ethnic subgroups.
+3
+The reasons for these disparities are not entirely clear. Studies have documented inequalities in screening, diagnostic follow-up, and treatment; they also suggest that equal treatment generally seems to produce equal outcomes.
+9-11
+Accordingly, this recommendation applies to all racial/ethnic groups, with the clear acknowledgement that efforts are needed to ensure that at-risk populations receive recommended screening, follow-up, and treatment.
+Screening Tests
+The
+Table
+lists the various screening tests for colorectal cancer and notes potential frequency of use as well as additional considerations for each method. The
+Figure
+presents the estimated number of life-years gained, colorectal cancer deaths averted, lifetime colonoscopies required, and resulting complications per 1,000 screened adults aged 50 to 75 years for each of the screening strategies. These estimates are derived from modeling conducted by the Cancer Intervention and Surveillance Modeling Network (CISNET) to inform this recommendation.
+2
+,
+12
+Stool-Based Tests
+Multiple randomized clinical trials (RCTs) have shown that screening with the guaiac-based fecal occult blood test (gFOBT) reduces colorectal cancer deaths.
+1
+Fecal immunochemical tests (FITs), which identify intact human hemoglobin in stool, have improved sensitivity compared with gFOBT for detecting colorectal cancer.
+1
+Among the FITs that are cleared by the US Food and Drug Administration (FDA) and available for use in the United States, the OC FIT-CHEK family of FITs (Polymedco)—which include the OC-Light and the OC-Auto—have the best test performance characteristics (ie, highest sensitivity and specificity).
+1
+Multitargeted stool DNA testing (FIT-DNA) is an emerging screening strategy that combines a FIT with testing for altered DNA biomarkers in cells shed into the stool. Multitargeted stool DNA testing has increased single-test sensitivity for detecting colorectal cancer compared with FIT alone.
+13
+The harms of stool-based testing primarily result from adverse events associated with follow-up colonoscopy of positive findings.
+1
+The specificity of FIT-DNA is lower than that of FIT alone,
+13
+which means it has a higher number of false-positive results and higher likelihood of follow-up colonoscopy and experiencing an associated adverse event per screening test. There are no empirical data on the appropriate longitudinal follow-up for an abnormal FIT-DNA test result followed by a negative colonoscopy; there is potential for overly intensive surveillance due to clinician and patient concerns about the implications of the genetic component of the test.
+Direct Visualization Tests
+Several RCTs have shown that flexible sigmoidoscopy alone reduces deaths from colorectal cancer.
+1
+Flexible sigmoidoscopy combined with FIT has been studied in a single trial and was found to reduce the colorectal cancer–specific mortality rate more than flexible sigmoidoscopy alone.
+14
+Modeling studies conducted by CISNET also consistently estimate that combined testing yields more life-years gained and colorectal cancer deaths averted compared with flexible sigmoidoscopy alone.
+2
+Flexible sigmoidoscopy can result in direct harms, such as colonic perforations and bleeding, although the associated event rates are much lower than those observed with colonoscopy.
+1
+Harms can also occur as a result of follow-up colonoscopy.
+Completed trials of flexible sigmoidoscopy provide indirect evidence that colonoscopy—a similar endoscopic screening method—reduces colorectal cancer mortality. A prospective cohort study also found an association between patients who self-reported being screened with colonoscopy and a lower colorectal cancer mortality rate.
+15
+Colonoscopy has both indirect and direct harms. Harms may be caused by bowel preparation prior to the procedure (eg, dehydration and electrolyte imbalances), the sedation used during the procedure (eg, cardiovascular events), or the procedure itself (eg, infection, colonic perforations, or bleeding).
+Evidence for assessing the effectiveness of computed tomography (CT) colonography is limited to studies of its test characteristics.
+1
+Computed tomography colonography can result in unnecessary diagnostic testing or treatment of incidental extracolonic findings that are of no importance or would never have threatened the patient’s health or become apparent without screening (ie, overdiagnosis and overtreatment).
+1
+Extracolonic findings are common, occurring in about 40% to 70% of screening examinations. Between 5% and 37% of these findings result in diagnostic follow-up, and about 3% require definitive treatment.
+1
+As with other screening strategies, indirect harms from CT colonography can also occur from follow-up colonoscopy for positive findings.
+Serology Tests
+The FDA approved a blood test to detect circulating methylated
+SEPT9
+DNA (Epi proColon; Epigenomics) in April 2016.
+16
+A single test characteristic study met the inclusion criteria for the systematic evidence review supporting this recommendation statement; it found the
+SEPT9
+DNA test to have low sensitivity (48%) for detecting colorectal cancer.
+17
+Starting and Stopping Ages
+Available RCTs of gFOBT and flexible sigmoidoscopy included patients with age ranges of 45 to 80 years and 50 to 74 years, respectively. For gFOBT, the majority of participants entered the trials at age 50 or 60 years; for flexible sigmoidoscopy, the mean age of participants was 56 to 60 years.
+1
+Microsimulation analyses performed by CISNET suggest that starting colorectal cancer screening at age 45 years rather than 50 years is estimated to yield a modest increase in life-years gained and a more efficient balance between life-years gained and lifetime number of colonoscopies (a proxy measure for the burden of screening).
+2
+However, across the different screening methods, lowering the age at which to begin screening to 45 years while maintaining the same screening interval resulted in an estimated increase in the lifetime number of colonoscopies. In the case of screening colonoscopy, 2 of the 3 models found that by starting screening at age 45 years, the screening interval could be extended from 10 to 15 years. Doing so maintained the same (or slightly more) life-years gained as performing colonoscopy every 10 years starting at age 50 years without increasing the lifetime number of colonoscopies. However, 1 model estimated a slight loss in life-years gained with a longer screening interval and an earlier age at which to begin screening.
+2
+The USPSTF considered these findings and concluded that the evidence best supports a starting age of 50 years for the general population, noting the modest increase in life-years gained by starting screening earlier, the discordant findings across models for extending the screening interval when the age at which to begin screening is lowered, and the lack of empirical evidence in younger populations.
+The age at which the balance of benefits and harms of colorectal cancer screening becomes less favorable varies based on a patient’s life expectancy, health status, comorbid conditions, and prior screening status.
+18
+Empirical data from randomized trials on outcomes of screening after age 74 years are scarce. All 3 CISNET models consistently estimate that few additional life-years are gained when screening is extended past age 75 years among average-risk adults who have previously received adequate screening.
+2
+The USPSTF does not recommend routine screening for colorectal cancer in adults 86 years and older. In this age group, competing causes of mortality preclude a mortality benefit that would outweigh the harms.
+Screening Intervals
+Evidence from RCTs demonstrates that annual or biennial screening with gFOBT as well as 1-time and every 3- to 5-year flexible sigmoidoscopy reduces colorectal cancer deaths.
+1
+The CISNET models found that several screening strategies were estimated to yield comparable life-years gained (ie, life-years gained with the noncolonoscopy strategies were within 90% of those gained with the colonoscopy strategy) among adults aged 50 to 75 years and an efficient balance of benefits and harms (see the full CISNET report for more details
+2
+,
+12
+). These screening strategies include 1) annual screening with FIT, 2) screening every 10 years with flexible sigmoidoscopy and annual screening with FIT, 3) screening every 10 years with colonoscopy, and 4) screening every 5 years with CT colonography. The findings for CT colonography depend on the proxy measure used for the burden of screening (number of lifetime colonoscopies or lifetime cathartic bowel preparations). Two of the 3 CISNET models found that FIT-DNA screening every 3 years (as recommended by the manufacturer) was estimated to yield life-years gained less than 90% of the colonoscopy screening strategy (84% and 87%, respectively). Another way to conceptualize these findings is to note that CISNET modeling found that FIT-DNA screening every 3 years was estimated to provide about the same amount of benefit as screening with flexible sigmoidoscopy alone every 5 years (
+Figure
+).
+2
+Treatment
+Treatment of early-stage colorectal cancer generally consists of local excision or simple polypectomy for tumors limited to the colonic mucosa or surgical resection (via laparoscopy or open approach) with anastomosis for larger, localized lesions.
+Other Approaches to Prevention
+The USPSTF has made a recommendation on aspirin use for the primary prevention of cardiovascular disease and colorectal cancer in average-risk adults (
+www.uspreventiveservicestaskforce.org
+).
+Return to Table of Contents
+Other Considerations
+Implementation
+Colorectal cancer causes substantial morbidity and mortality, and the evidence is convincing that screening for colorectal cancer reduces that burden. Despite the availability of several effective screening options, nearly one-third of eligible adults have never been screened.
+19
+Different screening methods may be more or less attractive for patients based on their features. For example, colonoscopy requires a relatively greater time commitment over a short period (bowel preparation, procedure, and recovery) but allows for much longer time between screenings compared with stool-based screening. Stool-based screening requires persons to handle their feces, which may be difficult for some, but the test is quick and noninvasive and can be done at home (the sample is mailed to the laboratory for testing). Flexible sigmoidoscopy combined with annual FIT may be an attractive option for persons who want reassurance from endoscopic screening but want to limit their exposure to colonoscopy. Given the lack of evidence from head-to-head comparative trials that any of the screening strategies have a greater net benefit than the others, clinicians should consider engaging patients in informed decision making about the screening strategy that would most likely result in completion, with high adherence over time, taking into consideration both the patient’s preferences and local availability.
+For colorectal cancer screening programs to be successful in reducing mortality, they need to involve more than just the screening method in isolation. Screening is a cascade of activities that must occur in concert, cohesively, and in an organized way for benefits to be realized, from the point of the initial screening examination (including related interventions or services that are required for successful administration of the screening test, such as bowel preparation or sedation with endoscopy) to the timely receipt of any necessary diagnostic follow-up and treatment.
+Multiple effective implementation strategies have been demonstrated to increase appropriate provision and use of colorectal cancer screening. Specifically, the Community Preventive Services Task Force recommends using clinician and patient reminder systems, using small media (such as videos, letters, and brochures), reducing structural barriers to screening (such as the time or distance to the screening delivery setting or offering extended or nonstandard clinic hours), and providing clinician assessment and feedback about screening rates (more information is available at
+www.thecommunityguide.org/cancer
+).
+Lastly, clinicians also need to consider how they will engage patients older than 75 years about when to stop screening.
+Research Needs and Gaps
+Higher-quality data are needed about the natural history of small (<10 mm) adenomas to improve understanding of optimal screening and surveillance strategies and to guide when clinical intervention is necessary. Further, because determining the ultimate worth of a screening method requires an accurate assessment of the net benefit of that intervention, randomized trials are needed to directly compare different types of colorectal cancer screening programs to more clearly define their relative benefits and harms; however, the USPSTF appreciates the challenges inherent in performing such trials, given the large sample sizes and long time horizons required.
+A recent analysis of data from the National Cancer Institute’s Surveillance, Epidemiology, and End Results (SEER) Program suggests that the incidence of colorectal cancer may be increasing among adults younger than 50 years.
+20
+Modeling suggests there may be some potential advantages to starting colonoscopy screening at an earlier age (45 years) and to extending the interval between screenings with negative findings.
+Black and Alaska Native individuals have a higher incidence of and mortality rate from colorectal cancer compared with the general population. Empirical data about the effectiveness of different screening strategies for these at-risk populations are not available.
+Although there is a growing body of evidence on the test performance characteristics of CT colonography, evidence to bound the potential harms of this technology is still lacking, particularly in regard to incidental findings. More consistent and complete reporting, in studies with longer-term follow-up, of the downstream consequences of initial detection, subsequent workup, and definitive treatment of extracolonic findings (ie, CT Colonography Reporting and Data System findings categorized as E3—“likely unimportant finding, incompletely characterized: subject to local practice and patient preference, workup may be indicated” and E4—“potentially important finding: communicate to referring physician as per accepted practice guidelines”) would allow for better understanding of the net benefit associated with this screening approach.
+Empirical evidence is lacking on the appropriate follow-up of abnormal results from FIT-DNA screening when the initial diagnostic colonoscopy is negative. There is a theoretical concern that FIT-DNA may generate inappropriate use of surveillance colonoscopy if clinicians and patients place increased importance on the genetic component of the test. At present, evidence is lacking to establish the optimal frequency of screening with the FIT-DNA test. As a condition of its approval of the test, the FDA required the manufacturer to conduct a longitudinal study examining the test characteristics of a 3-year screening interval; these data should help inform decisions.
+21
+Studies on patient adherence to the various screening options, within single-method screening programs over time, as well as factors that may influence adherence across different screening methods, are needed to help better inform and improve uptake of screening across eligible populations.
+Return to Table of Contents
+Discussion
+Scope of Review
+The USPSTF commissioned a systematic evidence review
+1
+,
+6
+to update its 2008 recommendation on screening for colorectal cancer. The review addressed the following: 1) the effectiveness of screening with colonoscopy, flexible sigmoidoscopy, CT colonography, gFOBT, FIT, FIT-DNA, and methylated
+SEPT9
+DNA testing in reducing incidence of and mortality from colorectal cancer or all-cause mortality; 2) the harms of these screening tests; and 3) the test performance characteristics of these tests for detecting adenomatous polyps, advanced adenomas based on size, or both, as well as colorectal cancer. In contrast to the evidence review performed for the USPSTF in 2008, this review expanded its approach to additionally search for and consider 1) observational evidence about the benefits of screening tests when trial evidence does not exist and 2) comparative effectiveness of screening tests on cancer incidence and mortality.
+In addition, the USPSTF commissioned a report from the CISNET Colorectal Cancer Working Group
+2
+,
+12
+to provide information from comparative modeling on optimal starting and stopping ages and screening intervals across the different available screening methods. Compared with the previous decision analysis performed for the USPSTF, this analysis used more narrowly defined ages at which to begin and end screening and screening intervals. It also included new screening methods (FIT-DNA, CT colonography, and flexible sigmoidoscopy combined with FIT), updated test characteristics, and age-specific risks of colonoscopy complications.
+Accuracy of Screening Tests
+All of the available studies of the test characteristics of different screening methods evaluated 1-time application of the test. As such, it is not possible to draw meaningful inferences about the ultimate performance of these tests as intended in a real-world setting (ie, in a program of repeated screening over time).
+High-sensitivity gFOBT (Hemoccult SENSA; Beckman Coulter) has a sensitivity of 62% to 79% and a specificity of 87% to 96% for detecting colorectal cancer.
+1
+Fecal immunochemical tests can be grouped according to whether they are qualitative (fixed cutoff) or quantitative (adjustable cutoff) assays; overall, test performance among this class of stool-based tests varies widely. Sensitivity and specificity of the OC-Light test using a cutoff of 10 μg hemoglobin (Hb)/g feces to detect colorectal cancer range from 79% to 88% and 91% to 93%, respectively;
+1
+sensitivity and specificity of the OC FIT-CHEK family of tests using a cutoff of 20 μg Hb/g feces (as directed by the manufacturer) to detect colorectal cancer range from 73% to 75% and 91% to 95%, respectively.
+1
+In the largest study assessing the test characteristics of the only FIT-DNA test available in the United States (Cologuard; Exact Sciences), its sensitivity and specificity to detect colorectal cancer was 92% (95% CI, 84% to 97%) and 84% (95% CI, 84% to 85%), respectively. Its sensitivity to detect advanced precancerous lesions (advanced adenomas and sessile serrated polyps measuring ≥1 cm) was 42% (95% CI, 39% to 46%), and its specificity to detect “all nonadvanced findings” (including nonneoplastic findings and negative colonoscopy findings) was 87% (95% CI, 86% to 87%).
+13
+A second, smaller study involving Alaska Native individuals confirmed that FIT-DNA testing has higher sensitivity but lower specificity than FITs to detect colorectal neoplasia with 1-time use.
+22
+Colonoscopy is generally considered the criterion standard for test characteristic studies, although it does miss some cases of colorectal cancer. No studies have evaluated the test performance characteristics of flexible sigmoidoscopy against a colonoscopy standard in an average-risk screening population.
+1
+Studies of CT colonography have not been powered to estimate its ability to detect cancer. Studies of CT colonography test performance with bowel preparation found that the per-person sensitivity to detect adenomas measuring 10 mm or larger ranged from 67% to 94%; specificity ranged from 86% to 98%. Only 2 studies evaluated the performance of CT colonography without bowel preparation; they found sensitivity and specificity to detect adenomas measuring 10 mm or larger ranging from 67% to 90% and 85% to 97%, respectively.
+1
+Effectiveness of Early Detection and Treatment
+The USPSTF found convincing evidence of benefit associated with colorectal cancer screening. The Hemoccult II test was the first colorectal cancer screening test to demonstrate reduction in disease-specific mortality in an RCT. Six trials showed that after 11 to 30 years of follow-up, screening with low-sensitivity gFOBT reduced the risk of colorectal cancer death by about 9% to 22% when performed biennially (about 9 to 16 fewer colorectal cancer deaths per 100,000 person-years) and by about 32% when done annually.
+1
+When considering the life-years gained compared with the burden and harms of screening (as assessed by the proxy measure of total number of lifetime colonoscopies), annual screening with high-sensitivity gFOBT was consistently dominated by annual FIT screening in the CISNET modeling.
+2
+Flexible sigmoidoscopy has also been assessed in multiple RCTs. Pooled meta-analysis of 4 trials demonstrated that 1-time screening with flexible sigmoidoscopy reduced the risk of dying of colorectal cancer by 27% after about 11 to 12 years (incidence rate ratio, 0.73 [95% CI, 0.66 to 0.82]), or about 9 to 14 fewer colorectal cancer deaths per 100,000 person-years.
+1
+The Norwegian Colorectal Cancer Prevention Trial found that its flexible sigmoidoscopy–plus-FIT group had a lower colorectal cancer–specific mortality rate than the flexible sigmoidoscopy–only group (hazard ratio [HR], 0.62 [95% CI, 0.42 to 0.90] vs 0.84 [95% CI, 0.61 to 1.17]).
+14
+The CISNET models estimated that screening with flexible sigmoidoscopy from the ages of 50 to 75 years, repeated every 5 years, would result in about 181 to 227 life-years gained per 1,000 persons screened over a lifetime. However, a combined approach of flexible sigmoidoscopy repeated every 10 years with annual FIT screening was estimated to result in about 246 to 270 life-years gained per 1,000 persons screened (although it would also increase the total number of diagnostic and surveillance colonoscopies required).
+2
+No RCTs have evaluated the effect of colonoscopy on colorectal cancer mortality, although several are in progress (Spanish COLONPREV, Swedish SCREESCO, and US CONFIRM trials),
+23-26
+including 1 trial (Northern European Initiative on Colorectal Cancer) with a control group of no screening.
+24
+One large (n=88,902), fair-quality prospective cohort study combining data from the Nurses’ Health Study and the Health Professionals Follow-up Study found an association between self-reported receipt of screening colonoscopy and reduced distal and proximal colorectal cancer mortality (multivariate HR, 0.18 [95% CI, 0.10 to 0.31] and 0.47 [95% CI, 0.29 to 0.67], respectively).
+15
+Although the investigators adjusted for known potential risk factors for colorectal cancer, given the study design, they could not address unknown or unmeasured confounders. In addition, it is unclear based on the study design whether the benefit accrued from 1 or multiple colonoscopies or screening plus surveillance colonoscopy. Overall, the study likely overestimates the magnitude of benefit associated with colonoscopy; the observed effect size in this study also cannot be directly compared with that measured in randomized trials of other colorectal cancer screening methods.
+The CISNET models commissioned for this review estimated the number of life-years gained, colorectal cancer deaths averted, lifetime colonoscopies required (as a proxy measure for the burden of screening), and resulting complications (ie, gastrointestinal and cardiovascular events) for various screening strategies, varying the age at which to start and stop screening and the frequency of screening. With an age to begin screening of 50 years and an age to end screening of 75 years, assuming 100% adherence to screening over a lifetime, 4 screening strategies were estimated to provide an efficient balance of benefits and harms while also providing roughly comparable life-years gained: colonoscopy every 10 years, annual FIT, flexible sigmoidoscopy every 10 years combined with annual FIT, and CT colonography every 5 years. For CT colonography, the findings depend on the perspective taken: if lifetime number of colonoscopies is used as the proxy measure for the burden of screening, it is efficient; if cathartic bowel preparations are considered as the proxy measure, it is not efficient. The CISNET models estimated that these strategies would produce about 226 to 275 life-years gained over a lifetime, or about 20 to 24 colorectal cancer deaths averted per 1,000 adults aged 50 to 75 years screened.
+2
+Harms of Early Detection and Treatment
+The USPSTF found adequate evidence of harms associated with different colorectal cancer screening programs. With all screening methods, positive findings lead to follow-up colonoscopy to resolve the diagnosis; colonoscopy represents the primary source of harms associated with colorectal cancer screening. As an invasive procedure, colonoscopy can produce important morbidity as well as anxiety and discomfort. Bowel preparation may lead to dehydration or electrolyte imbalances, particularly in older adults or those with comorbid conditions; accurate estimates of the rates of these events are not available. If sedation is used during colonoscopy, cardiopulmonary events may rarely occur; the precise frequency of occurrence is also not known.
+Screening with FIT-DNA and CT colonography each has several unique harms to consider. Screening with FIT-DNA is less specific than screening with FIT
+,
+13
+,
+22
+resulting in more false-positive results per screening test and an increased probability of harm from diagnostic colonoscopy. Further, a theoretical concern about FIT-DNA is whether its use might lead to more frequent and invasive follow-up testing in persons who are not at increased risk of colorectal cancer because of patient or clinician concerns about abnormal DNA results. Although modeling can be used to understand the estimated effects of the test’s reduced specificity and increased false-positive rate, empirical evidence on appropriate follow-up of abnormal results is lacking, making it difficult to accurately understand the overall balance of benefits and harms of this screening test.
+Extracolonic findings detected on CT colonography are common, occurring in about 40% to 70% of screening tests.
+1
+About 5% to 37% of these extracolonic findings require diagnostic follow-up, and about 3% need definitive treatment.
+1
+These findings have the potential for both benefit and harm. Potential harms include additional diagnostic testing of an abnormality that is of no clinical importance, as well as treatment of findings that may never threaten a patient’s health or even become apparent without screening (ie, overdiagnosis and overtreatment). Radiation-induced cancer is a potential long-term concern with repeated use of CT colonography. No studies directly measured this risk, but radiation exposure during the procedure seems to be low, with a maximum exposure of about 7 mSv per examination.
+1
+In comparison, annual background radiation exposure in the United States is 3 mSv per year per person. Although 7 new studies have examined the potential harms associated with CT colonography since the prior USPSTF review,
+1
+high-quality evidence to draw clear conclusions about the ultimate clinical effect associated with the detection and subsequent workup of extracolonic findings remains lacking. Given the frequency with which these incidental findings occur, it is difficult to accurately understand the overall balance of benefits and harms of this screening test without this information.
+The direct harms of endoscopy have been somewhat better studied.
+1
+Pooled estimates suggest there are about 4 (95% CI, 2 to 5) colonic perforations and about 8 (95% CI, 5 to 14) major intestinal bleeding episodes per 10,000 screening colonoscopies performed.
+1
+Many of these events appear to be related to polypectomy, and the risk of experiencing an adverse event increases with age.
+1
+The risk of bleeding or perforation seems to be greater if the colonoscopy is done as part of diagnostic follow-up of a positive finding on a screening test of a different method; for example, pooled data from flexible sigmoidoscopy trials found about 14 (95% CI, 9 to 26) colonic perforations and 24 (95% CI, 5 to 63) major bleeding episodes per 10,000 persons undergoing diagnostic colonoscopy.
+1
+This compares to about 1 perforation and 2 major bleeding episodes per 10,000 flexible sigmoidoscopies performed for the purposes of cancer screening.
+1
+The harms from a single administration of a screening test must be considered in the context of how often the test will be repeated over a patient’s lifetime. In the case of colorectal cancer screening, this means considering how many colonoscopies (the primary source of serious harms) will be required to follow up abnormal findings. The CISNET models suggest that the available strategies range from an estimated 1,714 to 4,049 total colonoscopies required per 1,000 persons screened over a lifetime; screening colonoscopy every 10 years generates the highest degree of associated burden or harm (
+Figure
+).
+2
+Estimate of Magnitude of Net Benefit
+The USPSTF concludes with high certainty that screening for colorectal cancer in average-risk, asymptomatic adults aged 50 to 75 years is of substantial net benefit. Multiple screening strategies are available to choose from, with different levels of evidence to support their effectiveness, as well as unique advantages and limitations (
+Table
+).
+For older adults aged 76 to 85 years, the benefits of screening for colorectal cancer decline and the risk of experiencing serious associated harms increases. The most important consideration for clinicians and patients in this age group is whether the patient has previously been screened. Patients in this age group who have never been screened for colorectal cancer are more likely to benefit than those who have been previously screened. Other factors that should be considered include whether the patient has other chronic health conditions and would be healthy enough to undergo treatment if cancer was found.
+Screening for colorectal cancer is a substantially underused preventive health strategy in the United States.
+19
+In addition, there are no empirical data to suggest that any of the strategies provide a greater net benefit. Accordingly, the best screening test is the one that gets done, and the USPSTF concludes that maximizing the total proportion of the eligible population that receives screening will result in the greatest reduction in colorectal cancer deaths.
+Response to Public Comment
+A draft version of this recommendation statement was posted for public comment on the USPSTF website from October 6 to November 2, 2015. Many comments expressed concern that the terms “recommended” and “alternative” to describe the testing strategies lacked clarity and were confusing to interpret. In response, the USPSTF removed these terms from the final recommendation to better communicate the primary message of importance: there is convincing evidence that screening for colorectal cancer provides substantial benefit for adults aged 50 to 75 years, and a sizable proportion of the eligible US population is not taking advantage of this effective preventive health strategy. With this recommendation, the USPSTF acknowledges that there is no “one size fits all” approach to colorectal cancer screening and seeks to provide clinicians and patients with the best possible evidence about the various screening methods to enable informed, individual decision making. Accordingly, both the
+Table
+and
+Figure
+were updated to provide more detailed information about the available evidence on the effectiveness of each method, as well as the strengths, limitations, and unique considerations for the various screening tests.
+Return to Table of Contents
+Update of Previous USPSTF Recommendation
+This is an update of the 2008 USPSTF recommendation.
+27
+In 2008, the USPSTF recommended screening with colonoscopy every 10 years, annual FIT, annual high-sensitivity FOBT, or flexible sigmoidoscopy every 5 years combined with high-sensitivity FOBT every 3 years. In the current recommendation, instead of emphasizing specific screening approaches, the USPSTF has instead chosen to highlight that there is convincing evidence that colorectal cancer screening substantially reduces deaths from the disease among adults aged 50 to 75 years and that not enough adults in the United States are using this effective preventive intervention. The reasons for this gap between evidence and practice are multifaceted and will require sustained effort among clinicians, policy makers, advocates, and patients to overcome.
+Return to Table of Contents
+Recommendations of Others
+Many organizations have issued guidelines concerning screening for colorectal cancer. All of the following recommendations apply to average-risk adults 50 years and older.
+In 2008, the American Cancer Society, American College of Radiology, and the US Multi-Society Task Force (including the American Gastroenterological Association, American College of Gastroenterology, and American Society for Gastrointestinal Endoscopy) jointly issued recommendations. They prioritized flexible sigmoidoscopy every 5 years, colonoscopy every 10 years, double-contrast barium enema every 5 years, and CT colonography every 5 years as preferred tests “designed to both prevent and detect cancer” if resources are available but also recommended annual high-sensitivity gFOBT or FIT-DNA testing (interval uncertain).
+8
+Shortly thereafter, the American College of Gastroenterology released an independent guideline recommending colonoscopy every 10 years as the single preferred screening strategy. It stated that if colonoscopy is not available or is unacceptable to a patient, recommended alternative strategies include flexible sigmoidoscopy every 5 to 10 years or CT colonography every 5 years (preferred) or annual FIT, annual Hemoccult II SENSA, or FIT-DNA testing every 3 years (acceptable).
+28
+In 2012, the National Comprehensive Cancer Network recommended colonoscopy every 10 years as the preferred screening strategy if available; otherwise, it recommended annual gFOBT or FIT, with or without flexible sigmoidoscopy, every 5 years or flexible sigmoidoscopy alone every 5 years as secondary approaches to screening.
+29
+In 2015, the American College of Physicians recommended that average-risk adults aged 50 to 75 years should be screened for colorectal cancer by 1 of 4 strategies: 1) annual high-sensitivity gFOBT or FIT, 2) flexible sigmoidoscopy every 5 years, 3) high-sensitivity gFOBT or FIT every 3 years plus flexible sigmoidoscopy every 5 years, or 4) colonoscopy every 10 years. It advised that average-risk adults younger than 50 years, older than 75 years, or with an estimated life expectancy of less than 10 years should not be screened.
+30
+The American Academy of Family Physicians is in the process of updating its guidelines.
+31
+In 2016, the Canadian Task Force on Preventive Health Care recommended that adults aged 50 to 59 years (weak recommendation) and 60 to 74 years (strong recommendation) be screened for colorectal cancer with gFOBT or FIT every 2 years or flexible sigmoidoscopy every 10 years. It recommended against screening in adults 75 years and older (weak recommendation) and using colonoscopy as a primary screening test (weak recommendation).
+32
+Return to Table of Contents
+Members of the US Preventive Services Task Force
+The US Preventive Services Task Force (USPSTF) members include the following individuals: Kirsten Bibbins-Domingo, PhD, MD, MAS (University of California, San Francisco); David C. Grossman, MD, MPH (Group Health Research Institute, Seattle, Washington); Susan J. Curry, PhD (University of Iowa, Iowa City); Karina W. Davidson, PhD, MASc (Columbia University, New York, New York); John W. Epling Jr, MD, MSEd (State University of New York Upstate Medical University, Syracuse); Francisco A.R. García, MD, MPH (Pima County Department of Health, Tucson, Arizona); Matthew W. Gillman, MD, SM (Harvard Medical School and Harvard Pilgrim Health Care Institute, Boston, Massachusetts); Diane M. Harper, MD, MPH, MS (University of Louisville, Kentucky); Alex R. Kemper, MD, MPH, MS (Duke University, Durham, North Carolina); Alex H. Krist, MD, MPH (Fairfax Family Practice, Fairfax, Virginia, and Virginia Commonwealth University, Richmond); Ann E. Kurth, PhD, RN, MSN, MPH (Yale University, New Haven, Connecticut); C. Seth Landefeld, MD (University of Alabama at Birmingham); Carol M. Mangione, MD, MSPH (University of California, Los Angeles); Douglas K. Owens, MD, MS (Veterans Affairs Palo Alto Health Care System, Palo Alto, California, and Stanford University, Stanford, California); William R. Phillips, MD, MPH (University of Washington, Seattle); Maureen G. Phipps, MD, MPH (Brown University, Providence, Rhode Island); Michael P. Pignone, MD, MPH (University of North Carolina, Chapel Hill); Albert L. Siu, MD, MPH (Mount Sinai School of Medicine, New York, New York, and James J. Peters Veterans Affairs Medical Center, Bronx, New York).
+Return to Table of Contents
+Copyright and Source Information
+Conflict of Interest Disclosures:
+All authors have completed and submitted the ICMJE Form for Disclosure of Potential Conflicts of Interest and none were reported. Authors followed the policy regarding conflicts of interest described at
+http://www.uspreventiveservicestaskforce.org/Page/Name/conflict-of-interest-disclosures
+.
+Funding/Support:
+The USPSTF is an independent, voluntary body. The US Congress mandates that the Agency for Healthcare Research and Quality (AHRQ) support the operations of the USPSTF.
+Disclaimer:
+Recommendations made by the USPSTF are independent of the US government. They should not be construed as an official position of AHRQ or the US Department of Health and Human Services.
+Copyright Notice:
+USPSTF recommendations are based on a rigorous review of existing peer-reviewed evidence and are intended to help primary care clinicians and patients decide together whether a preventive service is right for a patient’s needs. To encourage widespread discussion, consideration, adoption, and implementation of USPSTF recommendations, AHRQ permits members of the public to reproduce, redistribute, publicly display, and incorporate USPSTF work into other materials provided that it is reproduced without any changes to the work of portions thereof, except as permitted as fair use under the U.S. Copyright Act.
+AHRQ and the U.S. Department of Health and Human Services cannot endorse, or appear to endorse, derivative or excerpted materials, and they cannot be held liable for the content or use of adapted products that are incorporated on other Web sites. Any adaptations of these electronic documents and resources must include a disclaimer to this effect. Advertising or implied endorsement for any commercial products or services is strictly prohibited.
+This work may not be reproduced, reprinted, or redistributed for a fee, nor may the work be sold for profit or incorporated into a profit-making venture without the express written permission of AHRQ. This work is subject to the restrictions of Section 1140 of the Social Security Act, 42 U.S.C. § 1320b-10. When parts of a recommendation statement are used or quoted, the USPSTF Web page should be cited as the source.
+Return to Table of Contents
+References:
+1. Lin JS, Piper M, Perdue LA, et al. Screening for Colorectal Cancer: A Systematic Review for the U.S. Preventive Services Task Force. Evidence Synthesis No. 135. AHRQ Publication No. 14-05203-EF-1. Rockville, MD: Agency for Healthcare Research and Quality; 2016.
+2. Zauber A, Knudsen A, Rutter CM, Lansdorp-Vogelaar I, Kuntz KM. Evaluating the Benefits and Harms of Colorectal Cancer Screening Strategies: A Collaborative Modeling Approach. AHRQ Publication No. 14-05203-EF-2. Rockville, MD: Agency for Healthcare Research and Quality; 2015.
+3. Howlader N, Noone AM, Krapcho M, et al (eds). SEER Cancer Statistics Review, 1975–2013. National Cancer Institute.
+http://seer.cancer.gov/csr/1975_2013/
+. Accessed April 21, 2016.
+4. Shapiro JA, Klabunde CN, Thompson TD, Nadel MR, Seeff LC, White A. Patterns of colorectal cancer test use, including CT colonography, in the 2010 National Health Interview Survey.
+Cancer Epidemiol Biomarkers Prev
+. 2012;21(6):895-904.
+5. Inadomi JM, Vijan S, Janz NK, et al. Adherence to colorectal cancer screening: a randomized clinical trial of competing strategies.
+Arch Intern Med
+. 2012;172(7):575-82.
+6. Lin JS, Piper M, Perdue LA, et al. Screening for colorectal cancer: updated evidence report and systematic review for the U.S. Preventive Services Task Force.
+JAMA
+. doi:10.1001/jama.2016.3332
+7. Henrikson NB, Webber EM, Goddard KA, et al. Family history and the natural history of colorectal cancer: systematic review.
+Genet Med
+. 2015;17(9):702-12.
+8. Levin B, Lieberman DA, McFarland B, et al. Screening and surveillance for the early detection of colorectal cancer and adenomatous polyps, 2008: a joint guideline from the American Cancer Society, the US Multi-Society Task Force on Colorectal Cancer, and the American College of Radiology.
+CA Cancer J Clin
+. 2008;58(3):130-60.
+9. Brawley OW. Colorectal cancer control: providing adequate care to those who need it.
+J Natl Cancer Inst
+. 2014;106(4):dju075.
+10. Dignam JJ, Colangelo L, Tian W, Jones J, Smith R, Wickerham DL, et al. Outcomes among African-Americans and Caucasians in colon cancer adjuvant therapy trials: findings from the National Surgical Adjuvant Breast and Bowel Project.
+J Natl Cancer Inst
+. 1999;91(22):1933-40.
+11. Cooper GS, Koroukian SM. Racial disparities in the use of and indications for colorectal procedures in Medicare beneficiaries.
+Cancer
+. 2004;100(2):418-24.
+12. Knudsen A, Zauber A, Rutter CM, et al. Estimation of benefits, burden, and harms of colorectal cancer screening strategies: modeling study for the US Preventive Services Task Force.
+JAMA
+. doi:10.1001/jama.2016.6828
+13. Imperiale TF, Ransohoff DF, Itzkowitz SH, , et al. Multitarget stool DNA testing for colorectal-cancer screening.
+N Engl J Med
+. 2014;370(14):1287-97.
+14. Holme Ø, Løberg M, Kalager M, et al. Effect of flexible sigmoidoscopy screening on colorectal cancer incidence and mortality: a randomized clinical trial.
+JAMA
+. 2014;312(6):606-15.
+15. Nishihara R, Wu K, Lochhead P, et al. Long-term colorectal-cancer incidence and mortality after lower endoscopy.
+N Engl J Med
+. 2013;369(12):1095-105.
+16. Premarket approval (PMA) for Epi proColon. US Food and Drug Adminstration.
+http://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfPMA/pma.cfm?id=P130001
+. Accessed April 21, 2016.
+17. Church TR, Wandell M, Lofton-Day C, et al. Prospective evaluation of methylated SEPT9 in plasma for detection of asymptomatic colorectal cancer. Gut. 2014;63(2):317-25.
+18. Lansdorp-Vogelaar I, Gulati R, Mariotto AB, et al. Personalizing age of cancer screening cessation based on comorbid conditions: model estimates of harms and benefits.
+Ann Intern Med
+. 2014;161(2):104-12.
+19. Centers for Disease Control and Prevention. Vital signs: colorectal cancer screening test use--United States, 2012.
+MMWR Morb Mortal Wkly Rep
+. 2013;62(44):881-8.
+20. Abdelsattar Z, Wong S, Regenbogen S, Jomaa D, Hardiman K, Hendren S. Colorectal cancer outcomes and treatment patterns in patients too young for average-risk screening.
+Cancer
+. 2016;122(6):929-34.
+21. Premarket approval application (PMA) approval letter for Cologuard. US Food and Drug Adminstration.
+http://www.accessdata.fda.gov/cdrh_docs/pdf13/P130017a.pdf
+. Accessed April 20, 2016.
+22. Redwood D, Asay E, Blake I, et al. Stool DNA testing for screening detection of colorectal neoplasia in Alaska Native people.
+Mayo Clin Proc
+. 2016;91(1):61-70.
+23. Quintero E, Castells A, Bujanda L, et al. Colonoscopy versus fecal immunochemical testing in colorectal-cancer screening.
+N Engl J Med
+. 2012;366(8):697-706.
+24. Kaminski MF, Bretthauer M, Zauber AG, et al. The NordICC Study: rationale and design of a randomized trial on colonoscopy screening for colorectal cancer.
+Endoscopy
+. 2012;44(7):695-702.
+25. U.S. Department of Veterans Affairs. Colonoscopy Versus Fecal Immunochemical Test in Reducing Mortality From Colorectal Cancer (CONFIRM) [NCT01239082]. ClinicalTrials.gov.
+https://clinicaltrials.gov/ct2/show/NCT01239082
+. Accessed May 27, 2016.
+26. Uppsala University Hospital. Colonoscopy and FIT as Colorectal Cancer Screening Test in the Average Risk Population [NCT02078804]. ClinicalTrials.gov.
+https://clinicaltrials.gov/ct2/show/NCT02078804
+. Accessed May 27, 2016.
+27. US Preventive Services Task Force. Screening for colorectal cancer: US Preventive Services Task Force recommendation statement.
+Ann Intern Med
+. 2008;149(9):627-37.
+28. Rex DK, Johnson DA, Anderson JC, Schoenfeld PS, Burke CA, Inadomi JM; American College of Gastroenterology. American College of Gastroenterology guidelines for colorectal cancer screening 2009 [published correction appears in Am J Gastroenterol. 2009;104(6):1613].
+Am J Gastroenterol
+. 2009;104(3):739-50.
+29. Burt RW, Cannon JA, David DS, et al; National Comprehensive Cancer Network. Colorectal cancer screening.
+J Natl Compr Canc Netw
+. 2013;11(12):1538-75.
+30. Wilt TJ, Harris RP, Qaseem A; High Value Care Task Force of the American College of Physicians. Screening for cancer: advice for high-value care from the American College of Physicians.
+Ann Intern Med
+. 2015;162(10):718-25.
+31. American Academy of Family Physicians. Clinical preventive service recommendation: colorectal cancer.
+https://www.aafp.org/afp/2018/0515/p658.html
+. Accessed May 8, 2019.
+32. Canadian Task Force on Preventive Health Care. Recommendations on screening for colorectal cancer in primary care.
+CMAJ
+. 2016;188(5):340-8.
+Table. Characteristics of Colorectal Cancer Screening Strategies
+a
+Screening Method
+Frequency
+b
+Evidence of Efficacy
+Other Considerations
+Stool-Based Tests
+gFOBT
+Every year
+RCTs with mortality end points:
+High-sensitivity versions (eg, Hemoccult SENSA) have superior test performance characteristics than older tests (eg, Hemoccult II)
+Does not require bowel preparation, anesthesia, or transportation to and from the screening examination (test is performed at home)
+FIT
+c
+Every year
+Test characteristic studies:
+Improved accuracy compared with gFOBT
+Can be done with a single specimen
+Does not require bowel preparation, anesthesia, or transportation to and from the screening examination (test is performed at home)
+FIT-DNA
+Every 1 or 3 y
+d
+Test characteristic studies:
+Specificity is lower than for FIT, resulting in more false-positive results, more diagnostic colonoscopies, and more associated adverse events per screening test
+Improved sensitivity compared with FIT per single screening test
+There is insufficient evidence about appropriate longitudinal follow-up of abnormal findings after a negative diagnostic colonoscopy; may potentially lead to overly intensive surveillance due to provider and patient concerns over the genetic component of the test
+Direct Visualization Tests
+Colonoscopy
+c
+Every 10 y
+Prospective cohort study with mortality end point
+Requires less frequent screening. Screening and diagnostic followup of positive results can be performed during the same examination.
+CT colonography
+e
+Every 5 y
+Test characteristic studies
+There is insufficient evidence about the potential harms of associated extracolonic findings, which are common
+Flexible sigmoidoscopy
+Every 5 y
+RCTs with mortality end points:
+Modeling suggests it provides less benefit than when combined with FIT or compared with other strategies
+Test availability has declined in the United States
+Flexible sigmoidoscopy with FIT
+c
+Flexible sigmoidoscopy every 10 y plus FIT every year
+RCT with mortality end point (subgroup analysis)
+Test availability has declined in the United States
+Potentially attractive option for patients who want endoscopic screening but want to limit exposure to colonoscopy
+Abbreviations:
+FIT=fecal immunochemical test; FIT-DNA=multitargeted stool DNA test; gFOBT=guaiac-based fecal occult blood test; RCT=randomized clinical trial.
+a
+Although a serology test to detect methylated
+SEPT9
+DNA was included in the systematic evidence review, this screening method currently has limited evidence evaluating its use (a single published test characteristic study met inclusion criteria, which found it had a sensitivity to detect colorectal cancer of <50%).
+1
+It is therefore not included in this table.
+b
+Applies to persons with negative findings (including hyperplastic polyps) and is not intended for persons in surveillance programs. Evidence of efficacy is not informative of screening frequency, with the exception of gFOBT and flexible sigmoidoscopy alone.
+c
+Strategy yields comparable life-years gained (ie, the life-years gained with the noncolonoscopy strategies were within 90% of those gained with the colonoscopy strategy) and an efficient balance of benefits and harms in CISNET modeling.
+2
+d
+Suggested by manufacturer.
+e
+Strategy yields comparable life-years gained (ie, the life-years gained with the noncolonoscopy strategies were within 90% of those gained with the colonoscopy strategy) and an efficient balance of benefits and harms in CISNET modeling when lifetime number of colonoscopies is used as the proxy measure for the burden of screening, but not if lifetime number of cathartic bowel preparations is used as the proxy measure.
+2
+Return to Table of Contents
+Figure. Benefits, Harms, and Burdens of Colorectal Screening Strategies Over a Lifetime
+Outcomes are from Cancer Intervention and Surveillance Modeling Network (CISNET) models, which include the Simulation Model of Colorectal Cancer (SimCRC), the Microsimulation Screening Analysis (MISCAN) for Colorectal Cancer, and the Colorectal Cancer Simulated Population model for Incidence and Natural History (CRC-SPIN).
+2
+Screening occurs between the ages of 50 and 75 years, with follow-up continuing throughout an individual's remaining life span. FIT indicates fecal immunochemical test; FIT-DNA, multitargeted stool DNA test; HSgFOBT, high-sensitivity guaiac-based fecal occult blood test.
+a
+These strategies yield comparable life-years gained (ie, the life-years gained with the noncolonoscopy strategies were within 90% of those gained with the colonoscopy strategy) and an efficient balance of benefits and harms (ie, no other strategy or combination of strategies within the class of screening tests provides more life-years with the same [or fewer] number of colonoscopies, which represents the primary source of harms from screening).
+2
+b
+Computed tomographic (CT) colonography can also be considered efficient, but if cathartic bowel preparation is considered to be a proxy measure for the burden of screening (instead of number of lifetime colonoscopies), its efficiency ratio (ie, the incremental number of colonoscopies required to achieve an additional year of life gained [ΔCOL/ΔLYG]) exceeds that of colonoscopy.
+c
+Gastrointestinal events include perforations, bleeding, transfusions, paralytic ileus, nausea and vomiting, dehydration, and abdominal pain. Cardiovascular events include myocardial infarction, angina, arrhythmia, congestive heart failure, cardiac or respiratory arrest, syncope, hypotension, and shock.
+Text Description
+.
+The figure depicts the estimated number of life-years gained, colorectal cancer deaths averted, lifetime colonoscopies required, and resulting complications per 1000 screened adults aged 50 to 75 years for each of the considered screening strategies (flexible sigmoidoscopy every 5 years, FIT-DNA every year, FIT-DNA every 3 years, FIT every year, high-sensitivity gFOBT every year, CT colonography every 5 years, flexible sigmoidoscopy every 10 years plus FIT every year, or colonoscopy every 10 years). The estimates are derived from modeling conducted by the Cancer Intervention and Surveillance Modeling Network. The figures shows that the available strategies range from an estimated 1714 to 4049 total colonoscopies required per 1000 persons screened over a lifetime; screening colonoscopy every 10 years generates the highest degree of associated burden or harm.
+Return to Table of Contents
+Current as of: June 2016
+Internet Citation:
+Final Recommendation Statement: Colorectal Cancer: Screening
+. U.S. Preventive Services Task Force. May 2019.
+https://www.uspreventiveservicestaskforce.org/Page/Document/RecommendationStatementFinal/colorectal-cancer-screening2
+Privacy Policy
+•
+Terms of Use
+•
+Accessibility
+•
+Web Site Disclaimers
+•
+Contact Us
+USPSTF Program Office
+•
+5600 Fishers Lane, Mail Stop 06E53A, Rockville, MD 20857

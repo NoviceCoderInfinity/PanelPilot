@@ -1,0 +1,6 @@
+[
+ "The footnote markers '†' (on the description) and '*' (on the date) refer to text not included in this section; any conditions they carry are not represented.",
+ "No exclusions (e.g., bilateral mastectomy, hospice) are stated in the section text, so none were encoded.",
+ "The point at which age is evaluated (end of measurement year) is an implementation choice; the text only states 'women aged 40 to 74 years'.",
+ "The biennial window ({MY-1}-01-01 to {MY}-12-31) is derived from 'biennial' and flagged for human review."
+]

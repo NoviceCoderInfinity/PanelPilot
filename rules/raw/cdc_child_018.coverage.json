@@ -1,0 +1,14 @@
+[
+ "Ages 6 months–17 years who are NOT moderately or severely immunocompromised: COVID-19 vaccination is based on shared clinical decision-making, not a routine recommendation; it was not encoded as a rule. It would require {uncomputable: shared clinical decision-making / parental preference}.",
+ "The minimum ages for the vaccine products could not be represented. Moderna and Pfizer-BioNTech have a minimum age of 6 months, and Novavax has a minimum age of 12 years. Age is in months, and product type is not in the vocabulary.",
+ "Product-specific dosing schedules were not represented. For ages 6 months–4 years, unvaccinated children need 2 doses of Moderna at 0, 4–8 weeks or 3 doses of Pfizer-BioNTech. All doses must be from the same manufacturer.",
+ "For age 18, an unvaccinated person who receives Novavax needs 2 doses at 0, 3–8 weeks. The rule counts only 1 dose of any product, so it may overcount compliance for these patients.",
+ "Catch-up and completion logic that depends on prior doses (incomplete or completed initial series before the 2024–25 vaccine) was not represented. This logic depends on the number and manufacturer of earlier doses and on minimum intervals (3–8 weeks, at least 8 weeks after the most recent dose).",
+ "Special situations for moderately or severely immunocompromised persons aged 6 months–18 years were not encoded. These include 3–4 dose series, a dose 6 months later (minimum interval 2 months), and additional doses. The schedules depend on product, prior doses and intervals.",
+ "Additional doses for immunocompromised persons are based on shared clinical decision-making, at least 2 months after the most recent dose. These are uncomputable and were not encoded.",
+ "Distinguishing moderate or severe immunocompromise from milder immunocompromise is not reliably available in structured data. The rule excludes any patient with an immunocompromised condition.",
+ "The '2024–25 vaccine' formulation is season-specific. The rule window is a derived assumption that needs human review for each season.",
+ "Several items were not encodable: transition between age bands (4→5, 11→12) during a series, vaccine interchangeability, and EUA indications. These are referenced to external CDC/FDA pages.",
+ "General notes were not representable as rules. These cover dose interval calculation (4 weeks = 28 days), the 4-day grace period and invalid-dose repetition, travel, immunodeficiency tables, outbreak guidance, and the VICP/CICP compensation programs.",
+ "Persons aged 19 years and older are referred to the adult schedule and are not covered here."
+]

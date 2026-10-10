@@ -1,0 +1,391 @@
+{
+ "openapi": "3.1.0",
+ "info": {
+  "title": "PanelPilot API",
+  "description": "Care-gap worklist, verdict evidence, outreach verification and rule provenance.",
+  "version": "1.0"
+ },
+ "paths": {
+  "/api/today": {
+   "get": {
+    "summary": "Today's call list (top N patients) with one-sentence reasons",
+    "operationId": "today_api_today_get",
+    "parameters": [
+     {
+      "name": "n",
+      "in": "query",
+      "required": false,
+      "schema": {
+       "type": "integer",
+       "default": 20,
+       "title": "N"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/api/patient/{patient}": {
+   "get": {
+    "summary": "Every verdict for a patient, down to source quotes and raw export lines",
+    "operationId": "patient_api_patient__patient__get",
+    "parameters": [
+     {
+      "name": "patient",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string",
+       "title": "Patient"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/api/outreach": {
+   "post": {
+    "summary": "Log a contact outcome. 'scheduled' starts verification; it does not close the gap.",
+    "operationId": "log_outreach_api_outreach_post",
+    "requestBody": {
+     "content": {
+      "application/json": {
+       "schema": {
+        "$ref": "#/components/schemas/Outcome"
+       }
+      }
+     },
+     "required": true
+    },
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/api/followups": {
+   "get": {
+    "summary": "Outreach items: pending verification, verified (with evidence), reopened (with reason)",
+    "operationId": "followups_api_followups_get",
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     }
+    }
+   }
+  },
+  "/api/rules": {
+   "get": {
+    "summary": "Every rule: provenance, verification state, results per year, caveats",
+    "operationId": "rules_view_api_rules_get",
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     }
+    }
+   }
+  },
+  "/api/rules/approve": {
+   "post": {
+    "summary": "Human sign-off on a rule's exact content (re-verified first)",
+    "operationId": "approve_api_rules_approve_post",
+    "parameters": [
+     {
+      "name": "x-approver-token",
+      "in": "header",
+      "required": false,
+      "schema": {
+       "type": "string",
+       "default": "",
+       "title": "X-Approver-Token"
+      }
+     }
+    ],
+    "requestBody": {
+     "required": true,
+     "content": {
+      "application/json": {
+       "schema": {
+        "$ref": "#/components/schemas/Approval"
+       }
+      }
+     }
+    },
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/api/health": {
+   "get": {
+    "summary": "Feed freshness, data-quality actions, nightly run history with timings",
+    "operationId": "health_api_health_get",
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     }
+    }
+   }
+  },
+  "/api/metrics": {
+   "get": {
+    "summary": "Is it working? Verified closures, reopen rate, time to verified care, measure rates",
+    "operationId": "metrics_api_metrics_get",
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     }
+    }
+   }
+  },
+  "/api/admin/nightly": {
+   "post": {
+    "summary": "Demo helper: run the nightly job now for a given as-of date",
+    "operationId": "nightly_now_api_admin_nightly_post",
+    "parameters": [
+     {
+      "name": "as_of",
+      "in": "query",
+      "required": true,
+      "schema": {
+       "type": "string",
+       "title": "As Of"
+      }
+     },
+     {
+      "name": "replay",
+      "in": "query",
+      "required": false,
+      "schema": {
+       "type": "boolean",
+       "default": true,
+       "title": "Replay"
+      }
+     },
+     {
+      "name": "x-approver-token",
+      "in": "header",
+      "required": false,
+      "schema": {
+       "type": "string",
+       "default": "",
+       "title": "X-Approver-Token"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ },
+ "components": {
+  "schemas": {
+   "Approval": {
+    "properties": {
+     "file": {
+      "type": "string",
+      "title": "File"
+     }
+    },
+    "type": "object",
+    "required": [
+     "file"
+    ],
+    "title": "Approval"
+   },
+   "HTTPValidationError": {
+    "properties": {
+     "detail": {
+      "items": {
+       "$ref": "#/components/schemas/ValidationError"
+      },
+      "type": "array",
+      "title": "Detail"
+     }
+    },
+    "type": "object",
+    "title": "HTTPValidationError"
+   },
+   "Outcome": {
+    "properties": {
+     "patient": {
+      "type": "string",
+      "title": "Patient"
+     },
+     "rule_ids": {
+      "items": {
+       "type": "string"
+      },
+      "type": "array",
+      "title": "Rule Ids"
+     },
+     "outcome": {
+      "type": "string",
+      "title": "Outcome"
+     },
+     "note": {
+      "type": "string",
+      "title": "Note",
+      "default": ""
+     }
+    },
+    "type": "object",
+    "required": [
+     "patient",
+     "rule_ids",
+     "outcome"
+    ],
+    "title": "Outcome"
+   },
+   "ValidationError": {
+    "properties": {
+     "loc": {
+      "items": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "integer"
+        }
+       ]
+      },
+      "type": "array",
+      "title": "Location"
+     },
+     "msg": {
+      "type": "string",
+      "title": "Message"
+     },
+     "type": {
+      "type": "string",
+      "title": "Error Type"
+     },
+     "input": {
+      "title": "Input"
+     },
+     "ctx": {
+      "type": "object",
+      "title": "Context"
+     }
+    },
+    "type": "object",
+    "required": [
+     "loc",
+     "msg",
+     "type"
+    ],
+    "title": "ValidationError"
+   }
+  }
+ }
+}

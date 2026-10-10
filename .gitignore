@@ -1,0 +1,16 @@
+.venv/
+synthea/output/
+synthea/*.jar
+synthea/generate.log
+data/
+__pycache__/
+*.duckdb
+.DS_Store
+.env
+PanelPilot-Assignment.pdf
+REVIEW_NOTES.md
+docs/MEMO_DRAFT.md
+docs/DEMO.md
+docs/DEMO_SCRIPT.md
+docs/WALKTHROUGH_SCRIPT.md
+docs/APPROVAL_SHORTLIST.md

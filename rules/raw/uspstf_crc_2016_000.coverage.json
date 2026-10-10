@@ -1,0 +1,10 @@
+[
+ "FIT-DNA frequency is 'Every 1 or 3 y d'. Footnote d is not included in the section text. The rule therefore credits only a FIT-DNA test within the measurement year. A 3-year lookback may be intended and needs human review.",
+ "Footnotes b, c, d and e are referenced in the table but their text is not provided, so any conditions they carry are not represented.",
+ "The 'Flexible sigmoidoscopy with FIT' strategy (sigmoidoscopy every 10 y plus FIT every year) is not encoded as a separate branch. Any patient meeting it already satisfies the annual stool-test branch, so a separate branch would add nothing. The fobt concept covers both gFOBT and FIT.",
+ "The rule has no exclusions, such as colorectal cancer, total colectomy, hospice or death, because none are stated in this section.",
+ "The Clinical Considerations section is referenced but not included, so its content is not captured.",
+ "Not captured: follow-up of abnormal results and diagnostic colonoscopy after a positive stool test.",
+ "Not captured: surveillance intervals and the method-specific considerations in the table (evidence of efficacy, bowel preparation, extracolonic findings, test availability).",
+ "The section gives no effective date beyond the document year 2016. effective_date is set to '2016'."
+]

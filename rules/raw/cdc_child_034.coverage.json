@@ -1,0 +1,12 @@
+[
+ "Requires human review: the numerator counts any Tdap dose. Per the text, 'Age 7–9 years who receive Tdap should receive the adolescent Tdap booster dose at age 11–12 years', so a Tdap given at age 7-9 should NOT satisfy the adolescent booster. The grammar cannot check age at administration, so such patients may be falsely marked as met.",
+ "Not represented: 'Age 10–18 years: Count dose of DTaP as the adolescent Tdap booster dose' (DTaP inadvertently given at age 10-18 counts as the booster). This needs age-at-dose logic and is not in the numerator, so such patients may be falsely marked as not met.",
+ "Not represented: 'Age 10 years who receive Tdap do not need the adolescent Tdap booster dose at age 11–12 years'. A Tdap at age 10 does count under the ever-window numerator, but age at dose is not validated.",
+ "Not represented as a rule: routine dose window 'Age 11–12 years: 1 dose Tdap (adolescent booster)'. Timing relative to the patient's birthday cannot be expressed with measurement-year windows. The 13-18 rule acts as a completion check instead.",
+ "Not represented: 'Pregnancy: 1 dose Tdap during each pregnancy, preferably in early part of gestational weeks 27–36'. This needs pregnancy-relative and gestational-week timing and per-pregnancy counting.",
+ "Not represented: catch-up for 'Age 7–18 years not fully vaccinated* with DTaP: 1 dose Tdap as part of the catch-up series (preferably the first dose)'. This includes the footnote definition 'Fully vaccinated = 5 valid doses of DTaP or 4 valid doses of DTaP if dose 4 was administered at age 4 years or older' and the follow-on Td/Tdap doses. It depends on dose validity and age at dose.",
+ "Not represented: DTaP inadvertently given at age 7-9 counting as part of the catch-up series, which still requires the adolescent booster at 11-12.",
+ "Not represented: minimum ages (11 years routine, 7 years catch-up) and the note that Tdap may be given regardless of interval since the last tetanus/diphtheria-toxoid vaccine.",
+ "Not represented: wound management. This covers intervals of 10 years (clean/minor wounds) or 5 years (other wounds) since the last tetanus-toxoid dose in persons aged 7 or older with 3 or more prior doses, Tdap preference for age 11 or older without prior/unknown Tdap, and Tdap for a pregnant adolescent. It depends on clinical events (wounds) not reliably in structured data.",
+ "Referenced external guidance (Table 2 catch-up, MMWR link) is not part of this section and was not encoded."
+]

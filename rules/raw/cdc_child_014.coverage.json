@@ -1,0 +1,8 @@
+[
+ "Routine schedule timing (dose 1 at 12–15 months, dose 2 at 4–6 years) is not encoded as separate age-specific rules; ages are whole years and a dose-1-by-age-2 or dose-2-by-age-7 rule would require derived thresholds. The age 7–18 rule covers completion of the series.",
+ "Mixed series counting (one VAR dose plus one MMRV dose = 2 valid doses) cannot be expressed: the numerator counts VAR and MMRV separately and may under-count patients with a mixed series.",
+ "Minimum age 12 months: doses given before 12 months are invalid but are not excluded from the dose count.",
+ "Minimum intervals not represented: dose 2 as early as 3 months after dose 1 (dose after at least 4 weeks may be counted valid); catch-up intervals of 3 months for age 7–12 years and 4–8 weeks (minimum 4 weeks) for age 13 years and older.",
+ "Product choice not represented: for dose 1 at age 12–47 months, separate MMR and varicella vaccines recommended; MMRV may be used on parent/caregiver preference; maximum age for MMRV is 12 years.",
+ "Evidence of immunity criteria (MMWR rr5604) encoded only as an uncomputable exclusion."
+]

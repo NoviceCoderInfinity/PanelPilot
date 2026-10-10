@@ -1,0 +1,67 @@
+{
+ "id": "uspstf_crc_2016.CRC-SCREEN-50-75",
+ "version": "June 2016",
+ "title": "Colorectal cancer screening, adults 50-75 (2016 statement)",
+ "grade": "A",
+ "effective_date": "June 2016",
+ "source": {
+  "doc_id": "uspstf_crc_2016",
+  "section_id": "uspstf_crc_2016:000",
+  "quote": "The USPSTF recommends screening for colorectal cancer starting at age 50 years and continuing until age 75 years."
+ },
+ "denominator": {
+  "age": {
+   "min": 50,
+   "max": 75,
+   "at": "end"
+  },
+  "quote": "starting at age 50 years and continuing until age 75 years"
+ },
+ "numerator": {
+  "any": [
+   {
+    "procedure": {
+     "concept": "colonoscopy",
+     "window": [
+      "{MY-9}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "Every 10 y"
+   },
+   {
+    "procedure": {
+     "concept": "fobt",
+     "window": [
+      "{MY}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "Every year"
+   },
+   {
+    "procedure": {
+     "concept": "ct_colonography",
+     "window": [
+      "{MY-4}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "Every 5 y"
+   },
+   {
+    "procedure": {
+     "concept": "flexible_sigmoidoscopy",
+     "window": [
+      "{MY-4}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "Every 5 y"
+   }
+  ]
+ },
+ "exclusions": [],
+ "gold_notes": "Superseded version; exists to demonstrate the 50->45 update diff.",
+ "compiled_by": "gold"
+}

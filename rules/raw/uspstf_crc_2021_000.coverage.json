@@ -1,0 +1,12 @@
+[
+ "Version and effective_date are taken from the document id (uspstf_crc_2021). The section text gives no DATE field.",
+ "Footnotes a, b and c on the screening methods table are referenced but not included in the section text, so any conditions they carry are not represented.",
+ "sDNA-FIT is listed as 'Every 1 to 3 c y'. The rule uses the 3-year outer bound. The text notes that modeling favors every 1 or 2 y and that every 3 y is not efficient, and footnote c is unavailable. Human review is needed on the interval.",
+ "The 'fobt' concept covers both high-sensitivity gFOBT and FIT. The guideline's preference for high-sensitivity gFOBT over older versions (eg, Hemoccult II) cannot be distinguished with this concept.",
+ "The 'Flexible sigmoidoscopy with FIT' branch is logically subsumed by the annual fobt branch. It is kept only for fidelity to the table.",
+ "No exclusions are stated in this section, such as prior colorectal cancer, total colectomy, hospice or limited life expectancy. None were added.",
+ "Follow-up colonoscopy after abnormal stool-based, CT colonography or sigmoidoscopy results is not represented.",
+ "The practice-consideration details in the 'Practice Considerations' section and Table 1 are not in this section and are not represented. These include adherence, dietary restrictions, bowel preparation and test availability.",
+ "Other age groups, such as 45-49 (grade B) and 76-85 (grade C, individualized), are not in this section and are not represented here.",
+ "CT colonography extracolonic findings and their evaluation are not represented."
+]

@@ -1,0 +1,6 @@
+[
+ "New concept 'gestational_weight_gain_counseling' (behavioral counseling on healthy gestational weight gain) was introduced because no vocabulary concept fits. Counseling documentation may not be reliably coded in structured EHR data, so a reviewer may prefer to treat the numerator as uncomputable.",
+ "Whether the counseling is 'effective' (content, intensity, number of sessions) cannot be represented. The rule checks only that counseling was documented.",
+ "The text gives no timing for the counseling. The measurement-year window is an assumption and is declared as derived. Aligning the window to the pregnancy episode (onset to delivery) cannot be expressed with the available pregnancy concept.",
+ "The recommendation is to 'offer' counseling. Whether the patient accepted or declined the offer cannot be represented."
+]

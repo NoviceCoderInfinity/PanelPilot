@@ -1,0 +1,47 @@
+{
+ "id": "uspstf_ab.BREASTFEEDING-SUPPORT-PREG-POSTPARTUM",
+ "version": "April 2025",
+ "title": "Breastfeeding support interventions or referrals during pregnancy and after birth",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:008",
+  "quote": "The USPSTF recommends providing interventions or referrals, during pregnancy and after birth, to support breastfeeding."
+ },
+ "grade": "B",
+ "effective_date": "April 2025",
+ "action": "Provide interventions or referrals, during pregnancy and after birth, to support breastfeeding.",
+ "compiled_by": "llm",
+ "denominator": {
+  "any": [
+   {
+    "condition": {
+     "concept": "pregnancy",
+     "onset_by": "{MY}-12-31"
+    },
+    "quote": "during pregnancy",
+    "note": "Measurement-year scoping of pregnancy is a modeling choice; the text gives no timing."
+   },
+   {
+    "condition": {
+     "concept": "postpartum",
+     "onset_by": "{MY}-12-31"
+    },
+    "quote": "after birth",
+    "note": "The text does not define the length of the postpartum period."
+   }
+  ],
+  "quote": "pregnant and postpartum women"
+ },
+ "numerator": {
+  "procedure": {
+   "concept": "breastfeeding_support_intervention",
+   "window": [
+    "{MY}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "providing interventions or referrals, during pregnancy and after birth, to support breastfeeding",
+  "note": "New concept (not in vocabulary): a breastfeeding support intervention or a referral for one. The measurement-year window is a modeling choice; the text says only 'during pregnancy and after birth'."
+ },
+ "exclusions": []
+}

@@ -1,0 +1,48 @@
+{
+ "id": "cdc_child.MENB-SCDM-16-23",
+ "version": "2025",
+ "title": "MenB vaccination for adolescents not at increased risk based on shared clinical decision-making",
+ "source": {
+  "doc_id": "cdc_child",
+  "section_id": "cdc_child:028",
+  "quote": "Adolescents not at increased risk age 16–23 years "
+ },
+ "grade": "ACIP shared clinical decision-making; not graded",
+ "effective_date": "2025",
+ "action": "Offer MenB (Bexsero or Trumenba, same brand) 2-dose series at least 6 months apart to adolescents age 16–23 (preferred 16–18) not at increased risk, based on shared clinical decision-making",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "age": {
+     "min": 16,
+     "max": 23,
+     "at": "end"
+    },
+    "quote": "age 16–23 years "
+   },
+   {
+    "uncomputable": {
+     "needs": "confirmation patient is not at increased risk of meningococcal disease (incl. outbreak exposure)"
+    },
+    "quote": "Adolescents not at increased risk"
+   },
+   {
+    "uncomputable": {
+     "needs": "shared clinical decision-making outcome"
+    },
+    "quote": "Shared clinical decision-making"
+   }
+  ],
+  "quote": "Adolescents not at increased risk age 16–23 years "
+ },
+ "numerator": {
+  "immunization": {
+   "concept": "menb_vaccine",
+   "min_count": 2
+  },
+  "quote": "2-dose series at least 6 months apart ",
+  "note": "6-month interval not checked; lifetime count, no window"
+ },
+ "exclusions": []
+}

@@ -1,0 +1,9 @@
+[
+ "No exclusions (e.g., hysterectomy with removal of cervix, high-risk populations such as prior high-grade precancerous lesion, in utero DES exposure, or immunocompromise) are stated in this section text, so none were encoded; the referenced Clinical Considerations section was not provided and may define such exclusions.",
+ "The section refers to the Clinical Considerations section for relative benefits and harms of alternative screening strategies for women 21 years or older; that content is not present here and was not represented.",
+ "Cotesting (hrHPV + cytology within 5 years) is encoded as a separate branch but is logically subsumed by the hrHPV-alone-within-5-years branch; the engine does not check that both tests were performed together on the same date.",
+ "Window conversions follow the measurement-year convention: 'every 3 years' -> [{MY-2}-01-01, {MY}-12-31]; 'every 5 years' -> [{MY-4}-01-01, {MY}-12-31].",
+ "Age is evaluated at end of the measurement year; a woman turning 21 or 30 during the year is placed in the corresponding band for the whole year, and band-transition handling (e.g., a cytology at age 29 counted for the 30-65 rule) is not specially modeled.",
+ "The text says 'women'; sex is encoded as F. Individuals with a cervix who are not recorded as female in the EHR are not captured.",
+ "The DATE field carries an asterisk ('August 2018 *') whose meaning is not explained in this section; not represented."
+]

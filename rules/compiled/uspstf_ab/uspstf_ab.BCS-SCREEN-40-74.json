@@ -1,0 +1,48 @@
+{
+ "id": "uspstf_ab.BCS-SCREEN-40-74",
+ "version": "April 2024",
+ "title": "Breast Cancer: Screening: women aged 40 to 74 years",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:007",
+  "quote": "The USPSTF recommends biennial screening mammography for women aged 40 to 74 years."
+ },
+ "grade": "B",
+ "effective_date": "April 2024",
+ "action": "Biennial screening mammography",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "sex": {
+     "is": "F"
+    },
+    "quote": "women"
+   },
+   {
+    "age": {
+     "min": 40,
+     "max": 74,
+     "at": "end"
+    },
+    "quote": "women aged 40 to 74 years",
+    "note": "Age evaluated at end of measurement year; the text does not specify the evaluation point."
+   }
+  ],
+  "quote": "for women aged 40 to 74 years"
+ },
+ "numerator": {
+  "procedure": {
+   "concept": "mammogram",
+   "window": [
+    "{MY-1}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "biennial screening mammography",
+  "derived": {
+   "window": "'biennial' means every 2 years, so for a December-31 check a mammogram in the measurement year or the prior year ({MY-1}-01-01 to {MY}-12-31) satisfies it"
+  }
+ },
+ "exclusions": []
+}

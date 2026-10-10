@@ -1,0 +1,9 @@
+[
+ "New concepts not in vocabulary: tobacco_use_screening, tobacco_cessation_advice, tobacco_cessation_behavioral_intervention, tobacco_cessation_pharmacotherapy.",
+ "'Adults' has no stated age in the text; min age 18 is derived and requires human review.",
+ "No interval is stated for asking, advising or intervening; measurement-year windows are derived assumptions requiring human review.",
+ "Grammar has no medication criterion type; FDA-approved cessation pharmacotherapy is encoded as a procedure concept. Specific products, dosing, contraindications, and patient declining pharmacotherapy are not represented.",
+ "Type, intensity and duration of behavioral interventions are not specified in the text and are not represented.",
+ "The DATE field carries an asterisk ('January 2021 *') referencing a footnote not present in the section text; its meaning is not represented.",
+ "Pregnant persons are covered by a separate recommendation in this topic and are excluded from the cessation-intervention rule here; the 'ask all adults' rule applies to all adults regardless of pregnancy as stated."
+]

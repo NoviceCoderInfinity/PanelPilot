@@ -1,0 +1,8 @@
+[
+ "The age floor of 6 months cannot be expressed in whole years. Minimum age was set to 1 at year end, which is a derived value that needs human review. Some eligible infants aged 6-11 months will be missed.",
+ "Water supply fluoride deficiency is not held in structured EHR data. It is encoded as uncomputable, so the engine will report this rule as not computable for every patient.",
+ "Oral fluoride supplementation is a prescription. The criterion grammar has no medication type, and the vocabulary has no oral fluoride concept. The numerator is therefore encoded as uncomputable rather than forced into the procedure or observation type. A possible new concept name is oral_fluoride_supplementation, if a medication criterion type is added.",
+ "Dosing of fluoride supplements, which depends on the water fluoride level and the child's age, is not represented.",
+ "The DATE field carries an asterisk ('December 2021 *') that refers to a footnote not included in this section. Its meaning is unknown and it is not represented.",
+ "This section covers only the oral fluoride supplementation statement. Other components of the dental caries topic, such as fluoride varnish application (concept fluoride_varnish), are not in this section text and were not encoded."
+]

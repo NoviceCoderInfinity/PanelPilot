@@ -1,0 +1,8 @@
+[
+ "The adult age threshold (18) is derived; the section only says 'adults'.",
+ "Increased risk of LTBI is uncomputable from structured EHR data; the risk criteria live in a separate 'Assessment of Risk' section not included here.",
+ "Asymptomatic status requires clinical assessment and is encoded as uncomputable.",
+ "No screening interval or rescreening frequency is given; the numerator window approximates 'ever screened' and is flagged as derived for human review.",
+ "Test choice (TST vs IGRA) and follow-up/treatment of positive results are not specified and not represented.",
+ "The asterisk after 'May 2023' in the DATE field is unexplained in this section."
+]

@@ -1,0 +1,7 @@
+[
+ "The numerator is encoded as uncomputable. The section names no screening modalities (colonoscopy, FIT, sDNA-FIT, CT colonography, flexible sigmoidoscopy) and no intervals. It only says: See the \"Practice Considerations\" section and Table 1 for details about screening strategies. Modality and lookback-window logic cannot be quoted from this section. It needs to be compiled from Table 1, or added with declared derived windows after human review.",
+ "The section states no exclusions. Common exclusions such as prior colorectal cancer, total colectomy, hospice or palliative care, and high-risk groups (hereditary syndromes, IBD, family history) are not represented because they are not in this text.",
+ "The age evaluation point (\"at\": \"end\", meaning age at the end of the measurement year) is an implementation choice. The text does not specify it.",
+ "The DATE field carries an asterisk (\"May 2021 *\"). The footnote it refers to is not included in the section text and could not be represented.",
+ "Possible higher-risk subpopulations, and any applicability limits for adults without symptoms, are not stated in this section and are not encoded."
+]

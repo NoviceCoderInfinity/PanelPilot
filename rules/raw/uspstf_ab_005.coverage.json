@@ -1,0 +1,7 @@
+[
+ "The population (personal or family history of breast, ovarian, tubal, or peritoneal cancer, or BRCA1/2-associated ancestry) is encoded as uncomputable. Family history and ancestry are not reliably held in structured EHR data. Personal cancer history alone could be computable, but it was not split out, to avoid partially approximating the population.",
+ "The numerator (completion of a brief familial risk assessment tool) has no vocabulary concept, so it is encoded as uncomputable. A new concept such as 'brca_familial_risk_assessment' would be needed to make it computable.",
+ "No age range or repeat interval is stated in the text. None was invented, so no age criterion or lookback window is applied.",
+ "Follow-on actions are not represented as rules. These are genetic counseling for women with a positive risk-assessment result, then genetic testing if indicated after counseling ('Women with a positive result on the risk assessment tool should receive genetic counseling and, if indicated after counseling, genetic testing.'). They depend on a prior tool result and on clinician/counselor judgment.",
+ "The DATE field carries an asterisk ('August 2019 *') whose footnote is not included in the section text. Its meaning is not captured."
+]

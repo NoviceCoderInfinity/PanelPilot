@@ -1,0 +1,35 @@
+{
+ "id": "uspstf_ab.HIV-SCREEN-PREGNANT",
+ "version": "June 2019",
+ "title": "HIV infection screening in pregnant persons",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:026",
+  "quote": "The USPSTF recommends that clinicians screen for HIV infection in all pregnant persons, including those who present in labor or at delivery whose HIV status is unknown."
+ },
+ "grade": "A",
+ "effective_date": "June 2019",
+ "action": "Screen for HIV infection in all pregnant persons, including those presenting in labor or at delivery with unknown HIV status.",
+ "compiled_by": "llm",
+ "denominator": {
+  "condition": {
+   "concept": "pregnancy"
+  },
+  "quote": "all pregnant persons"
+ },
+ "numerator": {
+  "observation": {
+   "concept": "hiv_test",
+   "window": [
+    "{MY}-01-01",
+    "{MY}-12-31"
+   ],
+   "pick": "any"
+  },
+  "quote": "screen for HIV infection",
+  "derived": {
+   "window": "text gives no timing; screening during the current pregnancy is approximated as any HIV test within the measurement year"
+  }
+ },
+ "exclusions": []
+}

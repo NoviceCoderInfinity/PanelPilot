@@ -1,0 +1,40 @@
+{
+ "id": "uspstf_ab.ANXIETY-SCREEN-ADULT-18-64",
+ "version": "June 2023",
+ "title": "Anxiety disorder screening in adults 64 years or younger, including pregnant and postpartum persons",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:001",
+  "quote": "The USPSTF recommends screening for anxiety disorders in adults, including pregnant and postpartum persons."
+ },
+ "grade": "B",
+ "effective_date": "June 2023",
+ "action": "Screen for anxiety disorders",
+ "compiled_by": "llm",
+ "denominator": {
+  "age": {
+   "min": 18,
+   "max": 64,
+   "at": "end"
+  },
+  "quote": "adults 64 years or younger",
+  "derived": {
+   "min": "'adults' interpreted as age 18 or older; 18 is not stated in the text"
+  }
+ },
+ "numerator": {
+  "observation": {
+   "concept": "anxiety_screening",
+   "window": [
+    "{MY}-01-01",
+    "{MY}-12-31"
+   ],
+   "pick": "any"
+  },
+  "quote": "screening for anxiety disorders",
+  "derived": {
+   "window": "the text states no screening interval; a measurement-year window is assumed and needs human review"
+  }
+ },
+ "exclusions": []
+}

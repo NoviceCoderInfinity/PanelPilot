@@ -1,0 +1,8 @@
+[
+ "No minimum age is stated; none was added. Population is bounded only by 'postmenopausal' (uncomputable) and 'younger than 65 years'.",
+ "Postmenopausal status is not reliably held in structured EHR data and is encoded as uncomputable.",
+ "Increased fracture risk 'as estimated by clinical risk assessment' depends on risk factors/risk tools and clinician judgment that this section does not specify; encoded as uncomputable rather than approximated.",
+ "Screening test type (e.g., DXA, concept dxa_scan) and screening interval/rescreening frequency are deferred to the 'Practice Considerations' section, which is not included here; numerator left uncomputable instead of inventing a window.",
+ "Treatment or follow-up after an abnormal screen is not described in this section and is not represented.",
+ "The DATE field has an unexplained asterisk ('January 2025 *'); its meaning is not given in this section."
+]

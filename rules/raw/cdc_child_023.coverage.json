@@ -1,0 +1,14 @@
+[
+ "Maternal HBsAg status (negative / positive / unknown) is not reliably held in the child's structured EHR, so it is not used as a filter. All three branches converge on at least 3 doses by 18 months, which is why the single rule above omits it. That rule is derived and needs human review.",
+ "Not represented: birth-dose timing by birth weight. This covers ≥2,000 g within 24 hours if medically stable; <2,000 g at 1 month or hospital discharge; and within 12 hours for HBsAg-positive or unknown mothers.",
+ "Not represented: the requirement to use only monovalent HepB vaccine for doses before age 6 weeks and for birth doses to infants of HBsAg-positive or unknown mothers. This is a product choice.",
+ "Not represented: HBIG administration within 12 hours of birth (HBsAg-positive mother; or HBsAg-unknown mother with birth weight <2,000 g), and HBIG no later than 7 days of age if the mother is later found HBsAg-positive.",
+ "Not represented: the 4-dose total required for infants <2000 grams born to HBsAg-positive or unknown mothers, with 3 additional doses beginning at age 1 month.",
+ "Not represented: minimum intervals (see Table 2), the minimum age of 24 weeks for the final dose, and substituting dose 4 for dose 3 when 4 doses are given.",
+ "Not represented: post-vaccination HBsAg and anti-HBs testing at 9–12 months (or 1–2 months after the final dose if the series is delayed; never before 9 months) for infants of HBsAg-positive or unknown-status mothers. This depends on maternal status, which is uncomputable, and on a post-vaccination serology concept that is not in the vocabulary.",
+ "Not represented: catch-up vaccination. This covers the 3-dose series at 0, 1–2, 6 months for unvaccinated persons, the alternative 2-dose Recombivax HB schedule for ages 11–15, and the options at age 18 (Heplisav-B 2-dose, PreHevbrio 3-dose, Twinrix 3- or 4-dose). These involve catch-up logic and product choice.",
+ "Not a rule: 'Revaccination is generally not recommended' for persons with normal immune status.",
+ "Not represented: post-vaccination serology and revaccination (if anti-HBs <10 mIU/mL) for infants of HBsAg-positive mothers, predialysis or dialysis patients, and other immunocompromised persons. These are interval-dependent and result-dependent, and detailed recommendations are external.",
+ "Not represented: the contraindication note that PreHevbrio is not recommended in pregnancy.",
+ "Page filler text ('WHITE SPACE INTENTIONALLY LEFT BLANK', page footer) contains no recommendations."
+]

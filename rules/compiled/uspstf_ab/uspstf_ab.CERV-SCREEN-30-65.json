@@ -1,0 +1,81 @@
+{
+ "id": "uspstf_ab.CERV-SCREEN-30-65",
+ "version": "August 2018",
+ "title": "Cervical cancer screening, women aged 30 to 65 (cytology q3y, hrHPV q5y, or cotesting q5y)",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:009",
+  "quote": "For women aged 30 to 65 years, the USPSTF recommends screening every 3 years with cervical cytology alone, every 5 years with high-risk human papillomavirus (hrHPV) testing alone, or every 5 years with hrHPV testing in combination with cytology (cotesting)."
+ },
+ "grade": "A",
+ "effective_date": "August 2018",
+ "action": "Screen for cervical cancer with cytology alone every 3 years, hrHPV testing alone every 5 years, or cotesting every 5 years",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "age": {
+     "min": 30,
+     "max": 65,
+     "at": "end"
+    },
+    "quote": "women aged 30 to 65 years"
+   },
+   {
+    "sex": {
+     "is": "F"
+    },
+    "quote": "women"
+   }
+  ]
+ },
+ "numerator": {
+  "any": [
+   {
+    "procedure": {
+     "concept": "cervical_cytology",
+     "window": [
+      "{MY-2}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "every 3 years with cervical cytology alone"
+   },
+   {
+    "procedure": {
+     "concept": "hpv_test",
+     "window": [
+      "{MY-4}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "every 5 years with high-risk human papillomavirus (hrHPV) testing alone"
+   },
+   {
+    "all": [
+     {
+      "procedure": {
+       "concept": "hpv_test",
+       "window": [
+        "{MY-4}-01-01",
+        "{MY}-12-31"
+       ]
+      },
+      "quote": "every 5 years with hrHPV testing"
+     },
+     {
+      "procedure": {
+       "concept": "cervical_cytology",
+       "window": [
+        "{MY-4}-01-01",
+        "{MY}-12-31"
+       ]
+      },
+      "quote": "every 5 years with hrHPV testing in combination with cytology"
+     }
+    ]
+   }
+  ]
+ },
+ "exclusions": []
+}

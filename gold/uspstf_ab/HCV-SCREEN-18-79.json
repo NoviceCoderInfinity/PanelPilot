@@ -1,0 +1,34 @@
+{
+ "id": "uspstf_ab.HCV-SCREEN-18-79",
+ "version": "March 2020",
+ "title": "Hepatitis C screening, adults 18-79",
+ "grade": "B",
+ "effective_date": "March 2020",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:023",
+  "quote": "The USPSTF recommends screening for hepatitis C virus (HCV) infection in adults aged 18 to 79 years."
+ },
+ "denominator": {
+  "age": {
+   "min": 18,
+   "max": 79,
+   "at": "end"
+  },
+  "quote": "adults aged 18 to 79 years"
+ },
+ "numerator": {
+  "observation": {
+   "concept": "hepatitis_c_test",
+   "window": [
+    "{MY-100}-01-01",
+    "{MY}-12-31"
+   ],
+   "pick": "any"
+  },
+  "quote": "screening for hepatitis C virus (HCV) infection"
+ },
+ "exclusions": [],
+ "gold_notes": "Source row states no interval; 'ever' is the clinical reading (one-time) but is an interpretation.",
+ "compiled_by": "gold"
+}

@@ -1,0 +1,36 @@
+{
+ "id": "bright_futures.PED-VISION-ACUITY-4-5",
+ "version": "2025",
+ "title": "Visual acuity screening at ages 4 and 5 years (Bright Futures/AAP periodicity schedule, footnote 7)",
+ "source": {
+  "doc_id": "bright_futures",
+  "section_id": "bright_futures:000",
+  "quote": "A visual acuity screen is recommended at ages 4 and 5 years, as well as in cooperative 3-year-olds."
+ },
+ "grade": "not graded (AAP/Bright Futures consensus recommendation)",
+ "effective_date": "2025-02",
+ "action": "Perform a visual acuity screen for children aged 4 and 5 years.",
+ "compiled_by": "llm",
+ "denominator": {
+  "age": {
+   "min": 4,
+   "max": 5,
+   "at": "end"
+  },
+  "quote": "at ages 4 and 5 years"
+ },
+ "numerator": {
+  "procedure": {
+   "concept": "visual_acuity_screening",
+   "window": [
+    "{MY}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "A visual acuity screen",
+  "derived": {
+   "window": "screen is due at the age-4 and age-5 visits; a child aged 4 or 5 at end of the measurement year reached that age during the year, so one acuity screen within the measurement year is expected"
+  }
+ },
+ "exclusions": []
+}

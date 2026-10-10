@@ -1,0 +1,67 @@
+{
+ "id": "cdc_child.RSV-MAB-INFANT-OCT-MAR",
+ "version": "2025",
+ "title": "Nirsevimab for infants born October–March whose mother did not receive RSV vaccine at least 14 days before delivery",
+ "source": {
+  "doc_id": "cdc_child",
+  "section_id": "cdc_child:032",
+  "quote": "nirsevimab within 1 week of birth—ideally during the birth hospitalization."
+ },
+ "grade": "not graded (ACIP routine recommendation)",
+ "effective_date": "2025",
+ "action": "Administer 1 dose nirsevimab within 1 week of birth, ideally during the birth hospitalization",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "age": {
+     "min": 0,
+     "max": 0,
+     "at": "end"
+    },
+    "quote": "minimum age: birth",
+    "derived": {
+     "min": "minimum age is birth, i.e. age 0 in whole years",
+     "max": "routine dose is given within 1 week of birth, so target infants are age 0 in the measurement year they are born"
+    }
+   },
+   {
+    "uncomputable": {
+     "needs": "birth month October–March combined with residence in a jurisdiction with typical continental-US RSV seasonality"
+    },
+    "quote": "Infants born October – March in most of the continental"
+   },
+   {
+    "any": [
+     {
+      "uncomputable": {
+       "needs": "maternal RSV vaccination history (not received, status unknown, or received only in a previous pregnancy) from the mother's record"
+      },
+      "quote": "Mother did not receive RSV vaccine"
+     },
+     {
+      "uncomputable": {
+       "needs": "date of maternal RSV vaccination relative to delivery date"
+      },
+      "quote": "Mother received RSV vaccine less than 14 days prior to"
+     }
+    ]
+   }
+  ]
+ },
+ "numerator": {
+  "immunization": {
+   "concept": "rsv_mab",
+   "min_count": 1,
+   "window": [
+    "{MY}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "nirsevimab within 1 week of birth",
+  "derived": {
+   "window": "dose is due within 1 week of birth for infants born in the measurement year; birth-relative timing is not expressible, so the measurement year is used (late-December births may be dosed in the following year and would wrongly appear unmet)"
+  }
+ },
+ "exclusions": []
+}

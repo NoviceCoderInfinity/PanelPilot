@@ -1,0 +1,50 @@
+{
+ "id": "BP-CTRL",
+ "title": "Controlling high blood pressure",
+ "source": {
+  "doc_id": "assignment",
+  "quote": "Adults 18–75 with a hypertension diagnosis dated before 2025-06-30"
+ },
+ "denominator": {
+  "all": [
+   {
+    "age": {
+     "min": 18,
+     "max": 75,
+     "at": "end"
+    },
+    "quote": "Adults 18–75",
+    "note": "age math at end of year unless stated"
+   },
+   {
+    "condition": {
+     "concept": "hypertension",
+     "onset_before": "{MY}-06-30"
+    },
+    "quote": "with a hypertension diagnosis dated before 2025-06-30"
+   }
+  ]
+ },
+ "numerator": {
+  "bp": {
+   "window": [
+    "{MY}-01-01",
+    "{MY}-12-31"
+   ],
+   "systolic_lt": 140,
+   "diastolic_lt": 90
+  },
+  "quote": "Most recent 2025 blood-pressure reading < 140/90 (both numbers)",
+  "note": "Systolic and diastolic paired by identical timestamp. No 2025 reading = fail (not met)."
+ },
+ "exclusions": [
+  {
+   "deceased": {
+    "before": "{MY}-01-01"
+   },
+   "quote": "deceased-before-2025 excluded everywhere"
+  }
+ ],
+ "action": "Book a BP check / nurse visit",
+ "version": "calib-1"
+}

@@ -1,0 +1,34 @@
+{
+ "id": "uspstf_ab.HBV-SCREEN-INCREASED-RISK",
+ "version": "December 2020",
+ "title": "Hepatitis B virus infection screening in adolescents and adults at increased risk",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:021",
+  "quote": "The USPSTF recommends screening for hepatitis B virus (HBV) infection in adolescents and adults at increased risk for infection."
+ },
+ "grade": "B",
+ "effective_date": "2020-12",
+ "action": "Screen for hepatitis B virus infection",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "uncomputable": {
+     "needs": "increased risk for HBV infection (risk factors defined in the Practice Considerations section, not included in this text)"
+    },
+    "quote": "adolescents and adults at increased risk for infection"
+   }
+  ],
+  "quote": "adolescents and adults at increased risk for infection"
+ },
+ "numerator": {
+  "observation": {
+   "concept": "hepatitis_b_test",
+   "pick": "any"
+  },
+  "quote": "screening for hepatitis B virus (HBV) infection",
+  "note": "No screening interval or lookback window is stated in the section text; window intentionally omitted."
+ },
+ "exclusions": []
+}

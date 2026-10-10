@@ -1,0 +1,55 @@
+{
+ "id": "uspstf_ab.DM-SCREEN-35-70-OW",
+ "version": "August 2021",
+ "title": "Prediabetes and type 2 diabetes screening in adults aged 35-70 with overweight or obesity",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:036",
+  "quote": "The USPSTF recommends screening for prediabetes and type 2 diabetes in adults aged 35 to 70 years who have overweight or obesity."
+ },
+ "grade": "B",
+ "effective_date": "2021-08",
+ "action": "Screen for prediabetes and type 2 diabetes (plasma glucose or HbA1c)",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "age": {
+     "min": 35,
+     "max": 70,
+     "at": "end"
+    },
+    "quote": "aged 35 to 70 years"
+   },
+   {
+    "condition": {
+     "concept": "obesity",
+     "onset_by": "{MY}-12-31"
+    },
+    "quote": "who have overweight or obesity"
+   },
+   {
+    "uncomputable": {
+     "needs": "confirmation patient is asymptomatic for diabetes (symptom status)"
+    },
+    "quote": "asymptomatic adults"
+   }
+  ],
+  "quote": "adults aged 35 to 70 years who have overweight or obesity"
+ },
+ "numerator": {
+  "observation": {
+   "concept": "glucose_test",
+   "window": [
+    "{MY}-01-01",
+    "{MY}-12-31"
+   ],
+   "pick": "any"
+  },
+  "quote": "screening for prediabetes and type 2 diabetes",
+  "derived": {
+   "window": "Section text states no screening interval; a measurement-year window is assumed and must be confirmed by human review"
+  }
+ },
+ "exclusions": []
+}

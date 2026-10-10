@@ -1,0 +1,8 @@
+[
+ "Lab confirmation of previous dengue infection is encoded as uncomputable. No vocabulary concept exists for it, and outside or prior lab results may not be reliably structured in the EHR.",
+ "Residence in an endemic area is encoded as uncomputable. Listed areas: Puerto Rico, American Samoa, US Virgin Islands, Federated States of Micronesia, Republic of Marshall Islands, Republic of Palau. Updated endemic-area guidance and pre-vaccination laboratory testing guidance are referenced externally (CDC MMWR rr7006a1, cdc.gov/dengue/hcp/vaccine) and not represented.",
+ "Negative recommendation not encoded as a rule: 'Dengue vaccine should not be administered to children traveling to or visiting endemic dengue areas.' The residence requirement in the denominator partly reflects it.",
+ "Dosing schedule not represented: the 0, 6, and 12 month intervals, minimum intervals between doses, and minimum age of 9 years per dose.",
+ "Timing caveat: the series spans 12 months, so a child who turns 9 or starts the series late in the measurement year cannot yet have 3 doses. The rule does not model series-in-progress or catch-up logic. Human reviewer should consider this.",
+ "Rule contains derived parameters and uncomputable denominator criteria, so the engine will report it as largely not computable and it requires human review."
+]

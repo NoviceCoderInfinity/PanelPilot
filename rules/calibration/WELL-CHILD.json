@@ -1,0 +1,38 @@
+{
+ "id": "WELL-CHILD",
+ "title": "Child & adolescent well-care visit",
+ "source": {
+  "doc_id": "assignment",
+  "quote": "Patients aged 3–21 all year"
+ },
+ "denominator": {
+  "age": {
+   "min": 3,
+   "max": 21,
+   "at": "all_year"
+  },
+  "quote": "Patients aged 3–21 all year",
+  "note": "'all year' overrides end-of-year age math: >=3 on Jan 1 AND <=21 on Dec 31."
+ },
+ "numerator": {
+  "encounter": {
+   "concept": "well_visit",
+   "window": [
+    "{MY}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "≥1 wellness / well-child encounter in 2025",
+  "note": "Excludes Synthea 'Death Certification', which is also class=wellness."
+ },
+ "exclusions": [
+  {
+   "deceased": {
+    "before": "{MY}-01-01"
+   },
+   "quote": "deceased-before-2025 excluded everywhere"
+  }
+ ],
+ "action": "Book well-child visit",
+ "version": "calib-1"
+}

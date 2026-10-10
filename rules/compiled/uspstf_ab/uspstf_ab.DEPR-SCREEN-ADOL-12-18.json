@@ -1,0 +1,37 @@
+{
+ "id": "uspstf_ab.DEPR-SCREEN-ADOL-12-18",
+ "version": "October 2022",
+ "title": "Screening for major depressive disorder in adolescents aged 12 to 18 years",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:015",
+  "quote": "The USPSTF recommends screening for major depressive disorder (MDD) in adolescents aged 12 to 18 years."
+ },
+ "grade": "B",
+ "effective_date": "October 2022",
+ "action": "Screen adolescents aged 12 to 18 years for major depressive disorder (MDD).",
+ "compiled_by": "llm",
+ "denominator": {
+  "age": {
+   "min": 12,
+   "max": 18,
+   "at": "end"
+  },
+  "quote": "adolescents aged 12 to 18 years"
+ },
+ "numerator": {
+  "observation": {
+   "concept": "depression_screening",
+   "window": [
+    "{MY}-01-01",
+    "{MY}-12-31"
+   ],
+   "pick": "any"
+  },
+  "quote": "screening for major depressive disorder (MDD)",
+  "derived": {
+   "window": "The section states no screening interval; a measurement-year window is an assumption requiring human review."
+  }
+ },
+ "exclusions": []
+}

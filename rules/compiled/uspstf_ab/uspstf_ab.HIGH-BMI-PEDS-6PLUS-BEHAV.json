@@ -1,0 +1,60 @@
+{
+ "id": "uspstf_ab.HIGH-BMI-PEDS-6PLUS-BEHAV",
+ "version": "June 2024",
+ "title": "High BMI in children and adolescents 6 years or older: provide or refer to comprehensive, intensive behavioral interventions",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:024",
+  "quote": "The USPSTF recommends that clinicians provide or refer children and adolescents 6 years or older with a high body mass index (BMI) (≥95th percentile for age and sex) to comprehensive, intensive behavioral interventions."
+ },
+ "grade": "B",
+ "effective_date": "June 2024",
+ "action": "Provide or refer children and adolescents 6 years or older with BMI at or above the 95th percentile for age and sex to comprehensive, intensive behavioral interventions.",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "age": {
+     "min": 6,
+     "at": "end"
+    },
+    "quote": "6 years or older"
+   },
+   {
+    "observation": {
+     "concept": "bmi_percentile",
+     "window": [
+      "{MY}-01-01",
+      "{MY}-12-31"
+     ],
+     "pick": "latest",
+     "value": {
+      "op": ">=",
+      "threshold": 95,
+      "unit": "percentile"
+     }
+    },
+    "quote": "≥95th percentile for age and sex",
+    "note": "BMI percentile for age and sex, not raw BMI",
+    "derived": {
+     "window": "text states no lookback period; latest measurement-year BMI percentile assumed"
+    }
+   }
+  ]
+ },
+ "numerator": {
+  "procedure": {
+   "concept": "intensive_behavioral_weight_intervention",
+   "window": [
+    "{MY}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "comprehensive, intensive behavioral interventions",
+  "note": "Either provision of or referral to the intervention counts ('provide or refer')",
+  "derived": {
+   "window": "text states no timeframe for providing or referring; measurement year assumed"
+  }
+ },
+ "exclusions": []
+}

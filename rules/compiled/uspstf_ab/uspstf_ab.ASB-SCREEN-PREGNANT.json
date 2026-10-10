@@ -1,0 +1,54 @@
+{
+ "id": "uspstf_ab.ASB-SCREEN-PREGNANT",
+ "version": "September 2019",
+ "title": "Asymptomatic bacteriuria screening with urine culture in pregnant persons",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:004",
+  "quote": "The USPSTF recommends screening for asymptomatic bacteriuria using urine culture in pregnant persons."
+ },
+ "grade": "B",
+ "effective_date": "September 2019",
+ "action": "Screen pregnant adults for asymptomatic bacteriuria using urine culture",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "age": {
+     "min": 18,
+     "at": "end"
+    },
+    "quote": "Adults",
+    "derived": {
+     "min": "'Adults' in the topic title taken as age 18 or older; no age number is stated in the text"
+    }
+   },
+   {
+    "condition": {
+     "concept": "pregnancy",
+     "onset_by": "{MY}-12-31"
+    },
+    "quote": "pregnant persons",
+    "derived": {
+     "onset_by": "text gives no timing; pregnancy recorded during or before the measurement year chosen as an assumption for review"
+    }
+   }
+  ],
+  "quote": "pregnant persons"
+ },
+ "numerator": {
+  "observation": {
+   "concept": "urine_culture",
+   "window": [
+    "{MY}-01-01",
+    "{MY}-12-31"
+   ],
+   "pick": "any"
+  },
+  "quote": "screening for asymptomatic bacteriuria using urine culture",
+  "derived": {
+   "window": "text states no timing or interval; a urine culture within the measurement year is assumed as a proxy for screening during pregnancy"
+  }
+ },
+ "exclusions": []
+}

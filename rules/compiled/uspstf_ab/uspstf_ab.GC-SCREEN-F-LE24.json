@@ -1,0 +1,53 @@
+{
+ "id": "uspstf_ab.GC-SCREEN-F-LE24",
+ "version": "September 2021",
+ "title": "Gonorrhea screening in sexually active women 24 years or younger",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:010",
+  "quote": "The USPSTF recommends screening for gonorrhea in all sexually active women 24 years or younger and in women 25 years or older who are at increased risk for infection."
+ },
+ "grade": "B",
+ "effective_date": "September 2021",
+ "action": "Screen for gonorrhea",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "sex": {
+     "is": "F"
+    },
+    "quote": "women"
+   },
+   {
+    "age": {
+     "max": 24,
+     "at": "end"
+    },
+    "quote": "24 years or younger"
+   },
+   {
+    "uncomputable": {
+     "needs": "sexual history (currently sexually active)"
+    },
+    "quote": "sexually active women"
+   }
+  ],
+  "quote": "all sexually active women 24 years or younger"
+ },
+ "numerator": {
+  "observation": {
+   "concept": "gonorrhea_test",
+   "window": [
+    "{MY}-01-01",
+    "{MY}-12-31"
+   ],
+   "pick": "any"
+  },
+  "quote": "screening for gonorrhea",
+  "derived": {
+   "window": "text states no screening interval; a test within the measurement year is assumed and requires human review"
+  }
+ },
+ "exclusions": []
+}

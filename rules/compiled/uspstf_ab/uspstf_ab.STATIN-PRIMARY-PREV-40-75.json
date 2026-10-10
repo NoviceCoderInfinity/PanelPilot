@@ -1,0 +1,103 @@
+{
+ "id": "uspstf_ab.STATIN-PRIMARY-PREV-40-75",
+ "version": "August 2022",
+ "title": "Statin use for primary prevention of CVD in adults aged 40 to 75 with 1 or more CVD risk factors and 10-year CVD risk of 10% or greater",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:044",
+  "quote": "The USPSTF recommends that clinicians prescribe a statin for the primary prevention of CVD for adults aged 40 to 75 years who have 1 or more CVD risk factors (i.e. dyslipidemia, diabetes, hypertension, or smoking) and an estimated 10-year risk of a cardiovascular event of 10% or greater."
+ },
+ "grade": "B",
+ "effective_date": "2022-08",
+ "action": "Prescribe a statin for the primary prevention of CVD",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "age": {
+     "min": 40,
+     "max": 75,
+     "at": "end"
+    },
+    "quote": "adults aged 40 to 75 years"
+   },
+   {
+    "any": [
+     {
+      "condition": {
+       "concept": "dyslipidemia",
+       "onset_by": "{MY}-12-31"
+      },
+      "quote": "dyslipidemia"
+     },
+     {
+      "condition": {
+       "concept": "diabetes",
+       "onset_by": "{MY}-12-31"
+      },
+      "quote": "diabetes"
+     },
+     {
+      "condition": {
+       "concept": "hypertension",
+       "onset_by": "{MY}-12-31"
+      },
+      "quote": "hypertension"
+     },
+     {
+      "condition": {
+       "concept": "current_smoker",
+       "onset_by": "{MY}-12-31"
+      },
+      "quote": "smoking",
+      "note": "'smoking' risk factor mapped to current_smoker"
+     }
+    ],
+    "quote": "1 or more CVD risk factors"
+   },
+   {
+    "observation": {
+     "concept": "cvd_risk_10yr",
+     "window": [
+      "{MY-4}-01-01",
+      "{MY}-12-31"
+     ],
+     "pick": "latest",
+     "value": {
+      "op": ">=",
+      "threshold": 10,
+      "unit": "%"
+     }
+    },
+    "quote": "an estimated 10-year risk of a cardiovascular event of 10% or greater",
+    "derived": {
+     "window": "text states no lookback for the risk estimate; a 5-year lookback (MY-4 to MY) for the latest estimate was chosen and needs human review"
+    }
+   }
+  ]
+ },
+ "numerator": {
+  "observation": {
+   "concept": "statin_use",
+   "window": [
+    "{MY}-01-01",
+    "{MY}-12-31"
+   ],
+   "pick": "any"
+  },
+  "quote": "prescribe a statin",
+  "derived": {
+   "window": "text gives no timing; statin prescription/use during the measurement year assumed; grammar has no medication type so encoded as observation of statin_use"
+  }
+ },
+ "exclusions": [
+  {
+   "condition": {
+    "concept": "cardiovascular_disease",
+    "onset_by": "{MY}-12-31"
+   },
+   "quote": "primary prevention of CVD",
+   "note": "recommendation is for primary prevention; patients with established CVD are outside scope"
+  }
+ ]
+}

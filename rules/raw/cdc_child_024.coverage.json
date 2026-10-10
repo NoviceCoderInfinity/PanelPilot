@@ -1,0 +1,10 @@
+[
+ "DERIVED RULE - needs human review: the evaluation age (14, year-end) and the lookback window are derived, not stated in the text; the text only says routine vaccination at age 11–12 years.",
+ "The numerator counts 2 doses only. It does not check that dose 1 was given at age 9–14 (2-dose eligibility), the 6–12 month spacing, or the minimum interval of 5 months between doses. The text says to repeat a dose given too soon, and this rule cannot check that.",
+ "Not represented: immunocompromising conditions, including HIV infection, require a 3-dose series even when started at age 9–14. Such patients may meet this rule with 2 doses even though their series is incomplete. Could be refined with immunocompromised/hiv_infection conditions requiring min_count 3.",
+ "Not represented: the minimum age of 9 years, and the option to start at age 9.",
+ "Not represented: catch-up vaccination for all persons through age 18 years if not adequately vaccinated. Whether a person is adequately vaccinated depends on age at the first dose (2 doses if started at 9–14; 3 doses at 0, 1–2, 6 months if started at 15 or older, with minimum intervals of 4 weeks, 12 weeks and 5 months). This needs date-of-first-dose-relative logic that the grammar cannot express.",
+ "Not represented: no additional dose is recommended once any HPV vaccine series of any valency is completed with recommended intervals. Valency and product choice are not captured.",
+ "Uncomputable special situation, not encoded as a rule: history of sexual abuse or assault means starting at age 9 years. This needs abuse/assault history, which is not reliably in structured EHR data.",
+ "Not represented: pregnancy. HPV vaccination is not recommended until after pregnancy, pregnancy testing is not needed before vaccination, and no intervention is needed if vaccinated while pregnant. No pregnancy exclusion was added because the text does not define one for completion measurement."
+]

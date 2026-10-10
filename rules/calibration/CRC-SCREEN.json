@@ -1,0 +1,52 @@
+{
+ "id": "CRC-SCREEN",
+ "title": "Colorectal cancer screening",
+ "source": {
+  "doc_id": "assignment",
+  "quote": "Adults 46–75"
+ },
+ "denominator": {
+  "age": {
+   "min": 46,
+   "max": 75,
+   "at": "end"
+  },
+  "quote": "Adults 46–75",
+  "note": "Spec says 46–75 (not USPSTF's 45). Implemented as written."
+ },
+ "numerator": {
+  "any": [
+   {
+    "procedure": {
+     "concept": "colonoscopy",
+     "window": [
+      "{MY-9}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "Colonoscopy procedure 2016–2025"
+   },
+   {
+    "procedure": {
+     "concept": "fobt",
+     "window": [
+      "{MY}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "stool test (FOBT/FIT) in 2025"
+   }
+  ]
+ },
+ "exclusions": [
+  {
+   "deceased": {
+    "before": "{MY}-01-01"
+   },
+   "quote": "deceased-before-2025 excluded everywhere"
+  }
+ ],
+ "action": "Mail FIT kit or refer for colonoscopy",
+ "version": "calib-1",
+ "verify_within_days": 60
+}

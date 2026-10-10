@@ -1,0 +1,52 @@
+{
+ "id": "uspstf_ab.GDM-SCREEN-PREG-24WK",
+ "version": "August 2021",
+ "title": "Gestational diabetes screening in asymptomatic pregnant persons at 24 weeks of gestation or after",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:018",
+  "quote": "The USPSTF recommends screening for gestational diabetes in asymptomatic pregnant persons at 24 weeks of gestation or after."
+ },
+ "grade": "B",
+ "effective_date": "August 2021",
+ "action": "Screen for gestational diabetes",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "condition": {
+     "concept": "pregnancy"
+    },
+    "quote": "pregnant persons"
+   },
+   {
+    "uncomputable": {
+     "needs": "gestational age (at or after 24 weeks of gestation)"
+    },
+    "quote": "at 24 weeks of gestation or after"
+   },
+   {
+    "uncomputable": {
+     "needs": "clinician assessment that the patient is asymptomatic for diabetes"
+    },
+    "quote": "asymptomatic"
+   }
+  ],
+  "quote": "asymptomatic pregnant persons at 24 weeks of gestation or after"
+ },
+ "numerator": {
+  "procedure": {
+   "concept": "glucose_test",
+   "window": [
+    "{MY}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "screening for gestational diabetes",
+  "derived": {
+   "window": "text ties screening to the current pregnancy at >=24 weeks, not a calendar interval; measurement year used as a proxy for the pregnancy period"
+  },
+  "note": "Screening should occur during the current pregnancy at or after 24 weeks of gestation; engine cannot verify timing relative to gestational age."
+ },
+ "exclusions": []
+}

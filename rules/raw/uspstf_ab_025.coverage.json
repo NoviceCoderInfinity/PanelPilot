@@ -1,0 +1,7 @@
+[
+ "Screening interval is not stated in this section (it defers to the Clinical Considerations section). The numerators therefore omit a lookback window and accept any HIV test on record; human review should decide the window.",
+ "Risk assessment criteria, screening intervals, and rescreening in pregnancy are referenced to the Clinical Considerations section, which is not included here; not represented.",
+ "The increased-risk rule for younger adolescents and older adults is entirely uncomputable: it depends on a risk assessment, and its age bounds are relative ('younger', 'older') rather than numeric.",
+ "No exclusion for existing HIV infection (hiv_infection) was added because the text does not state one. Reviewers may want to consider it.",
+ "The DATE field carries an asterisk ('June 2019 *') whose meaning is not explained in this section; not represented."
+]

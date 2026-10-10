@@ -1,0 +1,27 @@
+{
+ "id": "uspstf_ab.SYPHILIS-SCREEN-RISK",
+ "version": "September 2022",
+ "title": "Syphilis screening, nonpregnant persons at increased risk",
+ "grade": "A",
+ "effective_date": "September 2022",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:046",
+  "quote": "The USPSTF recommends screening for syphilis infection in persons who are at increased risk for infection."
+ },
+ "denominator": {
+  "uncomputable": {
+   "needs": "syphilis risk assessment"
+  },
+  "quote": "persons who are at increased risk for infection"
+ },
+ "numerator": {
+  "uncomputable": {
+   "needs": "screening interval not stated in source"
+  },
+  "quote": "The USPSTF recommends screening for syphilis infection"
+ },
+ "exclusions": [],
+ "gold_notes": "Entirely risk-based: a correct extraction is all-uncomputable (rule exists, never fires).",
+ "compiled_by": "gold"
+}

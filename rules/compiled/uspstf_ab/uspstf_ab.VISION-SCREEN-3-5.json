@@ -1,0 +1,36 @@
+{
+ "id": "uspstf_ab.VISION-SCREEN-3-5",
+ "version": "September 2017",
+ "title": "Vision screening at least once in children aged 3 to 5 years",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:052",
+  "quote": "The USPSTF recommends vision screening at least once in all children aged 3 to 5 years to detect amblyopia or its risk factors."
+ },
+ "grade": "B",
+ "effective_date": "September 2017",
+ "action": "Perform vision screening at least once between ages 3 and 5 years to detect amblyopia or its risk factors.",
+ "compiled_by": "llm",
+ "denominator": {
+  "age": {
+   "min": 3,
+   "max": 5,
+   "at": "end"
+  },
+  "quote": "children aged 3 to 5 years"
+ },
+ "numerator": {
+  "procedure": {
+   "concept": "vision_screening",
+   "window": [
+    "{MY-2}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "vision screening at least once",
+  "derived": {
+   "window": "the text says at least once during ages 3 to 5 (a 3-year span), so a lookback of the measurement year plus the 2 prior years is assumed. For younger children this window can include screens done before age 3, and 3-4 year olds not yet screened are flagged as due rather than overdue."
+  }
+ },
+ "exclusions": []
+}

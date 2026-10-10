@@ -1,0 +1,7 @@
+[
+ "No screening interval is stated in the section; the measurement-year look-back window in the numerator is an assumption, declared as derived, and needs human review.",
+ "The topic title mentions suicide risk, but the recommendation text covers only screening for MDD. No rule was made for suicide risk screening because the section states no graded recommendation for it.",
+ "The section does not mention excluding adolescents with an existing MDD diagnosis, so no exclusion was encoded.",
+ "The DATE field carries an asterisk ('October 2022 *') whose footnote is not included in the section text, so it could not be represented.",
+ "The section specifies no screening instrument and no follow-up, diagnosis or treatment requirements, so none were encoded."
+]

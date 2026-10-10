@@ -1,0 +1,49 @@
+{
+ "id": "uspstf_ab.CVD-DIET-ACTIVITY-COUNSEL-RISK",
+ "version": "November 2020",
+ "title": "Behavioral counseling for healthy diet and physical activity in adults with cardiovascular disease risk factors",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:019",
+  "quote": "The USPSTF recommends offering or referring adults with cardiovascular disease risk factors to behavioral counseling interventions to promote a healthy diet and physical activity."
+ },
+ "grade": "B",
+ "effective_date": "2020-11",
+ "action": "Offer or refer adults with cardiovascular disease risk factors to behavioral counseling interventions to promote a healthy diet and physical activity.",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "age": {
+     "min": 18,
+     "at": "end"
+    },
+    "quote": "adults",
+    "derived": {
+     "min": "text says 'adults' without an age; 18 years assumed as the adult threshold"
+    }
+   },
+   {
+    "uncomputable": {
+     "needs": "presence of cardiovascular disease risk factors (the text does not define which risk factors qualify)"
+    },
+    "quote": "adults with cardiovascular disease risk factors"
+   }
+  ]
+ },
+ "numerator": {
+  "procedure": {
+   "concept": "cvd_behavioral_counseling",
+   "window": [
+    "{MY}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "behavioral counseling interventions to promote a healthy diet and physical activity",
+  "note": "Offer or referral both satisfy the recommendation.",
+  "derived": {
+   "window": "text gives no interval; measurement year assumed for checking"
+  }
+ },
+ "exclusions": []
+}

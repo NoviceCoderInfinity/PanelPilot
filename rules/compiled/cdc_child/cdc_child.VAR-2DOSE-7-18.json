@@ -1,0 +1,64 @@
+{
+ "id": "cdc_child.VAR-2DOSE-7-18",
+ "version": "2025",
+ "title": "Varicella 2-dose series for persons age 7-18 years without evidence of immunity",
+ "source": {
+  "doc_id": "cdc_child",
+  "section_id": "cdc_child:014",
+  "quote": "Ensure persons age 7–18 years without evidence of immunity"
+ },
+ "grade": "not graded (ACIP/CDC routine and catch-up recommendation)",
+ "effective_date": "2025",
+ "action": "Ensure a 2-dose varicella-containing vaccine series (VAR or MMRV) has been received",
+ "compiled_by": "llm",
+ "denominator": {
+  "age": {
+   "min": 7,
+   "max": 18,
+   "at": "end"
+  },
+  "quote": "persons age 7–18 years"
+ },
+ "numerator": {
+  "any": [
+   {
+    "immunization": {
+     "concept": "varicella_vaccine",
+     "min_count": 2,
+     "window": [
+      "{MY-18}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "2-dose series",
+    "derived": {
+     "window": "lifetime lookback: a patient aged 18 at end of MY was born no earlier than {MY-18}-01-01"
+    }
+   },
+   {
+    "immunization": {
+     "concept": "mmrv_vaccine",
+     "min_count": 2,
+     "window": [
+      "{MY-18}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "2-dose series",
+    "derived": {
+     "window": "lifetime lookback: a patient aged 18 at end of MY was born no earlier than {MY-18}-01-01"
+    }
+   }
+  ],
+  "quote": "VAR or MMRV may be administered",
+  "note": "Mixed series (1 VAR + 1 MMRV) cannot be counted with this grammar; see coverage_notes"
+ },
+ "exclusions": [
+  {
+   "uncomputable": {
+    "needs": "evidence of varicella immunity (history of disease, laboratory evidence, or birth-year criteria per MMWR rr5604)"
+   },
+   "quote": "without evidence of immunity"
+  }
+ ]
+}

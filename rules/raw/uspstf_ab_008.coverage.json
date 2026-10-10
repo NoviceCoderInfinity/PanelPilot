@@ -1,0 +1,6 @@
+[
+ "New concept 'breastfeeding_support_intervention' was introduced because nothing in the vocabulary fits. It means a breastfeeding counseling or support intervention, or a referral to one. Structured EHR capture of such counseling or referrals may be unreliable, so this rule needs human review before deployment.",
+ "The text does not say what kind of intervention is meant (counseling, education, peer support, referral), how often or how many interventions to give, or how long the postpartum period lasts. The measurement-year windows in the rule are modeling choices, not stated in the text.",
+ "The text does not say whether one intervention covers the rule or whether interventions are needed both during pregnancy and after birth. The numerator is satisfied by any single intervention or referral in the measurement year.",
+ "The asterisk on the date ('April 2025 *') refers to a footnote whose content is not in the section text, so it could not be represented."
+]

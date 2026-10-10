@@ -1,0 +1,41 @@
+{
+ "id": "cdc_child.TDAP-ADOL-11-12",
+ "version": "2025",
+ "title": "Adolescent Tdap booster at age 11-12 years (assessed at age 13)",
+ "source": {
+  "doc_id": "cdc_child",
+  "section_id": "cdc_child:013",
+  "quote": "Age 11–12 years: 1 dose Tdap (adolescent booster)"
+ },
+ "grade": "ACIP routine (not graded)",
+ "effective_date": "2025",
+ "action": "Administer 1 dose Tdap (adolescent booster) at age 11-12 years",
+ "compiled_by": "llm",
+ "denominator": {
+  "age": {
+   "min": 13,
+   "max": 13,
+   "at": "end"
+  },
+  "quote": "Age 11–12 years",
+  "derived": {
+   "min": "dose is due at age 11-12, so a child turning 13 during the measurement year should have received it",
+   "max": "restricts the check to the single cohort that just aged out of the 11-12 window"
+  }
+ },
+ "numerator": {
+  "immunization": {
+   "concept": "tdap_vaccine",
+   "min_count": 1,
+   "window": [
+    "{MY-2}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "1 dose Tdap (adolescent booster)",
+  "derived": {
+   "window": "a child aged 13 at end of MY turned 11 during MY-2; window covers ages 11-12 (and part of age 10, which the text says also satisfies the booster) through the end of MY"
+  }
+ },
+ "exclusions": []
+}

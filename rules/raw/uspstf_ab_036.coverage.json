@@ -1,0 +1,8 @@
+[
+ "Screening interval is not stated in the section text; the measurement-year window on the numerator is an assumption declared as derived and needs human review.",
+ "'Asymptomatic' status (no diabetes symptoms) is not reliably held in structured EHR data, so it is encoded as uncomputable. This makes the denominator not fully computable.",
+ "The section does not explicitly exclude patients with an existing diabetes diagnosis, so no exclusion was added. A human reviewer may want to exclude the 'diabetes' concept because screening implies the patient is undiagnosed.",
+ "The 'obesity' concept is used for 'overweight or obesity'. The concept definition covers overweight, but no BMI thresholds are given in the text.",
+ "Not represented: 'Clinicians should offer or refer patients with prediabetes to effective preventive interventions.' There is no concept for preventive intervention referral, and the intervention content is unspecified.",
+ "The DATE field carries an asterisk ('August 2021 *') with no footnote text in the section. Its meaning is unknown and not represented."
+]

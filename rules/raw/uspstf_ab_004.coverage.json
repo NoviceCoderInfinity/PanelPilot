@@ -1,0 +1,7 @@
+[
+ "New concept 'urine_culture' (urine culture lab test) used; no matching concept exists in the vocabulary.",
+ "The text gives no timing for screening within pregnancy (e.g., trimester or first prenatal visit) and no repeat interval; the measurement-year window is a declared derived assumption requiring human review. Pregnancies spanning two calendar years may be misclassified.",
+ "Adult age threshold (18) derived from the word 'Adults' in the topic title; not stated numerically.",
+ "The asterisk after the date ('September 2019 *') refers to an unexplained footnote that is not present in this section and could not be represented.",
+ "Follow-up/treatment of positive cultures is not addressed and not represented."
+]

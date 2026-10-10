@@ -1,0 +1,6 @@
+[
+ "No screening interval is stated in the text; the measurement-year window in DRUG-USE-SCREEN-18PLUS is an assumption, declared as derived, and needs human review.",
+ "Implementation condition not represented: 'Screening should be implemented when services for accurate diagnosis, effective treatment, and appropriate care can be offered or referred.' This depends on clinic service availability, not patient data.",
+ "Scope note not represented as a criterion: screening means asking questions, not testing biological specimens. Urine or blood drug tests should not be counted as drug_use_screening when mapping data to this concept.",
+ "The text does not specify a screening instrument or how a positive screen should be followed up."
+]

@@ -1,0 +1,46 @@
+{
+ "id": "uspstf_ab.IPV-SCREEN-WOMEN-REPRO",
+ "version": "June 2025",
+ "title": "Intimate partner violence screening in women of reproductive age, including pregnant and postpartum women",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:029",
+  "quote": "The USPSTF recommends that clinicians screen for intimate partner violence (IPV) in women of reproductive age, including those who are pregnant and postpartum."
+ },
+ "grade": "B",
+ "effective_date": "2025-06",
+ "action": "Screen for intimate partner violence",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "sex": {
+     "is": "F"
+    },
+    "quote": "women"
+   },
+   {
+    "uncomputable": {
+     "needs": "reproductive-age status (the text gives no numeric age range for 'reproductive age')"
+    },
+    "quote": "women of reproductive age"
+   }
+  ],
+  "quote": "women of reproductive age, including those who are pregnant and postpartum"
+ },
+ "numerator": {
+  "encounter": {
+   "concept": "ipv_screening",
+   "window": [
+    "{MY}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "screen for intimate partner violence (IPV)",
+  "derived": {
+   "window": "the text states no screening interval; a measurement-year window is assumed and needs human confirmation"
+  },
+  "note": "ipv_screening is a screening activity; may be recorded as a procedure/assessment rather than an encounter"
+ },
+ "exclusions": []
+}

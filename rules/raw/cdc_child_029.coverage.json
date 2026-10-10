@@ -1,0 +1,9 @@
+[
+ "Denominator is effectively not computable: eligibility depends on mpox risk factors (sexual behavior, partner status, anticipated exposure) that structured EHR data does not reliably hold; encoded as uncomputable rather than approximated.",
+ "Minimum age 18 years and product choice (Jynneos) not separately encoded beyond the age criterion.",
+ "Minimum interval of 28 days between dose 1 and dose 2 is not represented; the numerator only counts 2 doses.",
+ "The age criterion reflects the child schedule scope ('Age 18 years'); adults over 18 are covered by the adult schedule, not this rule.",
+ "Pregnancy: no ACIP recommendation for Jynneos use in pregnancy due to lack of safety data; pregnant women with any risk factor may receive Jynneos. This permissive statement is not a rule and pregnancy is not encoded as an exclusion.",
+ "Detailed vaccine considerations referenced at www.cdc.gov/monkeypox/hcp/vaccine-considerations/ are not captured.",
+ "Version and effective date are not stated in this section; recorded as 'unknown'."
+]

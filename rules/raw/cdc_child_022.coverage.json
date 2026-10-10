@@ -1,0 +1,9 @@
+[
+ "The entire rule is derived (age 2 cohort and dose window are worked out from 'age 12–23 months'), so it needs human review. The grammar has no windows relative to birth, so the 'by 2nd birthday' cutoff cannot be enforced exactly.",
+ "Minimum age of 12 months for routine vaccination is not enforced. Doses given before 12 months, such as travel doses at 6-11 months, should not count toward the routine series but would be counted.",
+ "The minimum interval of 6 months between dose 1 and dose 2 is not represented.",
+ "Catch-up is not encoded as a rule: 'Unvaccinated persons through age 18 years should complete a 2-dose series (minimum interval: 6 months).' This is catch-up logic, and the lower age bound would have to be derived.",
+ "Catch-up is not encoded: persons who previously received 1 dose at age 12 months or older should receive dose 2 at least 6 months after dose 1. This interval depends on the prior dose.",
+ "Product choice and dosing schedule are not encoded: adolescents age 18 years or older may receive HepA-HepB (Twinrix) as a 3-dose series (0, 1, 6 months) or a 4-dose series (0, 7, 21-30 days plus a booster at 12 months).",
+ "International travel recommendations are uncomputable because they require travel history and destination endemicity: infants 6-11 months get 1 dose before departure and are revaccinated with 2 doses at 12-23 months; unvaccinated persons 12 months or older get dose 1 as soon as travel is considered."
+]

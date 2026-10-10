@@ -1,0 +1,102 @@
+{
+ "id": "cdc_child.MMR-IMM-7-18",
+ "version": "2025",
+ "title": "Two doses of measles-mumps-rubella vaccine (MMR or MMRV), ages 7-18",
+ "source": {
+  "doc_id": "cdc_child",
+  "section_id": "cdc_child:009",
+  "quote": "2-dose series at age 12–15 months, age 4–6 years"
+ },
+ "grade": "not graded (CDC/ACIP routine recommendation)",
+ "effective_date": "2025",
+ "action": "Ensure 2-dose MMR/MMRV series; catch up unvaccinated children and adolescents",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "age": {
+     "min": 7,
+     "at": "end"
+    },
+    "quote": "2-dose series at age 12–15 months, age 4–6 years",
+    "derived": {
+     "min": "dose 2 is due at 4-6 years, so two doses are expected by age 7"
+    }
+   },
+   {
+    "age": {
+     "max": 18,
+     "at": "end"
+    },
+    "quote": "for Ages 18 Years or Younger"
+   }
+  ]
+ },
+ "numerator": {
+  "any": [
+   {
+    "immunization": {
+     "concept": "mmr_vaccine",
+     "min_count": 2,
+     "window": [
+      "{MY-18}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "2-dose series at age 12–15 months, age 4–6 years",
+    "derived": {
+     "window": "lifetime of the oldest denominator member (age 18, born MY-18)"
+    }
+   },
+   {
+    "immunization": {
+     "concept": "mmrv_vaccine",
+     "min_count": 2,
+     "window": [
+      "{MY-18}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "2-dose series at age 12–15 months, age 4–6 years",
+    "derived": {
+     "window": "lifetime of the oldest denominator member (age 18, born MY-18)"
+    }
+   },
+   {
+    "all": [
+     {
+      "immunization": {
+       "concept": "mmr_vaccine",
+       "min_count": 1,
+       "window": [
+        "{MY-18}-01-01",
+        "{MY}-12-31"
+       ]
+      },
+      "quote": "MMR or MMRV* may be administered",
+      "derived": {
+       "min_count": "mixed series: one MMR plus one MMRV dose makes up the 2-dose series",
+       "window": "lifetime of the oldest denominator member (age 18, born MY-18)"
+      }
+     },
+     {
+      "immunization": {
+       "concept": "mmrv_vaccine",
+       "min_count": 1,
+       "window": [
+        "{MY-18}-01-01",
+        "{MY}-12-31"
+       ]
+      },
+      "quote": "MMR or MMRV* may be administered",
+      "derived": {
+       "min_count": "mixed series: one MMR plus one MMRV dose makes up the 2-dose series",
+       "window": "lifetime of the oldest denominator member (age 18, born MY-18)"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "exclusions": []
+}

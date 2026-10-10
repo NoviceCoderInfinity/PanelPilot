@@ -1,0 +1,92 @@
+{
+ "id": "uspstf_ab.CRC-SCREEN-50-75",
+ "version": "May 2021",
+ "title": "Colorectal cancer screening, adults aged 50 to 75 years",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:013",
+  "quote": "The USPSTF recommends screening for colorectal cancer in all adults aged 50 to 75 years."
+ },
+ "grade": "A",
+ "effective_date": "2021-05",
+ "action": "screen",
+ "compiled_by": "llm",
+ "denominator": {
+  "age": {
+   "min": 50,
+   "max": 75,
+   "at": "end"
+  },
+  "quote": "adults aged 50 to 75 years"
+ },
+ "numerator": {
+  "any": [
+   {
+    "procedure": {
+     "concept": "colonoscopy",
+     "window": [
+      "{MY-9}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "screening for colorectal cancer",
+    "derived": {
+     "window": "Interval not in section text; USPSTF 2021 Table 1 (referenced, not quoted) gives colonoscopy every 10 years -> MY-9 through MY"
+    }
+   },
+   {
+    "procedure": {
+     "concept": "ct_colonography",
+     "window": [
+      "{MY-4}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "screening for colorectal cancer",
+    "derived": {
+     "window": "Interval not in section text; USPSTF 2021 Table 1 gives CT colonography every 5 years -> MY-4 through MY"
+    }
+   },
+   {
+    "procedure": {
+     "concept": "flexible_sigmoidoscopy",
+     "window": [
+      "{MY-4}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "screening for colorectal cancer",
+    "derived": {
+     "window": "Interval not in section text; USPSTF 2021 Table 1 gives flexible sigmoidoscopy every 5 years -> MY-4 through MY"
+    }
+   },
+   {
+    "procedure": {
+     "concept": "fobt",
+     "window": [
+      "{MY}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "screening for colorectal cancer",
+    "derived": {
+     "window": "Interval not in section text; USPSTF 2021 Table 1 gives gFOBT/FIT every year -> MY only"
+    }
+   },
+   {
+    "procedure": {
+     "concept": "fit_dna",
+     "window": [
+      "{MY-2}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "screening for colorectal cancer",
+    "derived": {
+     "window": "Interval not in section text; USPSTF 2021 Table 1 gives sDNA-FIT every 1 to 3 years -> longest (3 years) used, MY-2 through MY"
+    }
+   }
+  ]
+ },
+ "exclusions": []
+}

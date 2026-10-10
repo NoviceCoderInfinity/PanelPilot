@@ -1,0 +1,18 @@
+[
+ "HPV: catch-up through age 18 for those not adequately vaccinated is not encoded as a separate rule; only a by-age-13 completion check was created (derived age, needs human review).",
+ "HPV: 2- vs 3-dose series depends on age at initial vaccination (9-14 vs 15+); grammar cannot express birth-relative dose timing. For the age-13 cohort initiation is necessarily before 15, so 2 doses suffice unless immunocompromised/HIV (3 doses). A child starting at 12 may not finish by end of the year turning 13 (6-12 month interval).",
+ "HPV: minimum intervals (5 months for 2-dose; 4 weeks/12 weeks/5 months for 3-dose) and 'repeat dose if administered too soon' validity logic not represented; doses before minimum age 9 are not excluded from counts.",
+ "HPV: 'No additional dose recommended' after completion of any-valency series not represented beyond count logic.",
+ "HPV special situation: history of sexual abuse or assault -> start at age 9 (needs abuse history; uncomputable) not encoded as a rule.",
+ "HPV: pregnancy deferral ('not recommended until after pregnancy'), no pregnancy test needed, no intervention if vaccinated while pregnant - not represented.",
+ "Influenza: ages 6 months-8 years need 2 doses (>=4 weeks apart) if fewer than 2 doses before July 1, 2024 or history unknown, otherwise 1 dose - depends on prior dose history and sub-year ages; not encoded.",
+ "Influenza: calendar-year window approximates the influenza season; 2024-25 and 2025-26 season-specific ACIP recommendations (external references) not captured.",
+ "Influenza: product choice (IIV3, LAIV3 min age 2, RIV3 min age 18; HD-IIV3/aIIV3 acceptable for age-18 solid organ transplant recipients on immunosuppression) not represented.",
+ "Influenza: close contacts of severely immunosuppressed persons should not receive LAIV3 (7-day contact avoidance) - contraindication/exposure-dependent, not represented. Egg allergy note: any vaccine acceptable.",
+ "MMR: doses given before 12 months (e.g., travel dose at 6-11 months) should not count toward the series; grammar cannot exclude birth-relative early doses.",
+ "MMR: minimum intervals (4 weeks; 3 months between MMRV doses) and MMRV maximum age 12 years not represented; preference for separate MMR+varicella for dose 1 at 12-47 months not represented.",
+ "MMR: international travel acceleration (infants 6-11 months 1 dose before departure; age 12 months+ 2 doses before departure) needs travel history - uncomputable, not encoded.",
+ "MMR: mumps outbreak 3rd dose guidance (external reference) not represented.",
+ "MMR: evidence of immunity (serology/history) exclusions are not stated in this section and were not added.",
+ "Age 18 upper bound for influenza and MMR rules is taken from the schedule title ('for Ages 18 Years or Younger')."
+]

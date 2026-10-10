@@ -1,0 +1,13 @@
+[
+ "New concept 'moderate_severe_immunocompromise' was used for the age-18 exclusion. The vocabulary's 'immunocompromised' (any immunocompromising condition) is broader than 'moderately or severely immunocompromised', so it was not forced.",
+ "Limitation of COVID-VAX-18: the numerator counts any single COVID-19 vaccine dose. Unvaccinated persons receiving Novavax need 2 doses ('2 doses 2024–25 Novavax at 0, 3–8 weeks'). The covid19_vaccine concept does not distinguish products, so a single Novavax dose in an unvaccinated person would be wrongly counted as complete.",
+ "Limitation of COVID-VAX-18: the measurement-year window cannot exactly represent a named seasonal formulation ('2024–25'). The window is derived and the rule will need updating when the formulation changes.",
+ "Not represented for age 18 (previously vaccinated): the minimum interval of at least 8 weeks after the most recent dose.",
+ "Not represented for age 18 (prior single Novavax dose): the 3–8 week Novavax follow-up interval, and the alternative product choice if more than 8 weeks have passed.",
+ "COVID-19 vaccination for ages 6 months–17 years who are not moderately or severely immunocompromised is shared clinical decision-making. It depends on clinician judgment, parent preference and circumstances, so it is not encoded as a rule.",
+ "The 6 months–17 years section also contains product- and history-dependent dose schedules that were not encoded: Moderna 2 doses vs Pfizer-BioNTech 3 doses for unvaccinated children 6 months–4 years, completion of incomplete initial series, and same-manufacturer requirements.",
+ "Not represented: minimum ages by product (6 months for Moderna and Pfizer-BioNTech; 12 years for Novavax).",
+ "Not represented: recommendations for moderately or severely immunocompromised persons, which are not given in this section.",
+ "Persons aged 19 years or older are referred to the Adult Immunization Schedule, 2025, and are not covered here.",
+ "The general 'Additional information' items are dose-validity and administrative guidance, not representable as rules: interval calculation (4 weeks = 28 days), the 4-day grace period and invalid-dose repeat logic, travel vaccination, immunodeficiency tables, outbreak guidance, and VICP/CICP compensation."
+]

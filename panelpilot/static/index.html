@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PanelPilot</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--ink:#1b2430;--muted:#5d6b7a;--line:#e3e7ec;--accent:#1f5fbf;--ok:#1e7a46;--okbg:#e6f4ec;
+--bad:#b3261e;--badbg:#fbeaea;--warn:#8a5a00;--warnbg:#fff4dc;--unk:#5b4bb7;--unkbg:#efecfb}
+*{box-sizing:border-box}body{margin:0;font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink)}
+header{background:#14213d;color:#fff;padding:12px 20px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+header h1{font-size:18px;margin:0;letter-spacing:.3px}header .meta{opacity:.8;font-size:13px}
+nav{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap}nav button{background:transparent;border:0;color:#cfd8e6;padding:7px 12px;border-radius:6px;cursor:pointer;font-size:14px}
+nav button.on{background:#ffffff22;color:#fff}
+main{max-width:1100px;margin:0 auto;padding:18px 16px 60px}
+.banner{background:var(--warnbg);border:1px solid #f0d9a6;color:var(--warn);padding:10px 14px;border-radius:8px;margin-bottom:10px}
+.summary{color:var(--muted);margin:6px 0 14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin-bottom:10px}
+.row{display:flex;gap:12px;align-items:flex-start}.rank{font-weight:700;color:var(--accent);min-width:28px;font-size:18px}
+.name{font-weight:600;cursor:pointer;color:var(--accent)}.name:hover{text-decoration:underline}
+.why{margin:4px 0 8px}.chips span{display:inline-block;background:#eef2f8;border-radius:12px;padding:1px 9px;font-size:12px;margin:0 4px 4px 0;color:#2b3c55}
+.actions{display:flex;gap:6px;flex-wrap:wrap;margin-top:4px}
+.actions button,.btn{border:1px solid var(--line);background:#fff;border-radius:6px;padding:5px 10px;cursor:pointer;font-size:13px}
+.actions button.primary,.btn.primary{background:var(--accent);color:#fff;border-color:var(--accent)}
+.pill{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;font-weight:600}
+.pass{background:var(--okbg);color:var(--ok)}.fail{background:var(--badbg);color:var(--bad)}.indeterminate{background:var(--unkbg);color:var(--unk)}
+.excluded{background:#eee;color:#555}.pending{background:var(--warnbg);color:var(--warn)}.verified{background:var(--okbg);color:var(--ok)}
+.reopened{background:var(--badbg);color:var(--bad)}.open{background:var(--warnbg);color:var(--warn)}.closed,.no_longer_due,.prior_record{background:#eee;color:#555}.runnable{background:var(--okbg);color:var(--ok)}.awaiting_approval{background:var(--warnbg);color:var(--warn)}.rejected{background:var(--badbg);color:var(--bad)}
+table{border-collapse:collapse;width:100%;font-size:13px}th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--line);vertical-align:top}th{color:var(--muted);font-weight:600}
+blockquote{margin:4px 0;padding:4px 10px;border-left:3px solid var(--accent);background:#f3f6fb;font-size:13px}
+code,.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;word-break:break-all}.raw{background:#f4f4f4;padding:4px 6px;border-radius:4px;white-space:pre-wrap;word-break:break-all;display:block;margin:2px 0}
+#drawer .card{overflow:hidden}
+.muted{color:var(--muted)}.small{font-size:12px}h2{font-size:17px;margin:18px 0 8px}h3{font-size:15px;margin:10px 0 6px}
+#drawer{position:fixed;top:0;right:0;width:min(760px,100%);height:100%;background:var(--bg);box-shadow:-4px 0 18px #0003;overflow-y:auto;padding:16px 18px;transform:translateX(100%);transition:.2s}
+#drawer.open{transform:none}.close{float:right}
+.crit{border-top:1px dashed var(--line);padding:6px 0}.met{color:var(--ok);font-weight:600}.notmet{color:var(--bad);font-weight:600}.unk{color:var(--unk);font-weight:600}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px}.stat .v{font-size:24px;font-weight:700}
+details summary{cursor:pointer;color:var(--accent)}.toast{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);background:#14213d;color:#fff;padding:8px 14px;border-radius:8px;display:none}
+</style>
+</head>
+<body>
+<header>
+  <h1>PanelPilot</h1><span class="meta" id="meta"></span>
+  <nav id="nav"></nav>
+</header>
+<main id="main"></main>
+<aside id="drawer"></aside>
+<div class="toast" id="toast"></div>
+<script>
+const VIEWS = {today:"Today", followups:"Follow-ups", rules:"Rules & trust", health:"Data health", outcomes:"Outcomes"};
+const OUT = {scheduled:"Scheduled / done", left_message:"Left message", declined:"Declined", pcp_review:"Sent to PCP", bad_contact:"Wrong number"};
+let view = "today";
+const $ = s => document.querySelector(s);
+const esc = s => s == null ? "" : String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const pill = (s, label) => `<span class="pill ${esc(s)}">${esc(label || s.replace("_"," "))}</span>`;
+const api = async (p, opt) => { const r = await fetch(p, opt); if (!r.ok) throw new Error(await r.text()); return r.json(); };
+function toast(t){const e=$("#toast");e.textContent=t;e.style.display="block";setTimeout(()=>e.style.display="none",2500)}
+function nav(){ $("#nav").innerHTML = Object.entries(VIEWS).map(([k,v])=>`<button class="${k===view?"on":""}" onclick="go('${k}')">${v}</button>`).join(""); }
+function go(v){ view=v; nav(); render(); }
+
+async function render(){
+  const m = $("#main"); m.innerHTML = "<p class='muted'>Loading…</p>";
+  try { m.innerHTML = await ({today, followups, rules, health, outcomes})[view](); }
+  catch(e){ m.innerHTML = `<div class="banner">${esc(e.message)}</div>`; }
+}
+
+async function today(){
+  const d = await api("/api/today?n=20");
+  $("#meta").textContent = `as of ${d.as_of} · measurement year ${d.my}`;
+  const cant = d.cant_tell.reduce((a,r)=>a+r.patients,0);
+  return d.banners.map(b=>`<div class="banner">⚠ ${esc(b)}</div>`).join("") +
+  `<p class="summary"><b>${d.list.length} calls for today</b>, highest priority first. ${d.candidates.toLocaleString()} patients have at least one open gap;
+   ${cant.toLocaleString()} patient-measures can't be assessed from the data right now and are deliberately <i>not</i> on this list.
+   ${d.outreach_counts.pending ? ` ${d.outreach_counts.pending} contacts are awaiting verification.` : ""}</p>` +
+  d.list.map(r=>`<div class="card"><div class="row"><div class="rank">${r.rank}</div><div style="flex:1">
+     <span class="name" onclick="openPatient('${r.patient}')">${esc(r.first)} ${esc(r.last)}</span>
+     <span class="muted small"> · ${r.age} ${esc(r.sex)} · score ${r.score}</span>
+     <div class="why">${esc(r.why)}</div>
+     <div class="chips">${r.actions.map(a=>`<span>${esc(a)}</span>`).join("")}</div>
+     <div class="actions">${Object.entries(OUT).map(([k,v])=>`<button class="${k==="scheduled"?"primary":""}" onclick='logOut(${JSON.stringify(r.patient)},${JSON.stringify(r.rule_ids)},"${k}")'>${v}</button>`).join("")}
+       <button onclick="openPatient('${r.patient}')">Evidence</button></div>
+     <details class="small muted"><summary>score breakdown</summary>${Object.entries(r.components).filter(([k,v])=>v).map(([k,v])=>`${k.slice(2)} ${v>0?"+":""}${v}`).join(" · ")}</details>
+  </div></div></div>`).join("") +
+  `<h2>Can't tell (data problems, not calls)</h2><div class="card"><table><tr><th>Measure</th><th>Why it can't be assessed</th><th>Patients</th></tr>
+   ${d.cant_tell.map(r=>`<tr><td>${esc(r.rule_id)}</td><td>${esc(r.reason)}</td><td>${r.patients}</td></tr>`).join("")}</table></div>`;
+}
+
+async function logOut(patient, rule_ids, outcome){
+  const note = outcome==="scheduled" ? "" : "";
+  const r = await api("/api/outreach",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({patient,rule_ids,outcome,note})});
+  toast(outcome==="scheduled" ? "Logged. The gap closes only when the record arrives (checked nightly)." : `Logged: ${OUT[outcome]}`);
+  render();
+}
+
+async function openPatient(id){
+  const d = await api(`/api/patient/${id}`); const p = d.patient;
+  const rec = r => r.raw ? `<span class="raw" title="${esc(r.cmd)}">${esc(r.file)} line ${r.line}: ${esc(r.raw)}</span><span class="mono muted small">$ ${esc(r.cmd)}</span>` : `<span class="mono">${esc(r.ref)}</span>`;
+  $("#drawer").innerHTML = `<button class="btn close" onclick="$('#drawer').classList.remove('open')">Close</button>
+   <h2>${esc(p.first)} ${esc(p.last)}</h2><div class="muted small">${esc(p.sex)} · born ${esc(p.birthdate)}${p.deathdate?` · died ${esc(p.deathdate)}`:""} · id <span class="mono">${esc(p.patient)}</span></div>
+   <details class="small"><summary>raw patient record</summary>${rec(d.patient_record)}</details>
+   ${d.outreach.length?`<h3>Outreach</h3>${d.outreach.map(o=>`<div class="small">${esc(o.logged_on)} · ${esc(o.outcome)} → ${pill(o.status)} ${esc(o.reason||"")}</div>`).join("")}`:""}
+   ${d.verdicts.map(v=>`<div class="card"><b>${esc(v.title)}</b> <span class="muted small">${esc(v.rule_id)} ${esc(v.rule_version)} · ${v.my}</span> ${pill(v.status)}
+     ${v.why?`<div class="small unk">${esc(v.why)}</div>`:""}
+     <blockquote>“${esc(v.rule_quote)}” <span class="muted">— ${esc(v.doc_id)}</span></blockquote>
+     ${v.criteria.map(c=>{const ex=c.path.startsWith("exclusions"); return `<div class="crit"><span class="${ex?(c.v?"notmet":"met"):(c.v===true?"met":c.v===false?"notmet":"unk")}">${ex?(c.v?"⊘ excluded":"✓ not excluded"):(c.v===true?"✓ met":c.v===false?"✗ not met":"? unknown")}</span>
+        <span class="small muted">${esc(c.path)} · ${esc(c.kind)}</span>
+        ${c.quote?`<blockquote>“${esc(c.quote)}”${c.note?`<div class="muted small">interpretation: ${esc(c.note)}</div>`:""}</blockquote>`:""}
+        ${c.records.map(rec).join("")}${c.unusable.length?`<div class="small unk">records on file that could change this but are unusable:</div>${c.unusable.map(rec).join("")}`:""}
+        ${c.why?`<div class="small unk">${esc(c.why)}</div>`:""}
+        ${c.absence_cmd?`<div class="small muted">no qualifying record — verify absence in the export:</div><span class="mono muted small">$ ${esc(c.absence_cmd)}</span>`:""}</div>`}).join("")}</div>`).join("")}`;
+  $("#drawer").classList.add("open");
+}
+
+async function followups(){
+  const d = await api("/api/followups");
+  const sec = (title, st, desc) => { const items = d.items.filter(i=>st.includes(i.status));
+    return `<h2>${title} (${items.length})</h2><p class="muted small">${desc}</p>` + (items.length? `<div class="card"><table><tr><th>Patient</th><th>Gaps</th><th>Logged</th><th>Status</th><th>Detail</th></tr>
+    ${items.map(i=>`<tr><td><span class="name" onclick="openPatient('${i.patient}')">${esc(i.name)}</span></td><td class="small">${i.rule_ids.map(r=>{const g=(i.gaps||{})[r]; return `<div>${esc(r)}${g?" "+pill(g.state):""}</div>`;}).join("")}</td>
+    <td>${esc(i.logged_on)} · ${esc(i.outcome)}</td><td>${pill(i.status)}</td>
+    <td class="small">${i.status==="pending"?`verify by ${esc(i.verify_by)} ${esc(i.reason||"")}`:esc(i.reason||"")}
+      ${i.evidence.map(e=>`<div class="mono">${esc(e.rule_id)}: ${esc(e.record)} (${esc(e.date)})</div>`).join("")}</td></tr>`).join("")}</table></div>` : "<p class='muted'>None.</p>"); };
+  return sec("Awaiting verification", ["pending"], "Marked scheduled/done. Closes only when a qualifying record arrives in the nightly data; reopens automatically at the verify-by date if it doesn't.") +
+         sec("Reopened", ["reopened"], "Past the verify-by date with gaps still open. Gaps that were verified keep their credit; the open ones return to Today with the reason.") +
+         sec("Verified", ["verified"], "Every gap resolved, at least one closed by a record dated on/after the contact (listed).") +
+         sec("Closed without credit", ["closed"], "Resolved, but not by the outreach: the patient aged out or left the denominator, or the rule passes on a record dated before the contact.") +
+         sec("Other outcomes", ["retry","declined","pcp_review","bad_contact","superseded"], "Left message (retry in 3 days), declined (90 days), sent to PCP (30 days), wrong number (data fix needed).");
+}
+
+async function rules(){
+  const d = await api("/api/rules");
+  const by = s => d.rules.filter(r=>r.state===s);
+  const card = r => { const rule = r.rule||{}; const src = rule.source||{};
+    return `<div class="card"><b>${esc(r.id||r.file)}</b> ${pill(r.state)} <span class="muted small">${esc(rule.title||"")} · ${esc(src.doc_id||"")} ${esc(rule.version||"")}</span>
+    ${src.quote?`<blockquote>“${esc(src.quote)}”</blockquote>`:""}
+    ${r.reason?`<div class="small ${r.state==="rejected"?"notmet":"unk"}">${esc(r.reason)}</div>`:""}
+    ${r.derived.map(x=>`<div class="small unk">derived ${esc(x.path)}.${esc(x.param)}: ${esc(x.why)}</div>`).join("")}
+    ${r.runs&&r.runs.length?`<table><tr><th>Year</th><th>Status</th><th>Denominator</th><th>Pass</th><th>Fail</th><th>Can't tell</th><th>Caveats</th></tr>${r.runs.map(x=>`<tr><td>${x.my}</td><td>${esc(x.status)}</td><td>${x.denominator}</td><td>${x.pass}</td><td>${x.fail}</td><td>${x.indeterminate}</td><td class="small">${esc(x.caveats||"")}</td></tr>`).join("")}</table>`:""}
+    <details class="small"><summary>criteria (JSON) and quotes</summary><pre class="mono">${esc(JSON.stringify({denominator:rule.denominator,numerator:rule.numerator,exclusions:rule.exclusions},null,1))}</pre></details>
+    ${r.preview?previewBox(r.preview):""}
+    ${r.state==="awaiting_approval"?`<button class="btn primary" onclick='approve(${JSON.stringify(r.file)})'>Approve this exact rule</button>`:""}</div>`; };
+  const previewBox = p => { const warn = [];
+    if (p.status==="ran" && p.denominator && p.pass===0) warn.push("Nobody passes: likely a misread footnote or a coding gap. Do not approve without checking.");
+    if (p.status==="ran" && p.denominator && p.fail===0) warn.push("Everybody passes: harmless, but check the rule isn't vacuous.");
+    if (p.caveats && p.caveats.includes("LOW DATA COVERAGE")) warn.push("Low data coverage: will not be used for outreach.");
+    if (p.same_verdicts_as && p.same_verdicts_as.length) warn.push("Duplicate of "+p.same_verdicts_as.join(", ")+" (identical verdicts, same need): approve only one.");
+    return `<div class="card" style="background:#f8fafc"><b class="small">Impact preview (${p.my}, not live)</b>
+      <div class="small">${p.status==="ran"?`${p.denominator} in denominator · ${p.pass} pass · ${p.fail} fail · ${p.indeterminate} can't tell`:esc(p.status)}</div>
+      ${warn.map(w=>`<div class="small notmet">⚠ ${esc(w)}</div>`).join("")}</div>`; };
+  return `<p class="summary">A rule can run against patients only if every quote is verbatim in its cited source section, every number is stated in its quote (or declared and human-approved), and — for AI-compiled rules — a human signed off on this exact content.</p>` +
+    (d.eval?`<h2>Extraction quality vs gold</h2><div class="card small">Rule recall <b>${Math.round(d.eval.overall_rule_recall*100)}%</b> · ${d.eval.rejected_candidates} candidates rejected by the verifier · <i>${esc(d.eval.note)}</i>
+       <table><tr><th>Field</th><th>Agreement on matched rules</th></tr>${Object.entries(d.eval.criterion_agreement).map(([k,v])=>`<tr><td>${esc(k)}</td><td>${Math.round(v*100)}%</td></tr>`).join("")}</table>
+       <table><tr><th>Document</th><th>Gold</th><th>Compiled</th><th>Recall</th><th>Missed</th></tr>${Object.entries(d.eval.per_doc).map(([k,v])=>`<tr><td>${esc(k)}</td><td>${v.gold}</td><td>${v.compiled}</td><td>${v.recall==null?"—":Math.round(v.recall*100)+"%"}</td><td>${esc((v.unmatched_gold||[]).join(", "))}</td></tr>`).join("")}</table></div>`:"") +
+    `<h2>Awaiting approval (${by("awaiting_approval").length})</h2>` +
+    (by("awaiting_approval").length?`<p class="small">Approver token <input id="tok" type="password" size="28" value="${esc(getTok())}" onchange="setTok(this.value)"> <span class="muted">(in data/approver_token on the server)</span></p>`:"") +
+    `${by("awaiting_approval").map(card).join("")||"<p class='muted'>None.</p>"}` +
+    `<h2>Live (${by("runnable").length})</h2>${by("runnable").map(card).join("")}` +
+    `<h2>Rejected by the verifier (${by("rejected").length})</h2><p class="muted small">Hallucination defense at work: these never reach a patient.</p>${by("rejected").map(card).join("")||"<p class='muted'>None yet.</p>"}`;
+}
+function getTok(){ try { return localStorage.getItem("approverToken")||""; } catch(e) { return ""; } }
+function setTok(v){ try { localStorage.setItem("approverToken", v); } catch(e) {} }
+async function approve(file){
+  const tok = (document.getElementById("tok")||{}).value || getTok();
+  try { const r = await api("/api/rules/approve",{method:"POST",headers:{"Content-Type":"application/json","X-Approver-Token":tok},body:JSON.stringify({file})});
+        toast(`Approved ${r.approved}; live after the next nightly run`); render(); }
+  catch(e) { toast("Not approved: " + e.message); } }
+
+async function health(){
+  const d = await api("/api/health");
+  return `<h2>Feeds</h2><div class="card"><table><tr><th>Feed</th><th>Status</th><th>Last record</th><th>Days silent</th><th>Normal / day</th><th>Last 14d / day</th></tr>
+  ${d.feeds.map(f=>`<tr><td>${esc(f.feed)}</td><td>${pill(f.status==="OK"?"pass":"fail",f.status)}</td><td>${esc(f.last_record)}</td><td>${f.days_silent}</td><td>${f.baseline_per_day}</td><td>${f.last14_per_day}</td></tr>`).join("")}</table></div>
+  <h2>What the system did with bad data</h2><p class="muted small">Normalized = unambiguous, logged fix. Quarantined = kept but never used to decide a verdict. Collapsed = duplicate re-send.</p>
+  <div class="card"><table><tr><th>Table</th><th>Issue</th><th>Action</th><th>Rows</th></tr>${d.dq.map(r=>`<tr><td>${esc(r.tbl)}</td><td>${esc(r.kind)}</td><td>${esc(r.action)}</td><td>${r.n.toLocaleString()}</td></tr>`).join("")}</table></div>
+  <h2>Nightly runs (measured cost)</h2><div class="card"><table><tr><th>Started</th><th>As of</th><th>Patients</th><th>Ingest s</th><th>Rules s</th><th>Verify s</th><th>Worklist s</th><th>Total s</th><th>Verified</th><th>Reopened</th></tr>
+  ${d.runs.map(r=>`<tr><td>${esc(r.started)}</td><td>${esc(r.as_of)}</td><td>${r.n_patients}</td><td>${r.seconds_ingest.toFixed(1)}</td><td>${r.seconds_rules.toFixed(1)}</td><td>${r.seconds_verify.toFixed(2)}</td><td>${r.seconds_worklist.toFixed(1)}</td><td><b>${r.seconds_total.toFixed(1)}</b></td><td>${r.verified}</td><td>${r.reopened}</td></tr>`).join("")}</table></div>`;
+}
+
+async function outcomes(){
+  const d = await api("/api/metrics");
+  const s = (v,l) => `<div class="card stat"><div class="v">${v==null?"—":v}</div><div class="muted small">${l}</div></div>`;
+  return `<p class="summary">${esc(d.note)}</p><div class="stats">${s(d.contacts_logged,"contacts logged")}${s(d.scheduled,"scheduled / done")}
+  ${s(d.verified_closures,"verified closures (gaps closed by a record after the contact)")}${s(d.patients_verified,"patients fully verified")}${s(d.reopened,"reopened (gaps open at deadline)")}${s(d.closed_without_credit,"closed without credit")}
+  ${s(d.verified_rate==null?null:Math.round(d.verified_rate*100)+"%","of resolved contacts verified")}${s(d.median_days_to_verified,"median days to verified care")}</div>
+  <h2>Measure rates</h2><div class="card"><table><tr><th>Measure</th><th>Year</th><th>Denominator</th><th>Pass</th><th>Fail</th><th>Can't tell</th><th>Pass %</th></tr>
+  ${d.measure_rates.map(r=>`<tr><td>${esc(r.rule_id)}</td><td>${r.my}</td><td>${r.denominator}</td><td>${r.pass}</td><td>${r.fail}</td><td>${r.indeterminate}</td><td>${r.pass_pct}</td></tr>`).join("")}</table></div>`;
+}
+nav(); render();
+</script>
+</body>
+</html>

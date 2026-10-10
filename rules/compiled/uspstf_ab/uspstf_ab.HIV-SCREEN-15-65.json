@@ -1,0 +1,31 @@
+{
+ "id": "uspstf_ab.HIV-SCREEN-15-65",
+ "version": "June 2019",
+ "title": "HIV infection screening in adolescents and adults aged 15 to 65 years",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:025",
+  "quote": "The USPSTF recommends that clinicians screen for HIV infection in adolescents and adults aged 15 to 65 years."
+ },
+ "grade": "A",
+ "effective_date": "2019-06",
+ "action": "Screen for HIV infection",
+ "compiled_by": "llm",
+ "denominator": {
+  "age": {
+   "min": 15,
+   "max": 65,
+   "at": "end"
+  },
+  "quote": "adolescents and adults aged 15 to 65 years"
+ },
+ "numerator": {
+  "observation": {
+   "concept": "hiv_test",
+   "pick": "any"
+  },
+  "quote": "screen for HIV infection",
+  "note": "No screening interval is stated in this section; no lookback window applied (any HIV test on record). Interval logic is deferred to Clinical Considerations, not provided here."
+ },
+ "exclusions": []
+}

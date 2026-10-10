@@ -1,0 +1,38 @@
+{
+ "id": "cdc_child.MENACWY-ROUTINE",
+ "version": "2025",
+ "title": "MenACWY 2 doses (11-12 and 16)",
+ "grade": "routine",
+ "effective_date": "2025",
+ "source": {
+  "doc_id": "cdc_child",
+  "section_id": "cdc_child:027",
+  "quote": "2-dose series at age 11–12 years; 16 years"
+ },
+ "denominator": {
+  "age": {
+   "min": 17,
+   "max": 18,
+   "at": "end"
+  },
+  "quote": "2-dose series at age 11–12 years; 16 years",
+  "derived": {
+   "min": "booster dose is due at 16 years, so both doses are expected by 17",
+   "max": "the schedule covers persons through 18 years"
+  }
+ },
+ "numerator": {
+  "immunization": {
+   "concept": "menacwy_vaccine",
+   "min_count": 2,
+   "window": [
+    "{MY-100}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "2-dose series"
+ },
+ "exclusions": [],
+ "gold_notes": "Age 17 derived (booster at 16). Catch-up: 1 dose suffices if first dose at 16-18 -- not representable (age-at-dose).",
+ "compiled_by": "gold"
+}

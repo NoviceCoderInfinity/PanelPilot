@@ -1,0 +1,50 @@
+{
+ "id": "A1C-TEST",
+ "title": "Diabetes: HbA1c tested",
+ "source": {
+  "doc_id": "assignment",
+  "quote": "Adults 18–75 with a diabetes diagnosis"
+ },
+ "denominator": {
+  "all": [
+   {
+    "age": {
+     "min": 18,
+     "max": 75,
+     "at": "end"
+    },
+    "quote": "Adults 18–75"
+   },
+   {
+    "condition": {
+     "concept": "diabetes",
+     "onset_by": "{MY}-12-31"
+    },
+    "quote": "with a diabetes diagnosis",
+    "note": "Spec gives no diagnosis date; we require diagnosis on or before the end of the measurement year."
+   }
+  ]
+ },
+ "numerator": {
+  "observation": {
+   "concept": "hba1c",
+   "window": [
+    "{MY}-01-01",
+    "{MY}-12-31"
+   ],
+   "pick": "any"
+  },
+  "quote": "≥1 HbA1c lab result in 2025",
+  "note": "Existence only: a unit-less HbA1c still proves the test happened."
+ },
+ "exclusions": [
+  {
+   "deceased": {
+    "before": "{MY}-01-01"
+   },
+   "quote": "deceased-before-2025 excluded everywhere"
+  }
+ ],
+ "action": "Order HbA1c",
+ "version": "calib-1"
+}

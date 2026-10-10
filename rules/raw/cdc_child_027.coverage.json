@@ -1,0 +1,11 @@
+[
+ "Version and effective date are not stated in this section; set to unknown and need human confirmation.",
+ "Routine dose 2 at age 16 years is NOT encoded: catch-up text says a first dose at age 16–18 years needs only 1 dose, and 13–15-year-olds get a booster at 16–18 years. The required dose at age >=16 depends on age at administration, which date windows can't express reliably, so a dose-2 rule could misclassify patients.",
+ "Catch-up vaccination is not encoded: age 13–15 years gets 1 dose now plus a booster at age 16–18 years (minimum interval 8 weeks). Age 16–18 years gets 1 dose.",
+ "Special situations are not encoded. For asplenia, sickle cell disease, HIV infection, persistent complement deficiency, or complement inhibitor use (eculizumab, ravulizumab), there are Menveo and MenQuadfi series that depend on age at dose 1: 4-dose, 3- or 4-dose, and 2-dose series with 8-week and 12-week minimum intervals. These conditions map to asplenia, hiv_infection and complement_deficiency, but the schedule depends on the age at dose 1 and the intervals between doses.",
+ "Travel to hyperendemic or epidemic countries (African meningitis belt, Hajj) is not represented: it is uncomputable (needs travel history), and its Menveo/MenQuadfi schedules depend on age at dose 1.",
+ "First-year college students in residential housing who were not vaccinated at age 16 or older, and military recruits (1 dose), are not represented: this is uncomputable (needs housing or enrollment and military status).",
+ "Adolescent vaccination of children who received MenACWY before age 10 years is not represented: whether boosters are recommended depends on ongoing risk. Booster schedules for increased-risk groups and outbreak settings are referenced externally (MMWR rr6909a1) and not given in this section.",
+ "Not represented: minimum ages by product (Menveo 2 months, MenQuadfi 2 years, Penbraya 10 years), and the Menveo liquid formulation not being used before age 10 years (product choice).",
+ "Not represented: simultaneous administration with MenB at a different anatomic site, and Penbraya as an alternative for children age 10 years or older when MenACWY and MenB are due the same day (product choice)."
+]

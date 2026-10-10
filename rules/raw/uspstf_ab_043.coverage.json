@@ -1,0 +1,7 @@
+[
+ "The lower age bound of 6 months cannot be expressed in whole years. The rule uses min age 1 (declared as derived), so infants aged 6-11 months are not covered. Human review is needed.",
+ "Fair skin type is encoded as uncomputable. Skin type (for example Fitzpatrick type) is not reliably held in structured EHR data, so the denominator cannot be fully computed.",
+ "Counseling documentation has no concept in the vocabulary, and the text states no frequency or interval. The numerator is therefore encoded as uncomputable rather than inventing a concept or a lookback window.",
+ "For young children, the counseling may go to the parents rather than the patient. This recipient distinction is captured only in the uncomputable numerator's description.",
+ "The DATE field carries an asterisk ('March 2018 *') whose footnote is not included in the section text. Its meaning is not represented."
+]

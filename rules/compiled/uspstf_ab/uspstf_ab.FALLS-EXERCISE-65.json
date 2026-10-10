@@ -1,0 +1,54 @@
+{
+ "id": "uspstf_ab.FALLS-EXERCISE-65",
+ "version": "June 2024",
+ "title": "Exercise interventions to prevent falls in community-dwelling adults 65 years or older at increased risk for falls",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:016",
+  "quote": "The USPSTF recommends exercise interventions to prevent falls in community-dwelling adults 65 years or older who are at increased risk for falls."
+ },
+ "grade": "B",
+ "effective_date": "June 2024",
+ "action": "Provide or refer for exercise interventions to prevent falls",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "age": {
+     "min": 65,
+     "at": "end"
+    },
+    "quote": "65 years or older"
+   },
+   {
+    "uncomputable": {
+     "needs": "community-dwelling residence status (not institutionalized)"
+    },
+    "quote": "community-dwelling adults"
+   },
+   {
+    "condition": {
+     "concept": "fall_risk",
+     "onset_by": "{MY}-12-31"
+    },
+    "quote": "at increased risk for falls",
+    "note": "Increased fall risk is typically a clinician assessment; coded fall_risk may be incomplete"
+   }
+  ],
+  "quote": "community-dwelling adults 65 years or older who are at increased risk for falls"
+ },
+ "numerator": {
+  "procedure": {
+   "concept": "fall_prevention_exercise",
+   "window": [
+    "{MY}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "exercise interventions to prevent falls",
+  "derived": {
+   "window": "text states no interval; a measurement-year window was assumed"
+  }
+ },
+ "exclusions": []
+}

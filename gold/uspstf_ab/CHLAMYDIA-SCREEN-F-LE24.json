@@ -1,0 +1,44 @@
+{
+ "id": "uspstf_ab.CHLAMYDIA-SCREEN-F-LE24",
+ "version": "September 2021",
+ "title": "Chlamydia screening, sexually active women <=24",
+ "grade": "B",
+ "effective_date": "September 2021",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:011",
+  "quote": "The USPSTF recommends screening for chlamydia in all sexually active women 24 years or younger and in women 25 years or older who are at increased risk for infection."
+ },
+ "denominator": {
+  "all": [
+   {
+    "sex": {
+     "is": "F"
+    },
+    "quote": "sexually active women 24 years or younger"
+   },
+   {
+    "age": {
+     "max": 24,
+     "at": "end"
+    },
+    "quote": "24 years or younger"
+   },
+   {
+    "uncomputable": {
+     "needs": "sexual activity history"
+    },
+    "quote": "sexually active women"
+   }
+  ]
+ },
+ "numerator": {
+  "uncomputable": {
+   "needs": "screening interval not stated in source"
+  },
+  "quote": "The USPSTF recommends screening for chlamydia"
+ },
+ "exclusions": [],
+ "gold_notes": "Expected extractor behaviour: keep 'sexually active' as uncomputable, not drop it. The >=25 increased-risk arm is wholly uncomputable.",
+ "compiled_by": "gold"
+}

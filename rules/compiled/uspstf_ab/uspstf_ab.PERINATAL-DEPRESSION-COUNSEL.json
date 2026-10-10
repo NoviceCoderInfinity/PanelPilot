@@ -1,0 +1,67 @@
+{
+ "id": "uspstf_ab.PERINATAL-DEPRESSION-COUNSEL",
+ "version": "February 2019",
+ "title": "Counseling interventions for pregnant and postpartum persons at increased risk of perinatal depression",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:035",
+  "quote": "The USPSTF recommends that clinicians provide or refer pregnant and postpartum persons who are at increased risk of perinatal depression to counseling interventions."
+ },
+ "grade": "B",
+ "effective_date": "February 2019",
+ "action": "Provide or refer to counseling interventions",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "any": [
+     {
+      "condition": {
+       "concept": "pregnancy"
+      },
+      "quote": "pregnant"
+     },
+     {
+      "condition": {
+       "concept": "postpartum"
+      },
+      "quote": "postpartum persons"
+     }
+    ],
+    "quote": "pregnant and postpartum persons"
+   },
+   {
+    "uncomputable": {
+     "needs": "clinician assessment of increased risk of perinatal depression (risk factors not reliably held in structured EHR data)"
+    },
+    "quote": "at increased risk of perinatal depression"
+   }
+  ],
+  "quote": "pregnant and postpartum persons who are at increased risk of perinatal depression"
+ },
+ "numerator": {
+  "any": [
+   {
+    "procedure": {
+     "concept": "perinatal_depression_counseling",
+     "window": [
+      "{MY}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "counseling interventions",
+    "derived": {
+     "window": "text gives no interval; counseling assumed to be within the measurement year in which the person is pregnant or postpartum"
+    }
+   },
+   {
+    "uncomputable": {
+     "needs": "documentation of referral to counseling interventions"
+    },
+    "quote": "provide or refer"
+   }
+  ],
+  "quote": "provide or refer"
+ },
+ "exclusions": []
+}

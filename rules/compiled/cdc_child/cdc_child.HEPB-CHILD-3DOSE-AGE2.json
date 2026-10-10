@@ -1,0 +1,43 @@
+{
+ "id": "cdc_child.HEPB-CHILD-3DOSE-AGE2",
+ "version": "2025",
+ "title": "Hepatitis B vaccine 3-dose series completed by age 2",
+ "source": {
+  "doc_id": "cdc_child",
+  "section_id": "cdc_child:023",
+  "quote": "3-dose series at age 0, 1–2, 6–18 months"
+ },
+ "grade": "ACIP routine recommendation (no USPSTF-style grade)",
+ "effective_date": "2025",
+ "action": "Ensure children have completed the 3-dose hepatitis B vaccine series (final dose at 6–18 months)",
+ "compiled_by": "llm",
+ "denominator": {
+  "age": {
+   "min": 2,
+   "max": 2,
+   "at": "end"
+  },
+  "quote": "6–18 months",
+  "derived": {
+   "min": "final dose is due by 18 months, so the completed series is checked in the year the child turns 2",
+   "max": "single-year cohort of children turning 2 in the measurement year"
+  },
+  "note": "The quoted schedule is for infants of HBsAg-negative mothers; the HBsAg-positive and HBsAg-unknown branches also give the 3rd (or 4th) dose at age 6 months, so every branch expects at least 3 doses by 18 months. Maternal HBsAg status is therefore not used as a filter. Human review required."
+ },
+ "numerator": {
+  "immunization": {
+   "concept": "hepb_vaccine",
+   "min_count": 3,
+   "window": [
+    "{MY-2}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "3-dose series at age 0, 1–2, 6–18 months",
+  "derived": {
+   "window": "runs from the earliest birth date of a child turning 2 in the measurement year (Jan 1 MY-2) through the end of the measurement year; counts doses from birth. Ideally it would end at the 2nd birthday, which the grammar cannot express."
+  },
+  "note": "Four doses are permitted when a combination vaccine is used after the birth dose. min_count 3 is satisfied either way."
+ },
+ "exclusions": []
+}

@@ -1,0 +1,48 @@
+{
+ "id": "uspstf_ab.TOB-PREG-CESSATION",
+ "version": "January 2021",
+ "title": "Behavioral cessation interventions for pregnant persons who use tobacco",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:048",
+  "quote": "The USPSTF recommends that clinicians ask all pregnant persons about tobacco use, advise them to stop using tobacco, and provide behavioral interventions for cessation to pregnant persons who use tobacco."
+ },
+ "grade": "A",
+ "effective_date": "2021-01",
+ "action": "Provide behavioral interventions for cessation to pregnant persons who use tobacco",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "condition": {
+     "concept": "pregnancy",
+     "onset_by": "{MY}-12-31"
+    },
+    "quote": "pregnant persons who use tobacco",
+    "note": "intended: pregnant at some point during the measurement year"
+   },
+   {
+    "condition": {
+     "concept": "tobacco_use",
+     "onset_by": "{MY}-12-31"
+    },
+    "quote": "who use tobacco",
+    "note": "tobacco use during pregnancy"
+   }
+  ]
+ },
+ "numerator": {
+  "procedure": {
+   "concept": "tobacco_cessation_behavioral_intervention",
+   "window": [
+    "{MY}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "provide behavioral interventions for cessation",
+  "derived": {
+   "window": "text states no interval; measurement year used as a proxy for 'during pregnancy'"
+  }
+ },
+ "exclusions": []
+}

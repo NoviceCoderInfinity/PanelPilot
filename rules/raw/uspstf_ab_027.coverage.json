@@ -1,0 +1,7 @@
+[
+ "Screening interval is not stated in this section; the numerator window (measurement year) is an assumption declared as derived and needs human review.",
+ "The interpretation of 'known hypertension' as a diagnosis recorded before the measurement year is declared as derived.",
+ "Not represented: 'The USPSTF recommends obtaining blood pressure measurements outside of the clinical setting for diagnostic confirmation before starting treatment.' This is a diagnostic-confirmation step conditional on an elevated screening result and before treatment initiation; not encoded as a rule.",
+ "Numerator does not require that the reading be taken in an office setting specifically; setting of measurement (office vs. home/ambulatory) may not be reliably distinguishable in structured data.",
+ "The DATE field contains an asterisk ('April 2021 *') referencing a footnote not included in the section text; its content could not be represented."
+]

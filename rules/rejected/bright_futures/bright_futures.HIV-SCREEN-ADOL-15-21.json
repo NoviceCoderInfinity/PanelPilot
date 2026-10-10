@@ -1,0 +1,31 @@
+{
+ "id": "bright_futures.HIV-SCREEN-ADOL-15-21",
+ "version": "2025",
+ "title": "Adolescent HIV screening at least once between ages 15 and 21 (Bright Futures footnote 30)",
+ "source": {
+  "doc_id": "bright_futures",
+  "section_id": "bright_futures:001",
+  "quote": "Screen adolescents for HIV at least once between the ages of 15 and 21"
+ },
+ "grade": "not graded (Bright Futures/AAP periodicity schedule footnote)",
+ "effective_date": "2025-02",
+ "action": "Confirm at least one HIV screening test was performed between ages 15 and 21",
+ "compiled_by": "llm",
+ "denominator": {
+  "age": {
+   "min": 21,
+   "max": 21,
+   "at": "end"
+  },
+  "quote": "between the ages of 15 and 21",
+  "derived": {
+   "min": "evaluated at age 21, when the 15-21 screening window closes, so patients still inside the window are not counted as missed",
+   "max": "same as min: only the cohort whose window closes this measurement year"
+  }
+ },
+ "numerator": {
+  "immunization_placeholder_removed": null
+ },
+ "exclusions": [],
+ "_rejected_because": "bright_futures.HIV-SCREEN-ADOL-15-21: numerator: unknown criterion type 'immunization_placeholder_removed'"
+}

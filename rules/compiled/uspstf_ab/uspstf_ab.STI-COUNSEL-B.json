@@ -1,0 +1,45 @@
+{
+ "id": "uspstf_ab.STI-COUNSEL-B",
+ "version": "August 2020",
+ "title": "Behavioral counseling for sexually active adolescents and adults at increased risk for STIs",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:042",
+  "quote": "The USPSTF recommends behavioral counseling for all sexually active adolescents and for adults who are at increased risk for sexually transmitted infections (STIs)."
+ },
+ "grade": "B",
+ "effective_date": "2020-08",
+ "action": "Provide behavioral counseling to prevent sexually transmitted infections",
+ "compiled_by": "llm",
+ "denominator": {
+  "any": [
+   {
+    "uncomputable": {
+     "needs": "sexual activity status of an adolescent (adolescent age range not defined numerically in text)"
+    },
+    "quote": "all sexually active adolescents"
+   },
+   {
+    "uncomputable": {
+     "needs": "adult STI risk assessment (sexual behavior/exposure risk per Practice Considerations)"
+    },
+    "quote": "adults who are at increased risk for sexually transmitted infections (STIs)"
+   }
+  ],
+  "quote": "for all sexually active adolescents and for adults who are at increased risk for sexually transmitted infections (STIs)"
+ },
+ "numerator": {
+  "procedure": {
+   "concept": "sti_behavioral_counseling",
+   "window": [
+    "{MY}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "behavioral counseling",
+  "derived": {
+   "window": "text states no interval; a measurement-year window is assumed for checking and requires human approval"
+  }
+ },
+ "exclusions": []
+}

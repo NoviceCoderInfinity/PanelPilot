@@ -1,0 +1,30 @@
+{
+ "id": "uspstf_ab.HDP-SCREEN-PREG",
+ "version": "September 2023",
+ "title": "Screening for hypertensive disorders of pregnancy with blood pressure measurements throughout pregnancy",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:028",
+  "quote": "The USPSTF recommends screening for hypertensive disorders in pregnant persons with blood pressure measurements throughout pregnancy."
+ },
+ "grade": "B",
+ "effective_date": "September 2023",
+ "action": "Measure blood pressure throughout pregnancy to screen for hypertensive disorders of pregnancy",
+ "compiled_by": "llm",
+ "denominator": {
+  "condition": {
+   "concept": "pregnancy",
+   "onset_by": "{MY}-12-31"
+  },
+  "quote": "pregnant persons",
+  "note": "Pregnancy during the measurement year; the topic limits this to asymptomatic persons, which is not encoded (see coverage_notes)."
+ },
+ "numerator": {
+  "uncomputable": {
+   "needs": "blood pressure measurements spread across the pregnancy period, which requires pregnancy start and end dates and prenatal visit history"
+  },
+  "quote": "blood pressure measurements throughout pregnancy",
+  "note": "A single in-year bp reading would not establish measurement throughout pregnancy, so this is not approximated."
+ },
+ "exclusions": []
+}

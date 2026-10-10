@@ -1,0 +1,80 @@
+{
+ "id": "cdc_child.MENACWY-HIGHRISK-2DOSE",
+ "version": "2025",
+ "title": "MenACWY primary series (at least 2 doses) for children with asplenia, HIV, or complement deficiency/inhibitor use",
+ "source": {
+  "doc_id": "cdc_child",
+  "section_id": "cdc_child:010",
+  "quote": "Dose 1 at age 24 months or older: 2-dose series"
+ },
+ "grade": "ACIP special situation recommendation (no USPSTF grade)",
+ "effective_date": "2025",
+ "action": "Ensure children with anatomic/functional asplenia, HIV infection, persistent complement component deficiency or complement inhibitor use have completed at least a 2-dose MenACWY primary series.",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "age": {
+     "min": 3,
+     "max": 18,
+     "at": "end"
+    },
+    "quote": "Dose 1 at age 24 months or older: 2-dose series",
+    "derived": {
+     "min": "24 months = 2 years; age 3 at year end allows the 8-week interval for dose 2 after a dose 1 at 24 months",
+     "max": "schedule title covers 'Ages 18 Years or Younger'"
+    }
+   },
+   {
+    "any": [
+     {
+      "condition": {
+       "concept": "asplenia",
+       "onset_before": "{MY}-06-30"
+      },
+      "quote": "Anatomic or functional asplenia (including sickle cell",
+      "derived": {
+       "onset_before": "mid-year onset cutoff allows time to complete a 2-dose series at least 8 weeks apart"
+      }
+     },
+     {
+      "condition": {
+       "concept": "hiv_infection",
+       "onset_before": "{MY}-06-30"
+      },
+      "quote": "HIV infection",
+      "derived": {
+       "onset_before": "mid-year onset cutoff allows time to complete a 2-dose series at least 8 weeks apart"
+      }
+     },
+     {
+      "condition": {
+       "concept": "complement_deficiency",
+       "onset_before": "{MY}-06-30"
+      },
+      "quote": "component deficiency, complement inhibitor",
+      "derived": {
+       "onset_before": "mid-year onset cutoff allows time to complete a 2-dose series at least 8 weeks apart"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "numerator": {
+  "immunization": {
+   "concept": "menacwy_vaccine",
+   "min_count": 2,
+   "window": [
+    "{MY-18}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "Dose 1 at age 24 months or older: 2-dose series",
+  "derived": {
+   "window": "lifetime lookback for patients up to age 18 (born no earlier than MY-18)",
+   "min_count_note": "2 is the minimum series for any start age; earlier starts require 3-4 doses, so this is a lower bound"
+  }
+ },
+ "exclusions": []
+}

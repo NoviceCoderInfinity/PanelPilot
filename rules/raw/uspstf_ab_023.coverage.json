@@ -1,0 +1,7 @@
+[
+ "The section text gives no screening interval or frequency. The numerator window (any test since age 18, i.e. a 61-year lookback) is derived and needs human review. The section does not say whether screening is one-time or repeated.",
+ "The section does not address repeat screening for people with ongoing risk, such as injection drug use. Any such logic would depend on exposure history and is not represented.",
+ "The asterisk after 'March 2020' in the DATE field refers to a footnote that is not included in the section text. Its meaning is not represented.",
+ "hepatitis_c_test is encoded as a 'procedure' criterion. The grammar has no dedicated lab-test type, so the verifier may expect an 'observation' type instead.",
+ "No exclusions are stated in the section text, such as known HCV infection or death. None were added."
+]

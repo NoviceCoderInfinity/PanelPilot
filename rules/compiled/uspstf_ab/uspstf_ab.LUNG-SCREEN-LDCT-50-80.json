@@ -1,0 +1,76 @@
+{
+ "id": "uspstf_ab.LUNG-SCREEN-LDCT-50-80",
+ "version": "March 2021",
+ "title": "Annual lung cancer screening with LDCT, adults 50-80 with 20 pack-year history who currently smoke or quit within 15 years",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:031",
+  "quote": "The USPSTF recommends annual screening for lung cancer with low-dose computed tomography (LDCT) in adults aged 50 to 80 years who have a 20 pack-year smoking history and currently smoke or have quit within the past 15 years."
+ },
+ "grade": "B",
+ "effective_date": "March 2021",
+ "action": "Perform annual low-dose CT lung cancer screening",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "age": {
+     "min": 50,
+     "max": 80,
+     "at": "end"
+    },
+    "quote": "adults aged 50 to 80 years"
+   },
+   {
+    "observation": {
+     "concept": "pack_years",
+     "pick": "latest",
+     "value": {
+      "op": ">=",
+      "threshold": 20,
+      "unit": "pack-years"
+     }
+    },
+    "quote": "20 pack-year smoking history",
+    "note": "Interpreted as at least 20 pack-years; no lookback window imposed (any recorded value)"
+   },
+   {
+    "any": [
+     {
+      "condition": {
+       "concept": "current_smoker",
+       "onset_by": "{MY}-12-31"
+      },
+      "quote": "currently smoke"
+     },
+     {
+      "uncomputable": {
+       "needs": "smoking quit date (quit within the past 15 years)"
+      },
+      "quote": "have quit within the past 15 years"
+     }
+    ],
+    "quote": "currently smoke or have quit within the past 15 years"
+   }
+  ],
+  "quote": "adults aged 50 to 80 years who have a 20 pack-year smoking history and currently smoke or have quit within the past 15 years"
+ },
+ "numerator": {
+  "procedure": {
+   "concept": "ldct_lung",
+   "window": [
+    "{MY}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "annual screening for lung cancer with low-dose computed tomography (LDCT)"
+ },
+ "exclusions": [
+  {
+   "uncomputable": {
+    "needs": "clinician judgment of a health problem substantially limiting life expectancy or ability/willingness to have curative lung surgery"
+   },
+   "quote": "develops a health problem that substantially limits life expectancy or the ability or willingness to have curative lung surgery"
+  }
+ ]
+}

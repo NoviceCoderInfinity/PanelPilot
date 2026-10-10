@@ -1,0 +1,64 @@
+{
+ "id": "cdc_child.MENACWY-HIGH-RISK",
+ "version": "2025",
+ "title": "MenACWY for asplenia, HIV, complement deficiency (age >=2)",
+ "grade": "special",
+ "effective_date": "2025",
+ "source": {
+  "doc_id": "cdc_child",
+  "section_id": "cdc_child:027",
+  "quote": "Dose 1 at age 24 months or older: 2-dose series at least 8 weeks apart"
+ },
+ "denominator": {
+  "all": [
+   {
+    "age": {
+     "min": 2,
+     "max": 18,
+     "at": "end"
+    },
+    "quote": "Dose 1 at age 24 months or older",
+    "derived": {
+     "min": "the schedule's risk-based series applies within this age span; age not stated verbatim in the footnote quote",
+     "max": "the schedule's risk-based series applies within this age span; age not stated verbatim in the footnote quote"
+    }
+   },
+   {
+    "any": [
+     {
+      "condition": {
+       "concept": "asplenia"
+      },
+      "quote": "Anatomic or functional asplenia (including sickle cell disease)"
+     },
+     {
+      "condition": {
+       "concept": "hiv_infection"
+      },
+      "quote": "HIV infection"
+     },
+     {
+      "condition": {
+       "concept": "complement_deficiency"
+      },
+      "quote": "persistent complement component deficiency"
+     }
+    ]
+   }
+  ]
+ },
+ "numerator": {
+  "immunization": {
+   "concept": "menacwy_vaccine",
+   "min_count": 2,
+   "window": [
+    "{MY-100}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "2-dose series at least 8 weeks apart"
+ },
+ "exclusions": [],
+ "gold_notes": "Footnote-conditioned. Under-2 Menveo schedules and booster schedule not represented. 24 months -> 2 years is a unit conversion.",
+ "compiled_by": "gold"
+}

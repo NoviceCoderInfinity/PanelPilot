@@ -1,0 +1,52 @@
+{
+ "id": "uspstf_ab.CHLAMYDIA-SCREEN-F-25PLUS-RISK",
+ "version": "September 2021",
+ "title": "Chlamydia screening in women 25 years or older at increased risk",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:011",
+  "quote": "The USPSTF recommends screening for chlamydia in all sexually active women 24 years or younger and in women 25 years or older who are at increased risk for infection."
+ },
+ "grade": "B",
+ "effective_date": "2021-09",
+ "action": "Screen for chlamydia",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "sex": {
+     "is": "F"
+    },
+    "quote": "women"
+   },
+   {
+    "age": {
+     "min": 25,
+     "at": "end"
+    },
+    "quote": "25 years or older"
+   },
+   {
+    "uncomputable": {
+     "needs": "clinical assessment of increased risk for chlamydia infection (sexual history/risk factors)"
+    },
+    "quote": "at increased risk for infection"
+   }
+  ]
+ },
+ "numerator": {
+  "observation": {
+   "concept": "chlamydia_test",
+   "window": [
+    "{MY}-01-01",
+    "{MY}-12-31"
+   ],
+   "pick": "any"
+  },
+  "quote": "screening for chlamydia",
+  "derived": {
+   "window": "screening interval is not stated in the text; a measurement-year (annual) window is assumed and needs human review"
+  }
+ },
+ "exclusions": []
+}

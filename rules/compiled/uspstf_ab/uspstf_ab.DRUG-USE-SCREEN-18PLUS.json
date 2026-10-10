@@ -1,0 +1,36 @@
+{
+ "id": "uspstf_ab.DRUG-USE-SCREEN-18PLUS",
+ "version": "June 2020",
+ "title": "Unhealthy drug use screening by asking questions, adults 18 years or older",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:051",
+  "quote": "The USPSTF recommends screening by asking questions about unhealthy drug use in adults age 18 years or older."
+ },
+ "grade": "B",
+ "effective_date": "2020-06",
+ "action": "Screen for unhealthy drug use by asking questions (not biological specimen testing)",
+ "compiled_by": "llm",
+ "denominator": {
+  "age": {
+   "min": 18,
+   "at": "end"
+  },
+  "quote": "adults age 18 years or older"
+ },
+ "numerator": {
+  "observation": {
+   "concept": "drug_use_screening",
+   "window": [
+    "{MY}-01-01",
+    "{MY}-12-31"
+   ],
+   "pick": "any"
+  },
+  "quote": "screening by asking questions about unhealthy drug use",
+  "derived": {
+   "window": "the text states no screening interval; a measurement-year window is assumed for checking and needs human approval"
+  }
+ },
+ "exclusions": []
+}

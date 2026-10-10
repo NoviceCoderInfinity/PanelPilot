@@ -1,0 +1,55 @@
+{
+ "id": "uspstf_ab.OSTEO-SCREEN-PM-LT65",
+ "version": "January 2025",
+ "title": "Osteoporosis screening: postmenopausal women younger than 65 years at increased fracture risk",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:033",
+  "quote": "The USPSTF recommends screening for osteoporosis to prevent osteoporotic fractures in postmenopausal women younger than 65 years who are at increased risk for an osteoporotic fracture as estimated by clinical risk assessment."
+ },
+ "grade": "B",
+ "effective_date": "2025-01",
+ "action": "Screen for osteoporosis to prevent osteoporotic fractures",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "sex": {
+     "is": "F"
+    },
+    "quote": "women"
+   },
+   {
+    "age": {
+     "max": 64,
+     "at": "end"
+    },
+    "quote": "younger than 65 years",
+    "derived": {
+     "max": "'younger than 65 years' in whole years means age 64 or less at end of measurement year"
+    }
+   },
+   {
+    "uncomputable": {
+     "needs": "postmenopausal status"
+    },
+    "quote": "postmenopausal women"
+   },
+   {
+    "uncomputable": {
+     "needs": "clinical risk assessment showing increased osteoporotic fracture risk (clinician judgment / risk tool)"
+    },
+    "quote": "at increased risk for an osteoporotic fracture as estimated by clinical risk assessment"
+   }
+  ],
+  "quote": "postmenopausal women younger than 65 years"
+ },
+ "numerator": {
+  "uncomputable": {
+   "needs": "osteoporosis screening test type and screening interval, neither stated in this section (deferred to Practice Considerations)"
+  },
+  "quote": "screening for osteoporosis",
+  "note": "Likely dxa_scan, but test modality and look-back window are not specified in the section text, so not encoded as computable"
+ },
+ "exclusions": []
+}

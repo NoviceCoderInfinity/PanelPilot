@@ -1,0 +1,10 @@
+[
+ "Only the first 4 doses of the routine 5-dose DTaP series are encoded (expected by age 2, derived; rule goes to human review). The numerator window runs to {MY}-12-31, so it can credit doses given after the 2nd birthday; it does not restrict to doses given before the birthday.",
+ "Dose 5 at age 4-6 years is not encoded as a rule. 'Dose 5 is not necessary if dose 4 was administered at age 4 years or older and at least 6 months after dose 3' depends on dose dates relative to birth and to prior doses. This cannot be expressed in the grammar, and omitting it would falsely flag compliant children.",
+ "Minimum age 6 weeks (4 years for Kinrix or Quadracel) for valid doses is not enforced. Product choice (Kinrix/Quadracel) is not represented.",
+ "Minimum intervals are not represented: prospective dose 4 as early as 12 months if at least 6 months since dose 3; retrospective counting of an early dose 4 if at least 4 months since dose 3.",
+ "Catch-up guidance (Table 2) is not represented.",
+ "Special situation not represented: Td may replace DTaP for remaining doses in children younger than 7 years with a pertussis-specific contraindication (encephalopathy within 7 days of vaccination not attributable to another cause). Td doses are not credited and these children are not excluded.",
+ "Wound management is not represented: DTaP for non-clean/non-minor wounds if more than 5 years since the last tetanus-toxoid dose, in children younger than 7 years with 3 or more prior doses. This depends on injury events and clinician judgment.",
+ "No exclusions (e.g., deceased, contraindication) are stated in the section, so none are encoded."
+]

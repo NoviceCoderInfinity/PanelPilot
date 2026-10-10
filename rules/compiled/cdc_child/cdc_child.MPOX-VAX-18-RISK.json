@@ -1,0 +1,47 @@
+{
+ "id": "cdc_child.MPOX-VAX-18-RISK",
+ "version": "unknown",
+ "title": "Mpox vaccination (Jynneos) 2-dose series for 18-year-olds at risk for mpox infection",
+ "source": {
+  "doc_id": "cdc_child",
+  "section_id": "cdc_child:029",
+  "quote": "Age 18 years and at risk for mpox infection: complete \n2-dose series, 28 days apart."
+ },
+ "grade": "ACIP recommendation (special situations; no USPSTF grade)",
+ "effective_date": "unknown",
+ "action": "Complete 2-dose mpox vaccine (Jynneos) series, doses 28 days apart, for persons aged 18 years at risk for mpox infection",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "age": {
+     "min": 18,
+     "max": 18,
+     "at": "end"
+    },
+    "quote": "Age 18 years"
+   },
+   {
+    "uncomputable": {
+     "needs": "mpox risk factors: sexual history (gay, bisexual or other MSM, transgender, or nonbinary persons who in the past 6 months had a new STD diagnosis, more than 1 sex partner, sex at a commercial sex venue, or sex at a large public event in an area with mpox transmission), sexual partner of such persons, or anticipated exposure to these situations"
+    },
+    "quote": "at risk for mpox infection"
+   }
+  ]
+ },
+ "numerator": {
+  "immunization": {
+   "concept": "mpox_vaccine",
+   "min_count": 2,
+   "window": [
+    "{MY-18}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "2-dose series, 28 days apart.",
+  "derived": {
+   "window": "no timing window is stated; any dose received since birth counts for an 18-year-old, so the window starts 18 years before the measurement year"
+  }
+ },
+ "exclusions": []
+}

@@ -1,0 +1,34 @@
+{
+ "id": "bright_futures.HIV-SCREEN-15-21",
+ "version": "2025",
+ "title": "HIV screen at least once between 15 and 21",
+ "grade": "footnote 30",
+ "effective_date": "2025",
+ "source": {
+  "doc_id": "bright_futures",
+  "section_id": "bright_futures:001",
+  "quote": "Screen adolescents for HIV at least once between the ages of 15 and 21"
+ },
+ "denominator": {
+  "age": {
+   "min": 21,
+   "max": 21,
+   "at": "end"
+  },
+  "quote": "between the ages of 15 and 21"
+ },
+ "numerator": {
+  "observation": {
+   "concept": "hiv_test",
+   "window": [
+    "{MY-6}-01-01",
+    "{MY}-12-31"
+   ],
+   "pick": "any"
+  },
+  "quote": "at least once between the ages of 15 and 21"
+ },
+ "exclusions": [],
+ "gold_notes": "Age-anchored window (ages 15-21) approximated by MY-6..MY evaluated at age 21. Grammar lacks age-anchored windows.",
+ "compiled_by": "gold"
+}

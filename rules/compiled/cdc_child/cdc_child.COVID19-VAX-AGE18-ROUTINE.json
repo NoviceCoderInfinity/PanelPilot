@@ -1,0 +1,46 @@
+{
+ "id": "cdc_child.COVID19-VAX-AGE18-ROUTINE",
+ "version": "2025",
+ "title": "COVID-19 vaccination (2024–25 vaccine) for persons age 18 who are not moderately or severely immunocompromised",
+ "source": {
+  "doc_id": "cdc_child",
+  "section_id": "cdc_child:018",
+  "quote": "1 dose 2024–25 Moderna or Pfizer-BioNTech"
+ },
+ "grade": "Routine (ACIP schedule)",
+ "effective_date": "2025",
+ "action": "Ensure at least one dose of 2024–25 COVID-19 vaccine (Moderna, Pfizer-BioNTech or Novavax; unvaccinated Novavax recipients need 2 doses) for 18-year-olds who are not moderately or severely immunocompromised.",
+ "compiled_by": "llm",
+ "denominator": {
+  "age": {
+   "min": 18,
+   "max": 18,
+   "at": "end"
+  },
+  "quote": "Age 18 years who are NOT moderately or severely"
+ },
+ "numerator": {
+  "immunization": {
+   "concept": "covid19_vaccine",
+   "min_count": 1,
+   "window": [
+    "{MY-1}-08-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "1 dose 2024–25 Moderna or Pfizer-BioNTech",
+  "derived": {
+   "window": "Text requires a dose of the 2024–25 vaccine; the season start date is not in the text, so the window is assumed to open Aug 1 of the year before measurement year 2025 (human must confirm season dates)"
+  },
+  "note": "Product is not distinguishable in vocabulary; an unvaccinated person who received Novavax needs 2 doses (0, 3–8 weeks), which min_count 1 does not enforce."
+ },
+ "exclusions": [
+  {
+   "condition": {
+    "concept": "immunocompromised"
+   },
+   "quote": "Age 18 years who ARE moderately or severely",
+   "note": "Text excludes only moderately or severely immunocompromised persons (they follow a separate multi-dose schedule); the immunocompromised concept may be broader, which only removes patients from the rule."
+  }
+ ]
+}

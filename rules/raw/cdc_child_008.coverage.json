@@ -1,0 +1,16 @@
+[
+ "HEPB-ROUTINE-AGE2: the routine 3-dose text sits under 'Mother is HBsAg-negative'; HBsAg-positive and HBsAg-unknown branches also require a final (3rd or 4th) dose by age 6 months, so the >=3 dose expectation was applied regardless of maternal status. Maternal HBsAg status itself is not represented (would be uncomputable). Human reviewer should confirm this generalization.",
+ "Both rules use a derived age-2 cohort and derived birth-relative windows; they require human review.",
+ "HepA: minimum age 12 months and 6-month minimum interval not enforced; doses given before 12 months (e.g., travel doses at 6-11 months, which do not count toward the routine series) may be miscounted.",
+ "HepA catch-up: unvaccinated persons through age 18 complete a 2-dose series; persons with 1 prior dose get dose 2 at least 6 months later — catch-up logic not represented.",
+ "HepA-HepB (Twinrix) 3-dose or 4-dose schedules for adolescents age 18+ (HepA and HepB sections) not represented (product choice/dosing schedule).",
+ "HepA international travel recommendations (infants 6-11 months 1 dose before departure with revaccination; unvaccinated 12+ months dose 1 when travel considered) not represented — depends on travel history (uncomputable).",
+ "HepB birth dose timing by birth weight (>=2,000 g within 24 hours if medically stable; <2,000 g at 1 month or hospital discharge) not represented.",
+ "HepB: use of monovalent vaccine before age 6 weeks, permission for 4 doses with combination vaccines, minimum intervals (Table 2), and final dose minimum age 24 weeks not represented.",
+ "HepB for infants of HBsAg-positive or HBsAg-unknown mothers: HBIG within 12 hours of birth (or by 7 days if mother later found positive), 4-dose total for birth weight <2,000 g, final dose at 6 months — not represented (maternal status uncomputable; HBIG not in vocabulary).",
+ "Post-vaccination serology (HBsAg and anti-HBs at age 9-12 months, or 1-2 months after final dose if delayed; not before 9 months) for infants of HBsAg-positive/unknown mothers not represented — depends on maternal status and no concept for anti-HBs/HBsAg infant serology.",
+ "Post-vaccination serology and revaccination if anti-HBs <10 mIU/mL for predialysis/dialysis and other immunocompromised persons not represented (interval/result-dependent; detailed recommendations external).",
+ "HepB catch-up: unvaccinated persons complete 3-dose series at 0, 1-2, 6 months; alternative 2-dose Recombivax HB schedule for ages 11-15; Heplisav-B and PreHevbrio options at age 18 — not represented (catch-up logic and product choice).",
+ "'Revaccination is generally not recommended' for persons with normal immune status — not a rule.",
+ "PreHevbrio not recommended in pregnancy — contraindication/product note, not a rule."
+]

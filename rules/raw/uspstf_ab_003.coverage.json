@@ -1,0 +1,7 @@
+[
+ "Definition of 'high risk for preeclampsia' is deferred to the Practice Considerations section, which is not included in this section text; encoded as uncomputable rather than approximated with computable conditions.",
+ "Gestational age (after 12 weeks of gestation) is not a concept in the vocabulary and was encoded as uncomputable.",
+ "Numerator (low-dose aspirin use) is encoded as uncomputable: the criterion grammar has no medication type and the vocabulary has no aspirin concept. A new concept such as 'low_dose_aspirin' would be needed to make it computable.",
+ "Aspirin dose details beyond 81 mg/day, timing of initiation and duration (e.g., continuation until delivery) are referenced to Practice Considerations and not represented.",
+ "The asterisk after the date ('September 2021 *') is unexplained in this section and was not represented."
+]

@@ -1,0 +1,42 @@
+{
+ "id": "cdc_child.HEPA-ROUTINE-AGE2",
+ "version": "2025",
+ "title": "Hepatitis A routine 2-dose series completed by age 2",
+ "source": {
+  "doc_id": "cdc_child",
+  "section_id": "cdc_child:008",
+  "quote": "2-dose series (minimum interval: 6 months) at age 12–"
+ },
+ "grade": "ACIP routine recommendation",
+ "effective_date": "2025",
+ "action": "Administer a 2-dose HepA series (minimum interval 6 months) at age 12-23 months",
+ "compiled_by": "llm",
+ "denominator": {
+  "age": {
+   "min": 2,
+   "max": 2,
+   "at": "end"
+  },
+  "quote": "at age 12–",
+  "derived": {
+   "min": "routine series is given at age 12-23 months (the 23 sits on the next source line), so children turning 2 in the measurement year should have completed it",
+   "max": "single-year cohort of children turning 2 in the measurement year"
+  }
+ },
+ "numerator": {
+  "immunization": {
+   "concept": "hepa_vaccine",
+   "min_count": 2,
+   "window": [
+    "{MY-2}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "2-dose series",
+  "derived": {
+   "window": "children age 2 at end of MY were born in MY-2; window runs from earliest possible birth date through end of MY"
+  },
+  "note": "cannot enforce minimum age 12 months or the 6-month minimum interval between doses"
+ },
+ "exclusions": []
+}

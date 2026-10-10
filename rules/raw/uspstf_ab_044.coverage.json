@@ -1,0 +1,10 @@
+[
+ "DATE field carries an asterisk ('August 2022 *') whose footnote is not included in the section; its meaning is not represented.",
+ "The 10-year CVD risk estimate (cvd_risk_10yr) may not be reliably stored as structured data; the rule assumes a recorded risk score. The risk calculator/method is not specified and is not represented.",
+ "No lookback window for the risk estimate and no timing for the statin prescription are stated; both windows are declared as derived and require human review.",
+ "The grammar has no medication criterion type; statin_use is encoded as an observation concept.",
+ "The 'smoking' risk factor was mapped to current_smoker; the text does not say whether former smoking counts.",
+ "Statin intensity, dose, and specific statin choice are not addressed in the section and are not represented.",
+ "Exclusion of established cardiovascular disease is inferred from 'primary prevention of CVD'; other contraindications to statins (e.g., pregnancy, liver disease, intolerance) are not stated and not represented.",
+ "Related USPSTF statements (grade C for adults 40-75 with 7.5% to <10% risk; I statement for adults 76 and older) are not in this section and are not rules."
+]

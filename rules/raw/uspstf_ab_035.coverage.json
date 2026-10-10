@@ -1,0 +1,7 @@
+[
+ "The denominator requires 'increased risk of perinatal depression', which depends on clinician assessment of risk factors; encoded as uncomputable, so the rule as a whole will report 'not computable' unless a risk flag is added.",
+ "New concept 'perinatal_depression_counseling' (counseling interventions such as CBT or interpersonal therapy for perinatal depression prevention) is not in the vocabulary.",
+ "Referral to counseling (as opposed to provided counseling) is encoded as uncomputable because referral completion is not reliably in structured data.",
+ "The text specifies no time window, counseling type, number of sessions or timing relative to pregnancy/postpartum; the measurement-year window is derived and requires human review.",
+ "The text does not define the duration of the postpartum period; the 'postpartum' concept is used as-is."
+]

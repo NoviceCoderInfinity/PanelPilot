@@ -1,0 +1,95 @@
+{
+ "id": "cdc_child.MMR-CHILD-2DOSE",
+ "version": "2025",
+ "title": "MMR/MMRV 2-dose series complete by age 7 (children age 7-18)",
+ "source": {
+  "doc_id": "cdc_child",
+  "section_id": "cdc_child:026",
+  "quote": "2-dose series at age 12–15 months, age 4–6 years"
+ },
+ "grade": "ACIP routine recommendation (no USPSTF-style grade)",
+ "effective_date": "2025",
+ "action": "Ensure children and adolescents have completed the 2-dose MMR/MMRV series",
+ "compiled_by": "llm",
+ "denominator": {
+  "age": {
+   "min": 7,
+   "max": 18,
+   "at": "end"
+  },
+  "quote": "age 4–6 years",
+  "derived": {
+   "min": "dose 2 is due at 4–6 years, so by age 7 two doses are expected",
+   "max": "schedule covers ages 18 years or younger"
+  }
+ },
+ "numerator": {
+  "any": [
+   {
+    "immunization": {
+     "concept": "mmr_vaccine",
+     "min_count": 2,
+     "window": [
+      "{MY-18}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "2-dose series",
+    "derived": {
+     "window": "lifetime lookback for a patient up to age 18"
+    }
+   },
+   {
+    "immunization": {
+     "concept": "mmrv_vaccine",
+     "min_count": 2,
+     "window": [
+      "{MY-18}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "2-dose series",
+    "derived": {
+     "window": "lifetime lookback for a patient up to age 18"
+    }
+   },
+   {
+    "all": [
+     {
+      "immunization": {
+       "concept": "mmr_vaccine",
+       "min_count": 1,
+       "window": [
+        "{MY-18}-01-01",
+        "{MY}-12-31"
+       ]
+      },
+      "quote": "MMR or MMRV* may be administered",
+      "derived": {
+       "min_count": "a mixed series of one MMR plus one MMRV dose completes the 2-dose series",
+       "window": "lifetime lookback for a patient up to age 18"
+      }
+     },
+     {
+      "immunization": {
+       "concept": "mmrv_vaccine",
+       "min_count": 1,
+       "window": [
+        "{MY-18}-01-01",
+        "{MY}-12-31"
+       ]
+      },
+      "quote": "MMR or MMRV* may be administered",
+      "derived": {
+       "min_count": "a mixed series of one MMR plus one MMRV dose completes the 2-dose series",
+       "window": "lifetime lookback for a patient up to age 18"
+      }
+     }
+    ],
+    "quote": "MMR or MMRV* may be administered"
+   }
+  ],
+  "quote": "MMR or MMRV* may be administered"
+ },
+ "exclusions": []
+}

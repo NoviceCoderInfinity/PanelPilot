@@ -1,0 +1,42 @@
+{
+ "id": "cdc_child.HEPA-CHILD-2DOSE-BY-AGE-2",
+ "version": "CDC child schedule (edition not stated in section)",
+ "title": "Routine hepatitis A vaccination: 2-dose series at age 12-23 months",
+ "source": {
+  "doc_id": "cdc_child",
+  "section_id": "cdc_child:022",
+  "quote": "2-dose series (minimum interval: 6 months) at age 12–"
+ },
+ "grade": "ACIP routine recommendation (no USPSTF grade)",
+ "effective_date": "",
+ "action": "Ensure child has received 2 doses of hepatitis A vaccine by age 2 years",
+ "compiled_by": "llm",
+ "denominator": {
+  "age": {
+   "min": 2,
+   "max": 2,
+   "at": "end"
+  },
+  "quote": "at age 12–",
+  "derived": {
+   "min": "series is given at age 12-23 months, so children turning 2 in the measurement year are expected to have completed it",
+   "max": "restricts to the single birth cohort just past the 12-23 month window"
+  }
+ },
+ "numerator": {
+  "immunization": {
+   "concept": "hepa_vaccine",
+   "min_count": 2,
+   "window": [
+    "{MY-2}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "2-dose series",
+  "derived": {
+   "window": "a child aged 2 at end of the measurement year was born no earlier than {MY-2}-01-01, so this window covers all doses since birth; it cannot stop at the 2nd birthday, so doses given after age 23 months also count"
+  },
+  "note": "Minimum age 12 months and minimum 6-month interval between doses are not enforced; doses given before 12 months would be counted."
+ },
+ "exclusions": []
+}

@@ -1,0 +1,7 @@
+[
+ "The population 'adolescents and adults' carries no numeric age bound in the text, so no age criterion was encoded. A lower age bound for 'adolescents' would have to be derived and needs human review.",
+ "The definition of 'increased risk for infection' is deferred to the Practice Considerations section, which is not included here. It is encoded as uncomputable. The likely risk factors (e.g., birth country prevalence, injection drug use, sexual behavior, household contacts) are not reliably in structured EHR data.",
+ "No screening interval is stated, and no rule for repeat screening of persons with ongoing risk is stated. The numerator therefore has no time window, and periodic rescreening logic is not represented.",
+ "Exclusions such as prior known HBV infection, documented immunity or vaccination status are not stated in the text and were not encoded.",
+ "The DATE field carries an asterisk ('December 2020 *') whose footnote is not included in the section text. It was not represented."
+]

@@ -1,0 +1,53 @@
+{
+ "id": "cdc_child.DENGUE-3-DOSE-9-16",
+ "version": "2025",
+ "title": "Dengue vaccine 3-dose series for seropositive children 9-16 in endemic areas",
+ "source": {
+  "doc_id": "cdc_child",
+  "section_id": "cdc_child:007",
+  "quote": "Age 9–16 years living in areas with endemic dengue AND "
+ },
+ "grade": "CDC routine recommendation (no USPSTF grade)",
+ "effective_date": "2025",
+ "action": "Administer dengue vaccine 3-dose series at 0, 6 and 12 months",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "age": {
+     "min": 9,
+     "max": 16,
+     "at": "end"
+    },
+    "quote": "Age 9–16 years"
+   },
+   {
+    "uncomputable": {
+     "needs": "residence in an area with endemic dengue"
+    },
+    "quote": "living in areas with endemic dengue"
+   },
+   {
+    "uncomputable": {
+     "needs": "laboratory confirmation of previous dengue infection"
+    },
+    "quote": "have laboratory confirmation of previous dengue infection"
+   }
+  ]
+ },
+ "numerator": {
+  "immunization": {
+   "concept": "dengue_vaccine",
+   "min_count": 3,
+   "window": [
+    "{MY-7}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "3-dose series administered at 0, 6, and 12 months",
+  "derived": {
+   "window": "minimum age is 9 years; the oldest eligible child (16) turned 9 seven years before MY, so doses from MY-7 onward count"
+  }
+ },
+ "exclusions": []
+}

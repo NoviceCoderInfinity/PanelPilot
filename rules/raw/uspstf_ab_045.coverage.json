@@ -1,0 +1,6 @@
+[
+ "The pregnancy-relative timing ('early' in pregnancy, otherwise 'at the first available opportunity') cannot be expressed with measurement-year windows; the numerator window is the measurement year and pregnancies spanning two calendar years may be misclassified. Human review should confirm or replace with a pregnancy-episode window.",
+ "Asymptomatic status is not reliably held in structured EHR data and is encoded as uncomputable in the denominator.",
+ "The DATE field carries an asterisk ('May 2025 *') whose footnote is not included in the section text and is not represented.",
+ "Repeat screening later in pregnancy or at delivery for higher-risk individuals is not stated in this section and is not represented."
+]

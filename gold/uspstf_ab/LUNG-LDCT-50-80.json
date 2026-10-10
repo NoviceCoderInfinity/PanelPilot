@@ -1,0 +1,49 @@
+{
+ "id": "uspstf_ab.LUNG-LDCT-50-80",
+ "version": "March 2021",
+ "title": "Annual LDCT, adults 50-80 with 20 pack-year history",
+ "grade": "B",
+ "effective_date": "March 2021",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:031",
+  "quote": "The USPSTF recommends annual screening for lung cancer with low-dose computed tomography (LDCT) in adults aged 50 to 80 years who have a 20 pack-year smoking history and currently smoke or have quit within the past 15 years."
+ },
+ "denominator": {
+  "all": [
+   {
+    "age": {
+     "min": 50,
+     "max": 80,
+     "at": "end"
+    },
+    "quote": "adults aged 50 to 80 years"
+   },
+   {
+    "uncomputable": {
+     "needs": "pack-year smoking history"
+    },
+    "quote": "who have a 20 pack-year smoking history"
+   },
+   {
+    "uncomputable": {
+     "needs": "current smoker or quit date within 15 years"
+    },
+    "quote": "currently smoke or have quit within the past 15 years"
+   }
+  ]
+ },
+ "numerator": {
+  "procedure": {
+   "concept": "ldct_lung",
+   "window": [
+    "{MY}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "annual screening for lung cancer with low-dose computed tomography (LDCT)"
+ },
+ "exclusions": [],
+ "gold_notes": "Pack-years are not reliably structured; marked uncomputable. Discontinuation clause not represented.",
+ "compiled_by": "gold"
+}

@@ -1,0 +1,7 @@
+[
+ "New concept 'ocular_prophylaxis_newborn' (administration of prophylactic ocular topical medication to a newborn) was introduced because no vocabulary concept fits; the grammar has no medication-administration type, so it is encoded as a procedure. Needs human mapping.",
+ "The denominator age (0 at end of measurement year) is derived from the word 'newborns'; the text gives no numeric age, so the rule is marked derived for human review.",
+ "Ocular prophylaxis is normally given in the birth hospital/delivery setting; a primary-care clinic's EHR may not reliably hold this administration record, so numerator data completeness should be verified before deployment.",
+ "Timing of administration (e.g., within hours of birth), specific agent (e.g., erythromycin ointment), and dosing are not stated in this section and are not represented.",
+ "The asterisk after 'January 2019 *' refers to an unexplained footnote not included in the section text; its meaning is not represented."
+]

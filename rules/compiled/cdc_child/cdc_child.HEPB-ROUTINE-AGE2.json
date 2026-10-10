@@ -1,0 +1,42 @@
+{
+ "id": "cdc_child.HEPB-ROUTINE-AGE2",
+ "version": "2025",
+ "title": "Hepatitis B routine 3-dose infant series completed by age 2",
+ "source": {
+  "doc_id": "cdc_child",
+  "section_id": "cdc_child:008",
+  "quote": "3-dose series at age 0, 1–2, 6–18 months"
+ },
+ "grade": "ACIP routine recommendation",
+ "effective_date": "2025",
+ "action": "Administer a 3-dose HepB series at age 0, 1-2, and 6-18 months",
+ "compiled_by": "llm",
+ "denominator": {
+  "age": {
+   "min": 2,
+   "max": 2,
+   "at": "end"
+  },
+  "quote": "6–18 months",
+  "derived": {
+   "min": "final dose is due by 18 months, so children turning 2 in the measurement year should have completed the series",
+   "max": "single-year cohort of children turning 2 in the measurement year"
+  }
+ },
+ "numerator": {
+  "immunization": {
+   "concept": "hepb_vaccine",
+   "min_count": 3,
+   "window": [
+    "{MY-2}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "3-dose series",
+  "derived": {
+   "window": "children age 2 at end of MY were born in MY-2; series starts at birth so window runs from earliest possible birth date through end of MY"
+  },
+  "note": "cannot enforce dose timing, minimum intervals, or minimum age 24 weeks for final dose"
+ },
+ "exclusions": []
+}

@@ -1,0 +1,10 @@
+[
+ "No rules were emitted for this section. The routine rotavirus recommendation could not be represented faithfully without approximation.",
+ "Dose count depends on product. Rotarix is a '2-dose series at age 2 and 4 months' and RotaTeq is a '3-dose series at age 2, 4, and 6 months'. The vocabulary concept rotavirus_vaccine does not distinguish products. A single min_count would be wrong for one of the two products: min_count 2 would wrongly pass an incomplete RotaTeq series, and min_count 3 would wrongly fail a complete Rotarix series.",
+ "Not represented, mixed-product logic: 'If any dose in the series is either RotaTeq or unknown, default to 3-dose series.' This requires product-level dose data per administration. It would need a new concept such as rotavirus_vaccine_product, which is not in the vocabulary.",
+ "Not represented, age limits in weeks and months: the grammar supports whole-year ages only. The '(minimum age: 6 weeks)' limit cannot be encoded.",
+ "Not represented, catch-up limit on starting the series: 'Do not start the series on or after age 15 weeks, 0 days.' Children not started by 15 weeks are permanently ineligible. Any completion rule would need an exclusion for them, and that is not computable in whole-year ages.",
+ "Not represented, final-dose age limit: 'The maximum age for the final dose is 8 months, 0 days.' This is not computable in whole-year ages.",
+ "Not represented: 'For other catch-up guidance, see Table 2' (external catch-up table).",
+ "A possible future rule, 'children turning 1 during MY have a complete rotavirus series by 8 months', would require derived ages and product-specific counts. It would need human review and should only be built once product data is available."
+]

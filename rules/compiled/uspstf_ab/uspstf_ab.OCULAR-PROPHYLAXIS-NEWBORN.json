@@ -1,0 +1,38 @@
+{
+ "id": "uspstf_ab.OCULAR-PROPHYLAXIS-NEWBORN",
+ "version": "2019",
+ "title": "Ocular prophylaxis for gonococcal ophthalmia neonatorum in newborns",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:032",
+  "quote": "The USPSTF recommends prophylactic ocular topical medication for all newborns to prevent gonococcal ophthalmia neonatorum."
+ },
+ "grade": "A",
+ "effective_date": "January 2019",
+ "action": "Administer prophylactic ocular topical medication to all newborns to prevent gonococcal ophthalmia neonatorum.",
+ "compiled_by": "llm",
+ "denominator": {
+  "age": {
+   "min": 0,
+   "max": 0,
+   "at": "end"
+  },
+  "quote": "all newborns",
+  "derived": {
+   "min": "'newborns' interpreted as infants born during the measurement year (age 0 at Dec 31); no age number stated in text",
+   "max": "'newborns' interpreted as infants born during the measurement year (age 0 at Dec 31); no age number stated in text"
+  }
+ },
+ "numerator": {
+  "procedure": {
+   "concept": "ocular_prophylaxis_newborn",
+   "window": [
+    "{MY}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "prophylactic ocular topical medication",
+  "note": "Intended to be given shortly after birth; window approximates birth during the measurement year."
+ },
+ "exclusions": []
+}

@@ -1,0 +1,38 @@
+{
+ "id": "uspstf_ab.TOBACCO-PREVENT-YOUTH",
+ "version": "April 2020",
+ "title": "Primary care interventions to prevent tobacco use initiation in school-aged children and adolescents",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:049",
+  "quote": "The USPSTF recommends that primary care clinicians provide interventions, including education or brief counseling, to prevent initiation of tobacco use among school-aged children and adolescents."
+ },
+ "grade": "B",
+ "effective_date": "2020-04",
+ "action": "Provide interventions, including education or brief counseling, to prevent initiation of tobacco use",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "uncomputable": {
+     "needs": "school-aged child or adolescent status (no numeric age range stated in section text)"
+    },
+    "quote": "school-aged children and adolescents"
+   },
+   {
+    "uncomputable": {
+     "needs": "lifetime tobacco use history confirming the patient has never started using any tobacco product"
+    },
+    "quote": "who have not started to use tobacco"
+   }
+  ],
+  "quote": "school-aged children and adolescents who have not started to use tobacco"
+ },
+ "numerator": {
+  "uncomputable": {
+   "needs": "documentation of tobacco-initiation prevention intervention (education or brief counseling); no interval stated"
+  },
+  "quote": "provide interventions, including education or brief counseling, to prevent initiation of tobacco use"
+ },
+ "exclusions": []
+}

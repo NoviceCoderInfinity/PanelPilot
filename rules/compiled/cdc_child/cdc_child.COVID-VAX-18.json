@@ -1,0 +1,44 @@
+{
+ "id": "cdc_child.COVID-VAX-18",
+ "version": "2025",
+ "title": "COVID-19 vaccination (2024–25 vaccine), age 18, not moderately or severely immunocompromised",
+ "source": {
+  "doc_id": "cdc_child",
+  "section_id": "cdc_child:004",
+  "quote": "1 dose 2024–25 Moderna or Pfizer-BioNTech"
+ },
+ "grade": "Routine vaccination (ACIP schedule; no USPSTF grade)",
+ "effective_date": "2025",
+ "action": "Administer at least 1 dose of 2024–25 COVID-19 vaccine to persons aged 18 years who are not moderately or severely immunocompromised.",
+ "compiled_by": "llm",
+ "denominator": {
+  "age": {
+   "min": 18,
+   "max": 18,
+   "at": "end"
+  },
+  "quote": "Age 18 years who are NOT moderately or severely"
+ },
+ "numerator": {
+  "immunization": {
+   "concept": "covid19_vaccine",
+   "min_count": 1,
+   "window": [
+    "{MY-1}-08-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "1 dose 2024–25 Moderna or Pfizer-BioNTech",
+  "derived": {
+   "window": "The text names the 2024–25 vaccine formulation, which became available in late summer 2024. With the 2025 schedule year as MY, doses from Aug 1 of the prior year through Dec 31 of MY are treated as 2024–25 doses. This is an approximation and needs human review."
+  }
+ },
+ "exclusions": [
+  {
+   "condition": {
+    "concept": "moderate_severe_immunocompromise"
+   },
+   "quote": "NOT moderately or severely"
+  }
+ ]
+}

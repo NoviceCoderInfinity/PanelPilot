@@ -1,0 +1,7 @@
+[
+ "The numerator window (measurement year) is derived, not stated. The text means screening during the current pregnancy, and an HIV test before conception that falls in the same year may be counted incorrectly. Needs human review.",
+ "The denominator uses the 'pregnancy' concept (currently pregnant) with no onset dates. How a pregnancy is anchored to the measurement year depends on engine semantics and is not specified by the text.",
+ "The clause 'including those who present in labor or at delivery whose HIV status is unknown' (screening at labor or delivery when HIV status is unknown) is not separately represented. Unknown HIV status at presentation and the labor/delivery timing are not modeled.",
+ "Repeat screening in pregnancy, timing such as first prenatal visit or third trimester, and exclusion of persons with known HIV infection are not addressed in the text and are not encoded.",
+ "The DATE field carries an asterisk ('June 2019 *') referring to a footnote not included in this section. Its meaning is not represented."
+]

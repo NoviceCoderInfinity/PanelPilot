@@ -1,0 +1,43 @@
+{
+ "id": "uspstf_ab.SKIN-CA-COUNSEL-6MO-24",
+ "version": "March 2018",
+ "title": "Skin cancer prevention: UV-exposure counseling for persons aged 6 months to 24 years with fair skin types",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:043",
+  "quote": "The USPSTF recommends counseling young adults, adolescents, children, and parents of young children about minimizing exposure to ultraviolet (UV) radiation for persons aged 6 months to 24 years with fair skin types to reduce their risk of skin cancer."
+ },
+ "grade": "B",
+ "effective_date": "March 2018",
+ "action": "Counsel the patient, or the parent of a young child, about minimizing exposure to ultraviolet (UV) radiation.",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "age": {
+     "min": 1,
+     "max": 24,
+     "at": "end"
+    },
+    "quote": "aged 6 months to 24 years",
+    "derived": {
+     "min": "The text says 6 months, but ages must be whole years. The minimum is set to 1 so infants younger than 6 months are never included; this deliberately leaves out children aged 6-11 months."
+    }
+   },
+   {
+    "uncomputable": {
+     "needs": "Fitzpatrick skin type / fair skin assessment (not reliably held in structured EHR data)"
+    },
+    "quote": "with fair skin types"
+   }
+  ],
+  "quote": "for persons aged 6 months to 24 years with fair skin types"
+ },
+ "numerator": {
+  "uncomputable": {
+   "needs": "Documentation that the patient (or the parent of a young child) was counseled about minimizing UV radiation exposure; no counseling interval is stated in the text"
+  },
+  "quote": "counseling young adults, adolescents, children, and parents of young children about minimizing exposure to ultraviolet (UV) radiation"
+ },
+ "exclusions": []
+}

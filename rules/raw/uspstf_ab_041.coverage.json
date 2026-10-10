@@ -1,0 +1,8 @@
+[
+ "New concepts introduced (not in vocabulary): rh_d_negative_unsensitized (Rh(D)-negative blood type without anti-D sensitization) and rh_d_antibody_test (Rh(D) antibody screen). Whether unsensitized status is reliably held in structured data should be confirmed by human review.",
+ "Timing 'at 24 to 28 weeks' gestation' is gestation-relative and cannot be expressed as a measurement-year window; encoded as uncomputable alongside a measurement-year test window.",
+ "'Repeated' implies a prior (first-visit) Rh(D) typing/antibody test; the requirement for an earlier test and the repeat-vs-initial distinction are not represented.",
+ "Exclusion for biological father known to be Rh(D)-negative encoded as uncomputable (paternal blood type not reliably in patient EHR).",
+ "DATE field carries an asterisk ('February 2004 *') whose footnote meaning is not given in the section; not represented.",
+ "Rh(D) immune globulin prophylaxis and its dosing/timing are not part of this section and are not represented."
+]

@@ -1,0 +1,51 @@
+{
+ "id": "uspstf_ab.DENTAL-FLUORIDE-SUPP-6MO-4Y",
+ "version": "December 2021",
+ "title": "Oral fluoride supplementation for children 6 months to younger than 5 years with fluoride-deficient water supply",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:039",
+  "quote": "The USPSTF recommends that primary care clinicians prescribe oral fluoride supplementation starting at age 6 months for children whose water supply is deficient in fluoride."
+ },
+ "grade": "B",
+ "effective_date": "2021-12",
+ "action": "Prescribe oral fluoride supplementation starting at age 6 months for children younger than 5 years whose water supply is deficient in fluoride",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "age": {
+     "min": 1,
+     "at": "end"
+    },
+    "quote": "starting at age 6 months",
+    "derived": {
+     "min": "Ages must be whole years; 6 months cannot be expressed. A child aged 1+ at Dec 31 has been at least 6 months old for at least half the year. This excludes some eligible infants aged 6-11 months rather than including ineligible infants under 6 months"
+    }
+   },
+   {
+    "age": {
+     "max": 4,
+     "at": "end"
+    },
+    "quote": "children younger than 5 years",
+    "derived": {
+     "max": "'younger than 5 years' in whole years means age 4 or below"
+    }
+   },
+   {
+    "uncomputable": {
+     "needs": "whether the child's water supply is deficient in fluoride"
+    },
+    "quote": "whose water supply is deficient in fluoride"
+   }
+  ]
+ },
+ "numerator": {
+  "uncomputable": {
+   "needs": "prescription of oral fluoride supplementation; the criterion grammar has no medication or prescription type"
+  },
+  "quote": "prescribe oral fluoride supplementation"
+ },
+ "exclusions": []
+}

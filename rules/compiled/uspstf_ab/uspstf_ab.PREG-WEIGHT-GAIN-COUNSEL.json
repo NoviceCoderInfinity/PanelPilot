@@ -1,0 +1,35 @@
+{
+ "id": "uspstf_ab.PREG-WEIGHT-GAIN-COUNSEL",
+ "version": "May 2021",
+ "title": "Behavioral counseling for healthy weight gain in pregnancy",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:020",
+  "quote": "The USPSTF recommends that clinicians offer pregnant persons effective behavioral counseling interventions aimed at promoting healthy weight gain and preventing excess gestational weight gain in pregnancy."
+ },
+ "grade": "B",
+ "effective_date": "May 2021",
+ "action": "Offer pregnant persons effective behavioral counseling interventions aimed at promoting healthy weight gain and preventing excess gestational weight gain.",
+ "compiled_by": "llm",
+ "denominator": {
+  "condition": {
+   "concept": "pregnancy"
+  },
+  "quote": "pregnant persons",
+  "note": "Pregnancy status during the measurement year; the text gives no age bounds."
+ },
+ "numerator": {
+  "procedure": {
+   "concept": "gestational_weight_gain_counseling",
+   "window": [
+    "{MY}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "behavioral counseling interventions aimed at promoting healthy weight gain and preventing excess gestational weight gain in pregnancy",
+  "derived": {
+   "window": "The text gives no timing; counseling is assumed to be due within the measurement year in which the person is pregnant. Ideally it would fall within the pregnancy episode."
+  }
+ },
+ "exclusions": []
+}

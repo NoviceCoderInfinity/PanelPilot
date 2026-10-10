@@ -1,0 +1,12 @@
+[
+ "Minimum age of 12 months for routine vaccination (doses given before 12 months should not count toward the routine series) cannot be expressed with measurement-year-relative windows; counted doses are not validated for age at administration.",
+ "Minimum intervals not enforced: catch-up 2-dose series at least 4 weeks apart; MMRV doses minimum 3 months apart.",
+ "Maximum age for MMRV use (12 years) not enforced on counted doses.",
+ "Preference note: for dose 1 at age 12–47 months, separate MMR and varicella vaccines are recommended unless parents/caregivers prefer MMRV — product choice/shared decision, not represented.",
+ "Catch-up logic for unvaccinated children and adolescents is only implicitly covered by the 2-dose rule for ages 7–18; scheduling of catch-up doses is not represented.",
+ "International travel special situations (infant dose at 6–11 months before departure with revaccination; 2-dose series before departure for age 12 months+; dose 2 at least 4 weeks after dose 1) depend on travel plans, which are uncomputable from structured EHR data; not encoded as rules.",
+ "Mumps outbreak additional doses (including 3rd MMR dose) refer to external guidance; not represented.",
+ "Mixed MMR/MMRV series counting is approximated as 2 MMR, 2 MMRV, or at least 1 of each; doses recorded under other combined codes are not covered.",
+ "Contraindications/precautions are not listed in this section; no exclusions encoded.",
+ "Concept mmrv_vaccine is used from the vocabulary alongside mmr_vaccine."
+]

@@ -1,0 +1,23 @@
+[
+ "Section cdc_child:001 is Table 1 of the 2025 Recommended Child and Adolescent Immunization Schedule for Ages 18 Years or Younger. No rules were produced because the flattened text loses the column alignment, so dose labels (e.g. '1st dose', '2nd dose', '----- 4th dose ------') cannot be tied to specific age columns from this text alone. Producing any rule would mean inferring due ages from outside knowledge, and the table itself says 'These recommendations must be read with the notes that follow.'",
+ "RSV monoclonal antibody (nirsevimab; concept rsv_mab): the birth-period dose depends on 'maternal RSV vaccination status (See Notes)'. The '1 dose (8 through 19 months)' dose applies to high-risk groups defined in the Notes. Not represented; maternal vaccination status and high-risk criteria need the Notes and are likely uncomputable.",
+ "Hepatitis B (hepb_vaccine): 3-dose series (1st, 2nd, 3rd dose). Age windows for each dose are not recoverable from the flattened text. Not represented.",
+ "Rotavirus (rotavirus_vaccine): the series length depends on product, RV1 '(2-dose series)' versus RV5 '(3-dose series)'. Product choice and age limits are in the Notes. Not represented.",
+ "DTaP (dtap_vaccine): 5-dose series for children under 7 years ('DTaP <7 yrs'). Age columns for the doses are not recoverable from this text. Not represented.",
+ "Hib (hib_vaccine): the number of doses ('3rd or 4th dose') depends on product per the Notes. Not represented.",
+ "Pneumococcal conjugate PCV15/PCV20 (pcv_vaccine): 4-dose series. Age columns are not recoverable from this text. Not represented.",
+ "IPV (ipv_vaccine): 4-dose series. Age columns are not recoverable, and there is a 'See Notes' cell. Not represented.",
+ "COVID-19 (covid19_vaccine): row says only 'See Notes'. Not represented.",
+ "Influenza IIV3/ccIIV3 and LAIV3 (influenza_vaccine): '1 or 2 doses annually' versus '1 dose annually'. Whether 1 or 2 doses are due depends on age and prior vaccination history (Notes), and the age columns are lost. LAIV product choice is also involved. Not represented.",
+ "MMR (mmr_vaccine) and varicella (varicella_vaccine): 2-dose series. Age columns for the 1st and 2nd doses are not recoverable from this text. The MMR row also has a 'See Notes' cell (likely infants traveling internationally; uncomputable). Not represented.",
+ "Hepatitis A (hepa_vaccine): '2-dose series (See Notes)'. Age window is not recoverable. Not represented.",
+ "Tdap (tdap_vaccine): '1 dose' for 'Tdap ≥7 yrs'. The routine adolescent age column is not recoverable from this text. Not represented.",
+ "HPV (hpv_vaccine): 'See Notes' only. Not represented.",
+ "MenACWY (menacwy_vaccine): there is a 1st and 2nd dose, plus high-risk use from 2 months per the Notes. Age columns are not recoverable, and product-specific minimum ages apply ('MenACWY-CRM ≥2 mos, MenACWY-TT ≥2years'). Not represented.",
+ "MenB (menb_vaccine): 'See Notes'. The legend indicates high-risk groups and shared clinical decision-making, which is uncomputable. Not represented.",
+ "RSV vaccine Abrysvo: 'Seasonal administration during pregnancy (See Notes)'. This is maternal vaccination and is not represented. There is no RSV maternal vaccine concept in the vocabulary.",
+ "Dengue (dengue_vaccine): DEN4CYD for ages 9–16 yrs, but only for those 'Seropositive in endemic dengue areas'. Serostatus and residence in an endemic area are uncomputable high-risk criteria. Not represented as a rule.",
+ "Mpox (mpox_vaccine): the row has no stated recommendation in this text; it is presumably high-risk only per the Notes. Not represented.",
+ "Catch-up vaccination (green bars) and minimum intervals between doses (Table 2) are not represented.",
+ "High-risk-group indications and shared clinical decision-making categories from the legend are not represented."
+]

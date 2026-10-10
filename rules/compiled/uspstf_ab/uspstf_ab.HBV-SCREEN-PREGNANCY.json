@@ -1,0 +1,59 @@
+{
+ "id": "uspstf_ab.HBV-SCREEN-PREGNANCY",
+ "version": "July 2019",
+ "title": "Hepatitis B virus infection screening in pregnant women at first prenatal visit",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:022",
+  "quote": "The USPSTF recommends screening for hepatitis B virus (HBV) infection in pregnant women at their first prenatal visit"
+ },
+ "grade": "A",
+ "effective_date": "2019-07",
+ "action": "Screen pregnant women for hepatitis B virus (HBV) infection at their first prenatal visit",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "sex": {
+     "is": "F"
+    },
+    "quote": "pregnant women"
+   },
+   {
+    "condition": {
+     "concept": "pregnancy",
+     "onset_by": "{MY}-12-31"
+    },
+    "quote": "pregnant women",
+    "note": "Pregnancy recorded at any point in the measurement year"
+   }
+  ],
+  "quote": "pregnant women"
+ },
+ "numerator": {
+  "all": [
+   {
+    "observation": {
+     "concept": "hepatitis_b_test",
+     "window": [
+      "{MY}-01-01",
+      "{MY}-12-31"
+     ],
+     "pick": "any"
+    },
+    "quote": "screening for hepatitis B virus (HBV) infection",
+    "derived": {
+     "window": "Text gives no interval; measurement-year window used as the period in which the pregnancy is observed"
+    }
+   },
+   {
+    "uncomputable": {
+     "needs": "timing of the HBV test relative to the patient's first prenatal visit of the current pregnancy"
+    },
+    "quote": "at their first prenatal visit"
+   }
+  ],
+  "quote": "screening for hepatitis B virus (HBV) infection in pregnant women at their first prenatal visit"
+ },
+ "exclusions": []
+}

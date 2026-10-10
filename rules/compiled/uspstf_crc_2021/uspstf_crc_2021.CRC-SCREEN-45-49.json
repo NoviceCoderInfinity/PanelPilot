@@ -1,0 +1,123 @@
+{
+ "id": "uspstf_crc_2021.CRC-SCREEN-45-49",
+ "version": "2021",
+ "title": "Colorectal cancer screening, adults aged 45 to 49 years",
+ "source": {
+  "doc_id": "uspstf_crc_2021",
+  "section_id": "uspstf_crc_2021:001",
+  "quote": "The USPSTF recommends screening for colorectal cancer in adults aged 45 to 49 years."
+ },
+ "grade": "B",
+ "effective_date": "2021",
+ "action": "Screen for colorectal cancer using one of the Table 1 strategies: annual high-sensitivity gFOBT or FIT, sDNA-FIT every 1 to 3 years, colonoscopy every 10 years, CT colonography every 5 years, flexible sigmoidoscopy every 5 years, or flexible sigmoidoscopy every 10 years plus annual FIT.",
+ "compiled_by": "llm",
+ "denominator": {
+  "age": {
+   "min": 45,
+   "max": 49,
+   "at": "end"
+  },
+  "quote": "Adults aged 45 to 49 years"
+ },
+ "numerator": {
+  "any": [
+   {
+    "observation": {
+     "concept": "fobt",
+     "window": [
+      "{MY}-01-01",
+      "{MY}-12-31"
+     ],
+     "pick": "any"
+    },
+    "quote": "Every year",
+    "note": "Covers the High-sensitivity gFOBT and FIT rows, both annual; the fobt concept covers gFOBT or FIT."
+   },
+   {
+    "observation": {
+     "concept": "fit_dna",
+     "window": [
+      "{MY-2}-01-01",
+      "{MY}-12-31"
+     ],
+     "pick": "any"
+    },
+    "quote": "Every 1 to 3 c y",
+    "derived": {
+     "window": "Interval is stated as 1 to 3 years. The longest interval (3 y) was used, so tests dated MY-2 through MY count. Footnote c is not provided. Needs human review."
+    }
+   },
+   {
+    "procedure": {
+     "concept": "colonoscopy",
+     "window": [
+      "{MY-9}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "Every 10 y",
+    "derived": {
+     "window": "Every 10 y for a Dec-31 check covers MY-9 through MY."
+    }
+   },
+   {
+    "procedure": {
+     "concept": "ct_colonography",
+     "window": [
+      "{MY-4}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "Every 5 y",
+    "derived": {
+     "window": "Every 5 y for a Dec-31 check covers MY-4 through MY."
+    }
+   },
+   {
+    "procedure": {
+     "concept": "flexible_sigmoidoscopy",
+     "window": [
+      "{MY-4}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "Every 5 y",
+    "derived": {
+     "window": "Every 5 y for a Dec-31 check covers MY-4 through MY."
+    }
+   },
+   {
+    "all": [
+     {
+      "procedure": {
+       "concept": "flexible_sigmoidoscopy",
+       "window": [
+        "{MY-9}-01-01",
+        "{MY}-12-31"
+       ]
+      },
+      "quote": "Flexible sigmoidoscopy every 10 y",
+      "derived": {
+       "window": "Every 10 y for a Dec-31 check covers MY-9 through MY."
+      }
+     },
+     {
+      "observation": {
+       "concept": "fobt",
+       "window": [
+        "{MY}-01-01",
+        "{MY}-12-31"
+       ],
+       "pick": "any"
+      },
+      "quote": "FIT every year"
+     }
+    ],
+    "quote": "Flexible sigmoidoscopy with FIT"
+   }
+  ],
+  "quote": "screening for colorectal cancer"
+ },
+ "exclusions": [],
+ "supersedes": "rules/retired/uspstf_crc_2016.CRC-SCREEN-50-75.json"
+}

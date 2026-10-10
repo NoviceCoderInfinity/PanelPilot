@@ -1,0 +1,9 @@
+[
+ "No screening interval is stated in the section text; the measurement-year window in the numerator is an assumption declared as derived and needs human review.",
+ "The minimum age of 18 for 'adult population' is not stated in the text and is declared as derived.",
+ "Pregnant and postpartum persons and older adults (65 years or older) are explicitly included in the adult population; no separate criteria were needed because no upper age limit is stated. Pregnant or postpartum persons younger than 18 are not addressed by this rule.",
+ "The topic title mentions suicide risk, but the section text contains no recommendation about suicide risk screening; nothing was encoded for suicide risk (the full USPSTF statement issues an I statement for it, which would not be a rule anyway).",
+ "The DATE field carries an asterisk ('June 2023 *') whose footnote is not included in the section; its meaning could not be represented.",
+ "No exclusions (e.g., existing depression diagnosis or current treatment) are stated in the text, so none were encoded.",
+ "Follow-up after a positive screen (diagnostic evaluation, treatment) is not stated in the text and is not represented."
+]

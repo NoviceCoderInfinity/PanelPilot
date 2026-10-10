@@ -1,0 +1,6 @@
+[
+ "The topic limits this to 'asymptomatic pregnant persons'. Symptom status is not reliably held in structured EHR data, so it is not encoded in the denominator. A human reviewer should decide whether patients with diagnosed hypertensive disorders should be excluded; the text does not state any exclusion.",
+ "The numerator 'throughout pregnancy' depends on pregnancy start and end dates and the timing of measurements across the pregnancy. This cannot be expressed with measurement-year windows, so it is encoded as uncomputable rather than approximated with a single bp reading.",
+ "The section does not specify how often to measure, which instruments or thresholds to use for a positive screen, or what follow-up to do; none of these are represented.",
+ "The DATE field carries an asterisk ('September 2023 *') whose footnote meaning is not given in this section and is not represented."
+]

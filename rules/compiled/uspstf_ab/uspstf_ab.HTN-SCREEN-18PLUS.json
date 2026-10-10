@@ -1,0 +1,52 @@
+{
+ "id": "uspstf_ab.HTN-SCREEN-18PLUS",
+ "version": "April 2021",
+ "title": "Hypertension screening with office blood pressure measurement in adults 18 years or older without known hypertension",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:027",
+  "quote": "The USPSTF recommends screening for hypertension in adults 18 years or older with office blood pressure measurement (OBPM)."
+ },
+ "grade": "A",
+ "effective_date": "April 2021",
+ "action": "Screen for hypertension with office blood pressure measurement",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "age": {
+     "min": 18,
+     "at": "end"
+    },
+    "quote": "adults 18 years or older"
+   }
+  ],
+  "quote": "adults 18 years or older without known hypertension"
+ },
+ "numerator": {
+  "observation": {
+   "concept": "blood_pressure",
+   "window": [
+    "{MY}-01-01",
+    "{MY}-12-31"
+   ],
+   "pick": "any"
+  },
+  "quote": "office blood pressure measurement (OBPM)",
+  "derived": {
+   "window": "The section states no screening interval; a measurement-year (annual) window is an assumption requiring human review"
+  }
+ },
+ "exclusions": [
+  {
+   "condition": {
+    "concept": "hypertension",
+    "onset_before": "{MY}-01-01"
+   },
+   "quote": "without known hypertension",
+   "derived": {
+    "onset_before": "'Known' hypertension interpreted as a diagnosis recorded before the measurement year; the cutoff date is not stated in the text"
+   }
+  }
+ ]
+}

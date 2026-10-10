@@ -1,0 +1,39 @@
+{
+ "id": "uspstf_ab.DEPRESSION-SCREEN-ADULT",
+ "version": "June 2023",
+ "title": "Depression screening in adults, including pregnant and postpartum persons and older adults",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:014",
+  "quote": "The USPSTF recommends screening for depression in the adult population, including pregnant and postpartum persons, as well as older adults."
+ },
+ "grade": "B",
+ "effective_date": "June 2023",
+ "action": "Screen adults for depression, including pregnant and postpartum persons and older adults.",
+ "compiled_by": "llm",
+ "denominator": {
+  "age": {
+   "min": 18,
+   "at": "end"
+  },
+  "quote": "adult population",
+  "derived": {
+   "min": "'adult' is taken to mean age 18 or older; the number 18 is not stated in the section text"
+  }
+ },
+ "numerator": {
+  "observation": {
+   "concept": "depression_screening",
+   "window": [
+    "{MY}-01-01",
+    "{MY}-12-31"
+   ],
+   "pick": "any"
+  },
+  "quote": "screening for depression",
+  "derived": {
+   "window": "the text gives no screening interval; an annual (measurement-year) window is assumed for checking and must be confirmed by a human reviewer"
+  }
+ },
+ "exclusions": []
+}

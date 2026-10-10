@@ -1,0 +1,6 @@
+[
+ "No rules extracted. This addendum page (effective June 25, 2025) states a permissive product-choice option: 'ACIP recommends GSK's MenABCWY vaccine may be used when both MenACWY and MenB are indicated at the same visit'. It creates no new screening or vaccination requirement, so it is not encoded as a rule.",
+ "The footnote conditions for MenABCWY use are not represented. (1) Healthy persons aged 16-23 years on the routine schedule, when shared clinical decision-making favors MenB, which cannot be computed. (2) Persons aged 10 years or older at increased risk for meningococcal disease, such as complement deficiency, complement inhibitor use, or asplenia. Both are product-substitution conditions, not due-ness criteria.",
+ "A combined MenABCWY dose would need a new concept name (e.g. menabcwy_vaccine). It would also need logic so that one dose counts toward both menacwy_vaccine and menb_vaccine series. Neither is represented here.",
+ "The note about the HHS directive on COVID-19 vaccine recommendations (as of May 29, 2025) is not represented. It covers pregnant women and children/adolescents aged 6 months through 17 years who are not moderately or severely immunocompromised. The page gives no actionable criteria; it only refers to changes elsewhere in the schedule."
+]

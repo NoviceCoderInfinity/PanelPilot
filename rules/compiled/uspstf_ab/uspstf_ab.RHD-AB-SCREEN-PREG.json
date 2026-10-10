@@ -1,0 +1,70 @@
+{
+ "id": "uspstf_ab.RHD-AB-SCREEN-PREG",
+ "version": "February 2004",
+ "title": "Repeated Rh(D) antibody testing for unsensitized Rh(D)-negative pregnant women at 24-28 weeks' gestation",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:041",
+  "quote": "The USPSTF recommends repeated Rh(D) antibody testing for all unsensitized Rh(D)-negative women at 24 to 28 weeks' gestation, unless the biological father is known to be Rh(D)-negative."
+ },
+ "grade": "B",
+ "effective_date": "2004-02",
+ "action": "Perform repeat Rh(D) antibody testing at 24 to 28 weeks' gestation",
+ "compiled_by": "llm",
+ "denominator": {
+  "all": [
+   {
+    "sex": {
+     "is": "F"
+    },
+    "quote": "women"
+   },
+   {
+    "condition": {
+     "concept": "pregnancy",
+     "onset_by": "{MY}-12-31"
+    },
+    "quote": "pregnant women",
+    "note": "Quoted from the TOPIC field value; pregnancy during the measurement year"
+   },
+   {
+    "condition": {
+     "concept": "rh_d_negative_unsensitized",
+     "onset_by": "{MY}-12-31"
+    },
+    "quote": "unsensitized Rh(D)-negative women",
+    "note": "New concept: Rh(D)-negative blood type with no anti-D sensitization"
+   }
+  ]
+ },
+ "numerator": {
+  "all": [
+   {
+    "observation": {
+     "concept": "rh_d_antibody_test",
+     "window": [
+      "{MY}-01-01",
+      "{MY}-12-31"
+     ],
+     "pick": "any"
+    },
+    "quote": "repeated Rh(D) antibody testing",
+    "note": "New concept: Rh(D) antibody screen. Measurement-year window is only a container; gestational timing is captured separately."
+   },
+   {
+    "uncomputable": {
+     "needs": "gestational age at time of test (must fall at 24 to 28 weeks' gestation); windows cannot be expressed relative to gestation"
+    },
+    "quote": "at 24 to 28 weeks' gestation"
+   }
+  ]
+ },
+ "exclusions": [
+  {
+   "uncomputable": {
+    "needs": "Rh(D) status of the biological father"
+   },
+   "quote": "unless the biological father is known to be Rh(D)-negative"
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "uspstf_ab.CERVICAL-SCREEN-21-29",
+ "version": "August 2018",
+ "title": "Cervical cytology every 3 years, women 21-29",
+ "grade": "A",
+ "effective_date": "August 2018",
+ "source": {
+  "doc_id": "uspstf_ab",
+  "section_id": "uspstf_ab:009",
+  "quote": "The USPSTF recommends screening for cervical cancer every 3 years with cervical cytology alone in women aged 21 to 29 years."
+ },
+ "denominator": {
+  "all": [
+   {
+    "sex": {
+     "is": "F"
+    },
+    "quote": "women aged 21 to 29 years"
+   },
+   {
+    "age": {
+     "min": 21,
+     "max": 29,
+     "at": "end"
+    },
+    "quote": "women aged 21 to 29 years"
+   }
+  ]
+ },
+ "numerator": {
+  "procedure": {
+   "concept": "cervical_cytology",
+   "window": [
+    "{MY-2}-01-01",
+    "{MY}-12-31"
+   ]
+  },
+  "quote": "every 3 years with cervical cytology alone"
+ },
+ "exclusions": [],
+ "gold_notes": "30-65 arm (cytology q3y OR hrHPV q5y OR cotest q5y) is a second gold-worthy rule not authored here. Hysterectomy exclusion is not in this text.",
+ "compiled_by": "gold"
+}

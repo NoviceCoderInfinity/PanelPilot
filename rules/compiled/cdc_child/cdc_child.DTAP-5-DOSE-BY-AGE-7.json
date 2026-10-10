@@ -1,0 +1,57 @@
+{
+ "id": "cdc_child.DTAP-5-DOSE-BY-AGE-7",
+ "version": "2025",
+ "title": "DTaP 5-dose series completed by age 7",
+ "source": {
+  "doc_id": "cdc_child",
+  "section_id": "cdc_child:007",
+  "quote": "5-dose series (3-dose primary series at age 2, 4, and 6 months, "
+ },
+ "grade": "CDC routine recommendation (no USPSTF grade)",
+ "effective_date": "2025",
+ "action": "Administer DTaP 5-dose series: primary doses at 2, 4 and 6 months, boosters at 15-18 months and 4-6 years",
+ "compiled_by": "llm",
+ "denominator": {
+  "age": {
+   "min": 7,
+   "max": 7,
+   "at": "end"
+  },
+  "quote": "4–6 years",
+  "derived": {
+   "min": "dose 5 is due at 4–6 years, so by age 7 all five doses are expected",
+   "max": "evaluated as a single milestone cohort (age 7) just after the 4–6 year window closes"
+  }
+ },
+ "numerator": {
+  "any": [
+   {
+    "immunization": {
+     "concept": "dtap_vaccine",
+     "min_count": 5,
+     "window": [
+      "{MY-7}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "5-dose series",
+    "derived": {
+     "window": "a child age 7 at end of MY was born no earlier than MY-7, so this window covers all doses since birth"
+    }
+   },
+   {
+    "uncomputable": {
+     "needs": "dose-level timing: whether dose 4 was given at age 4 years or older and at least 6 months after dose 3 (dose 5 then not needed)"
+    },
+    "quote": "Dose 5 is not necessary if dose 4 was administered at age "
+   },
+   {
+    "uncomputable": {
+     "needs": "clinician-documented pertussis-component contraindication with Td substituted for remaining doses"
+    },
+    "quote": "specific to the pertussis component of DTaP: May "
+   }
+  ]
+ },
+ "exclusions": []
+}

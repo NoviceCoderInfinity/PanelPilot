@@ -1,0 +1,7 @@
+[
+ "The numerator lookback window ({MY-10}-01-01 to {MY}-12-31) is derived from the age range and the 'one-time' wording, not stated in the text; it requires human review. A screen done before age 65 would not count under this window.",
+ "The rule uses the ever_smoker concept, so it relies on structured smoking history. Patients with missing or unrecorded smoking status will not enter the denominator.",
+ "The rule has no repeat-screening logic. The text says the screening is 1-time and gives no follow-up intervals for abnormal results.",
+ "The DATE field carries an asterisk ('December 2019 *'); the footnote it refers to is not in the section text and is not represented.",
+ "USPSTF recommendations for men who have never smoked (grade C) and for women are not in this section and are not encoded."
+]

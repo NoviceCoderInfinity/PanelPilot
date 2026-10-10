@@ -1,0 +1,11 @@
+[
+ "IPV-CHILD-4DOSE-AGE7 is derived (target age 7 and the since-birth window are not stated in the text) and requires human review.",
+ "Not represented: the final dose must be administered on or after age 4 years and at least 6 months after the previous dose. The grammar cannot express age-at-dose or inter-dose intervals, so a child with 4 doses all given before age 4 will be counted as compliant.",
+ "Not represented: when combination vaccines containing IPV are used, 4 or more doses may be given before age 4 years, but a dose is still recommended on or after age 4 years. Count-based checking cannot verify this.",
+ "Not represented: catch-up rules referenced in Table 2. Under these rules a 3-dose series may be complete if the third dose is given at age 4 or older and at least 6 months after the prior dose. The 4-dose count may wrongly flag such children.",
+ "Not represented: OPV counting rules. Only trivalent OPV counts toward the series. OPV doses given before April 1, 2016 count unless they were given during a campaign. OPV doses given on or after April 1, 2016 do not count. Mixed OPV-IPV or OPV-only series need the same total number of doses as the IPV schedule. No OPV concept exists in the vocabulary, so a new concept (e.g. topv_vaccine) would be needed.",
+ "Not represented: minimum age of 6 weeks. Use of minimum ages and intervals in the first 6 months of life applies only to travel to a polio-endemic region or during an outbreak, and both conditions are uncomputable (travel and outbreak exposure).",
+ "Not represented: adolescents aged 18 years who are known or suspected to be unvaccinated or incompletely vaccinated should receive the remaining 1-3 IPV doses to complete a 3-dose primary series. Vaccination status may be assumed for persons aged 18 years or older born and raised in the United States. These criteria depend on birthplace, upbringing and clinician suspicion, which are uncomputable.",
+ "Not a rule: the lifetime IPV booster for adolescents aged 18 years at increased risk of exposure who have completed the primary series is permissive ('may administer'), and the exposure risk is uncomputable.",
+ "Footnote definition of a complete primary series (at least 3 doses of IPV or tOPV in any combination) applies only to the adolescent catch-up and booster situations. It is not encoded."
+]

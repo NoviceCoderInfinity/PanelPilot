@@ -1,0 +1,80 @@
+{
+ "id": "uspstf_crc_2016.CRC-SCREEN-50-75",
+ "version": "2016",
+ "title": "Colorectal cancer screening, adults aged 50 to 75 years",
+ "source": {
+  "doc_id": "uspstf_crc_2016",
+  "section_id": "uspstf_crc_2016:000",
+  "quote": "The USPSTF recommends screening for colorectal cancer starting at age 50 years and continuing until age 75 years."
+ },
+ "grade": "A",
+ "effective_date": "2016",
+ "action": "Screen for colorectal cancer using one of the listed methods at its stated interval",
+ "compiled_by": "llm",
+ "denominator": {
+  "age": {
+   "min": 50,
+   "max": 75,
+   "at": "end"
+  },
+  "quote": "Adults aged 50 to 75 years"
+ },
+ "numerator": {
+  "any": [
+   {
+    "procedure": {
+     "concept": "fobt",
+     "window": [
+      "{MY}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "Every year",
+    "note": "gFOBT or FIT, each listed as every year"
+   },
+   {
+    "procedure": {
+     "concept": "fit_dna",
+     "window": [
+      "{MY}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "Every 1 or 3 y",
+    "note": "Encoded with the 1-year interval only, because footnote d determining 1 vs 3 years is not in the section text"
+   },
+   {
+    "procedure": {
+     "concept": "colonoscopy",
+     "window": [
+      "{MY-9}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "Every 10 y"
+   },
+   {
+    "procedure": {
+     "concept": "ct_colonography",
+     "window": [
+      "{MY-4}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "Every 5 y"
+   },
+   {
+    "procedure": {
+     "concept": "flexible_sigmoidoscopy",
+     "window": [
+      "{MY-4}-01-01",
+      "{MY}-12-31"
+     ]
+    },
+    "quote": "Every 5 y"
+   }
+  ],
+  "quote": "The USPSTF recommends screening for colorectal cancer"
+ },
+ "exclusions": []
+}

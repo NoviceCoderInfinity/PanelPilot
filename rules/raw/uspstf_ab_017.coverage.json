@@ -1,0 +1,7 @@
+[
+ "Denominator is uncomputable: 'planning to or who could become pregnant' depends on pregnancy intention and reproductive capacity, which structured EHR data does not reliably hold. No age or sex restriction is stated in the text, so none was added.",
+ "The criterion grammar has no medication type. The numerator uses an observation criterion on the vocabulary concept folic_acid as the closest fit. Over-the-counter supplement use may not be reliably recorded in structured data.",
+ "The dose range (0.4 to 0.8 mg / 400 to 800 mcg) and the 'daily' frequency are not verified by the rule. The measurement-year window for the numerator is a derived choice and is flagged for human review.",
+ "The DATE field carries an asterisk ('August 2023 *') that refers to a footnote not included in this section. Its meaning is not represented.",
+ "Timing details are not stated in this section and are not encoded, such as starting supplementation before conception or continuing through early pregnancy. Product choice (e.g., multivitamin vs. standalone folic acid) is also not stated or encoded."
+]
